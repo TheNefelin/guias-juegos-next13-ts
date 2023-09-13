@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (prefers-color-scheme: dark) {
+
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 60px 100px 1fr;
+  grid-template-areas: 
+    "header header"
+    "pokemon search"
+    "side main";
+}
+
+.header {
+  grid-area: header;
+}
+
+.pokemon {
+  grid-area: pokemon;
+  display: grid;
+  place-items: center;
+}
+
+.search {
+  grid-area: search;
+}
+
+.sidebar {
+  grid-area: side;
+}
+
+.main {
+  grid-area: main;
+}
