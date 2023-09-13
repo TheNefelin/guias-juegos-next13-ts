@@ -10,8 +10,8 @@ interface Testing {
 }
 
 const LayoutGame = ({children}:Children) => {
-  const id = children?.props?.segmentPath[3][1]
-  console.log(id)
+  // const id = children?.props?.segmentPath[3][1]
+  const id = 1
 
   return (
     <div>
