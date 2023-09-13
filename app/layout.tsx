@@ -1,14 +1,14 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import NavBar from './components/NavBar'
-import Pokemon from './components/Pokemon'
-import SideBar from './components/SideBar'
+import NavBar from '@/components/NavBar'
+import Pokemon from '@/components/Pokemon'
+import SideBar from '@/components/SideBar'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'GuiasQL',
+  title: 'Guias',
   description: 'Next 13 ts',
 }
 
@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="es" data-theme="night">
+    <html lang="es" data-theme="winter">
       <body className={`${inter.className} ${"bg-base-200"}`}>
         <section className='header'>
           <NavBar></NavBar>

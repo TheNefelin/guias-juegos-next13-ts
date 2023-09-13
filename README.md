@@ -1,8 +1,9 @@
-# Mi Proyecto para conocer TypeScript, TailWind y daisy UI
+# Guia para Juegos
 
-Para instalar dependencias
+instalar dependencias
 ```
 npm install
+npm install daisyui
 ```
 
 Para correr la aplicacion
