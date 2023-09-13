@@ -3,7 +3,7 @@ import Game from '@/components/Game'
 import Link from 'next/link'
 
 import img1 from "@/img/ChronoCross.jpg"
-import img2 from "@/img/comrades.png"
+import img2 from "@/img/Comrades.png"
 import img3 from "@/img/Darksiders2.jpg"
 
 const data = [
