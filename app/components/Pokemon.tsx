@@ -17,13 +17,14 @@ const Pokemon = async () => {
 
   return (
     <div>
-              <Image
-          src={pokemon.sprites.front_default}
-          alt={pokemon.name}
-          width={100}
-          height={100}
-          priority={true}
-        ></Image>
+      <Image
+        className="-scale-x-100"
+        src={pokemon.sprites.front_default}
+        alt={pokemon.name}
+        width={100}
+        height={100}
+        priority={true}
+      ></Image>
     </div>
   )
 }

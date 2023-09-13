@@ -3,7 +3,7 @@ import Game from './Game'
 
 const SideBar = () => {
   return (
-    <ul className="menu bg-base-300 h-full">
+    <ul className="bg-base-300 h-full menu menu-xs">
       <li>
         <a>
           <Game></Game>
