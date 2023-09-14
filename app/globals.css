@@ -10,7 +10,7 @@ body {
   height: 100vh;
   display: grid;
   grid-template-columns: 120px 1fr;
-  grid-template-rows: 60px 100px 1fr;
+  grid-template-rows: 60px 80px 1fr;
   grid-template-areas: 
     "header header"
     "pokemon search"
@@ -40,7 +40,7 @@ body {
   margin: 0 0.5rem;
 }
 
-@media (width < 400px){
+@media (width < 600px){
   html {
     font-size: 14px;
   }

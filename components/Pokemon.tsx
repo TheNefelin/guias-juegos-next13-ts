@@ -25,8 +25,8 @@ const Pokemon = async () => {
         className="-scale-x-100"
         src={pokemon.sprites.front_default}
         alt={pokemon.name}
-        width={100}
-        height={100}
+        width={80}
+        height={80}
         priority={true}
       ></Image>
     </div>
