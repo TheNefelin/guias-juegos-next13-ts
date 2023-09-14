@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Check from '@/components/Check'
 import { chronocross } from "@/data/chronocross"
 
 const TimeLine = () => {
@@ -15,6 +16,7 @@ const TimeLine = () => {
             {`${e.id}.- ${e.titulo}`}
           </div>
           <div className="collapse-content">
+            <Check></Check>
             {e.aventura.map((a, index) => (
               <p key={index}>{a.texto}</p>
             ))}
