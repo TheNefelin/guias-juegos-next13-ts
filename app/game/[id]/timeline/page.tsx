@@ -9,7 +9,7 @@ const TimeLine = () => {
   return (
     <>
       {data.map(e => (
-        <div key={e.id} className="collapse bg-base-300">
+        <div key={e.id} className="collapse bg-base-300 my-2">
           <input type="checkbox" />
           <div className="collapse-title text-lg font-medium">
             {`${e.id}.- ${e.titulo}`}

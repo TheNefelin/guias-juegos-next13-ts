@@ -18,8 +18,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="es" data-theme="winter">
-      <body className={`${inter.className} ${"bg-base-200"}`}>
+    <html lang="es" >
+      <body className={`${inter.className}`}>
         <section className='header'>
           <NavBar></NavBar>
         </section>
