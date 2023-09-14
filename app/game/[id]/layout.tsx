@@ -15,8 +15,10 @@ const LayoutGame = ({children}:Children) => {
 
   return (
     <div>
-      <h1>{`LayoutGame - ${id}`}</h1>
-      <Link href={`/game/${id}/timeline`}>Time Line</Link>
+      <h1 className='card-body card-title bg-base-100'>{`CHRONO CROSS - ${id}`}</h1>
+      <Link className='btn' href={`/game/${id}/timeline`}>Guia Time Line</Link>
+      <Link className='btn' href={`/game/${id}/timeline`}>Time Line</Link>
+      <Link className='btn' href={`/game/${id}/timeline`}>Fuentes</Link>
       {children}
     </div>
   )

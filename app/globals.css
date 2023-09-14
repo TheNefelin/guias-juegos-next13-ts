@@ -37,6 +37,7 @@ body {
 
 .main {
   grid-area: main;
+  margin: 0 0.5rem;
 }
 
 @media (width < 400px){
