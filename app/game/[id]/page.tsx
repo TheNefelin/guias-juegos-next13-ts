@@ -1,8 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import img from '@/img/Background.jpg'
-
-import data from "@/data/data.json"
+import data from '@/data/data.json'
 
 interface Params {
   params: { id: string }
@@ -13,7 +11,6 @@ const Game = ({ params }: Params) => {
 
   const id = Number(params.id)
   const game = data.filter((e) => e.id == id)[0]
-  console.log(game)
 
   return (
     <>
@@ -22,8 +19,8 @@ const Game = ({ params }: Params) => {
         className='m-auto shadow-xl'
         src={game.imgBackground}
         alt='background'
-        width={400}
-        height={100}
+        height={700}
+        width={700}
       >
       </Image>
     </>
