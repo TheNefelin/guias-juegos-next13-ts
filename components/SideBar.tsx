@@ -10,7 +10,7 @@ const SideBar = () => {
       {data.map(e => (
         <li key={e.id}>
           <Link href={`/game/${e.id}`}>
-            <Game id={e.id} name={e.name} img={e.imgUrl}></Game>
+            <Game id={e.id} name={e.name} img={e.imgCover}></Game>
           </Link>
         </li>
       ))}

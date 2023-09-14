@@ -2,16 +2,65 @@
   {
     "id": 1,
     "name": "Chrono Cross",
-    "imgUrl": "/ChronoCross/00-game.jpg"
+    "imgCover": "/ChronoCross/00-game.jpg",
+    "imgBackground": "/ChronoCross/00-background.jpg",
+    "source": [
+      {
+        "name": "Guia",
+        "url": "https://guiamania.com/41154/"
+      },
+      {
+        "name": "Window Frame",
+        "url": "https://www.thegamer.com/chrono-cross-custom-frame-locations-how-to-get/"
+      },
+      {
+        "name": "Tecnicas",
+        "url": "https://guiltybit.com/como-conseguir-las-tecnicas-definitivas-de-todos-los-personajes-en-chrono-cross/"
+      },
+      {
+        "name": "Finales",
+        "url": "https://game8.co/games/Chrono-Cross-Radical-Dreamers-Edition/archives/375630"
+      }
+    ],
+    "guides": [
+      {
+        "id": 1,
+        "name": "El Sueño",
+        "status": false,
+        "adventure": [
+          {
+            "texto": "- Sigue el camino hasta el pilar de luz",
+            "img": "",
+            "importante": false
+          },
+          {
+            "texto": "- Ponte encima de la plataforma magenta",
+            "img": "",
+            "importante": false
+          },
+          {
+            "texto": "- Entra por la puerta",
+            "img": "",
+            "importante": false
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 2,    
     "name": "Comrades",
-    "imgUrl": "/Comrades/00-game.png"
+    "imgCover": "/Comrades/00-game.png",
+    "imgBackground": "/Comrades/00-background.jpg",
+    "source": [],
+    "guides": []
   },
   {
     "id": 3,    
-    "name": "Darksiders2",
-    "imgUrl": "/Darksiders2/00-game.jpg"
+    "name": "Darksiders 2",
+    "imgCover": "/Darksiders2/00-game.jpg",
+    "imgBackground": "/Darksiders2/00-background.jpg",
+    "source": [],
+    "guides": []
   }
 ]

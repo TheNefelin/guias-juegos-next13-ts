@@ -1,6 +1,5 @@
 import React from 'react'
 import Image, { StaticImageData } from 'next/image'
-import img from "@/img/ChronoCross.jpg"
 
 interface NewGame {
   id: number,

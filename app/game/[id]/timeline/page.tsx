@@ -5,7 +5,6 @@ import { chronocross } from "@/data/chronocross"
 
 const TimeLine = () => {
   const data = chronocross
-  console.log(data)
 
   return (
     <>
