@@ -26,7 +26,7 @@ export const chronocross = [
     titulo: "Final Bueno",
     aventura: [
       {
-        texto: "- Vence al 'Time Devourer' con las magias en el siguiente orden: Tierra, Fuego, Bosque, Agua, Gravedad, Cielo, y Chrono Cross. Usa magias de curación de para que el 'Time Devourer' no lo cuente ni interrumpa tu orden de las magias",
+        texto: "- Vence al 'Time Devourer' con las magias en el siguiente orden: Amarillo, Rojo, Verde, Azul, Negro, Blanco, y Chrono Cross. Usa magias de curación de para que el 'Time Devourer' no lo cuente ni interrumpa tu orden de las magias",
         img: "",
         importante: false,
       },
