@@ -16,7 +16,7 @@ const Pokemon = async () => {
     return Math.floor(Math.random() * (max - min + 1) + min)
   }
 
-  const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${randomID(1, 1010)}`, { cache: 'force-cache' })
+  const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${randomID(1, 1010)}`, { cache: 'no-cache' })
   const pokemon: Pokemon = await response.json()
 
   return (
