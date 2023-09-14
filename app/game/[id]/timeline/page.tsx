@@ -15,8 +15,8 @@ const TimeLine = () => {
             {`${e.id}.- ${e.titulo}`}
           </div>
           <div className="collapse-content">
-            {e.aventura.map(a => (
-              <p>{a.texto}</p>
+            {e.aventura.map((a, index) => (
+              <p key={index}>{a.texto}</p>
             ))}
           </div>
         </div>
