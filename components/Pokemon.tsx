@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import Image from 'next/image'
 
@@ -12,11 +13,11 @@ interface Pokemon {
 }
 
 const Pokemon = async () => {
-  function randomID(min:number, max:number) { // min and max included 
+  function randomID(min:number, max:number) {
     return Math.floor(Math.random() * (max - min + 1) + min)
   }
 
-  const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${randomID(1, 1010)}`, { next: { revalidate: 1 }})
+  const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${randomID(1, 1010)}`, { cache: 'force-cache' })
   const pokemon: Pokemon = await response.json()
 
   return (
