@@ -14,15 +14,19 @@ const Game = ({ params }: Params) => {
   const id = Number(params.id)
   const game = data.filter((e) => e.id == id)[0]
   console.log(game)
-  
+
   return (
-    <Image
-      src={ game.imgBackground }
-      alt='background'
-      width={400}
-      height={100}
-    > 
-    </Image>
+    <>
+      <p className='indent-8 p-2 bg-base-200 shadow-md mb-4'>{game.text}</p>
+      <Image
+        className='m-auto shadow-xl'
+        src={game.imgBackground}
+        alt='background'
+        width={400}
+        height={100}
+      >
+      </Image>
+    </>
   )
 }
 

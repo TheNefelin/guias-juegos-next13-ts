@@ -4,6 +4,7 @@
     "name": "Chrono Cross",
     "imgCover": "/ChronoCross/00-game.jpg",
     "imgBackground": "/ChronoCross/00-background.jpg",
+    "text": "Lejos el mejor RPG en mi opinion personal. Precisamente, este juego, me inspiro hacer esta pagina.",
     "source": [
       {
         "name": "Guia",
@@ -52,6 +53,7 @@
     "name": "Comrades",
     "imgCover": "/Comrades/00-game.png",
     "imgBackground": "/Comrades/00-background.jpg",
+    "text": "",
     "source": [],
     "guides": []
   },
@@ -60,6 +62,7 @@
     "name": "Darksiders 2",
     "imgCover": "/Darksiders2/00-game.jpg",
     "imgBackground": "/Darksiders2/00-background.jpg",
+    "text": "",
     "source": [],
     "guides": []
   }
