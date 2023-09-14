@@ -14,7 +14,7 @@ const Game = ({ params }: Params) => {
 
   return (
     <>
-      <p className='indent-8 p-2 bg-base-200 shadow-md mb-4'>{game.text}</p>
+      <p className='indent-8 p-4 bg-base-200 shadow-md mb-4'>{game.text}</p>
       <Image
         className='m-auto shadow-xl'
         src={game.imgBackground}

@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className='card-body bg-base-200'>
       <h1 className="card-title uppercase">Bienbenidos !!! &#129409;</h1>
-      <p>Esta página nació porque cada vez que juego Chrono Cross y dejo el juego pendiente por mucho tiempo, ya no recuerdo en qué misión estoy.</p>
+      <p className="indent-4">Esta página nació porque cada vez que juego Chrono Cross y dejo el juego pendiente por mucho tiempo, ya no recuerdo en qué misión voy.</p>
       <Image
         className="m-auto"
         src={img}
