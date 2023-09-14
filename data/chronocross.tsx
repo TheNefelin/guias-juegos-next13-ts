@@ -21,6 +21,8 @@ export const chronocross = [
     ]
   },
 
+
+  
   {
     id: 1001,
     titulo: "Final Bueno",

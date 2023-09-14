@@ -24,7 +24,14 @@ const data = [
   },
 ]
 
+import ruta from "@/data/data.json"
+
 const SideBar = () => {
+
+  ruta.map(e => {
+    console.log(e)
+  })
+
   return (
     <ul className="bg-base-100 h-full menu menu-xs">
       {data.map(e => (
