@@ -5,7 +5,7 @@ import img from "@/img/ChronoCross.jpg"
 interface NewGame {
   id: number,
   name: string,
-  img: StaticImageData,
+  img: string,
 }
 
 const Game = (props: NewGame) => {

@@ -1,14 +1,17 @@
 [
   {
     "id": 1,
-    "name": "Chrono Cross"
+    "name": "Chrono Cross",
+    "imgUrl": "/ChronoCross/00-game.jpg"
   },
   {
     "id": 2,    
-    "name": "Comrades"
+    "name": "Comrades",
+    "imgUrl": "/Comrades/00-game.png"
   },
   {
     "id": 3,    
-    "name": "Darksiders2"
+    "name": "Darksiders2",
+    "imgUrl": "/Darksiders2/00-game.jpg"
   }
 ]
