@@ -12,7 +12,11 @@ interface Pokemon {
 }
 
 const Pokemon = async () => {
-  const response = await fetch('https://pokeapi.co/api/v2/pokemon/150')
+  function randomID(min:number, max:number) { // min and max included 
+    return Math.floor(Math.random() * (max - min + 1) + min)
+  }
+
+  const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${randomID(1, 1010)}`, { next: { revalidate: 1 }})
   const pokemon: Pokemon = await response.json()
 
   return (
