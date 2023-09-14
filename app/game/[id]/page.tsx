@@ -2,7 +2,13 @@ import React from 'react'
 import Image from 'next/image'
 import img from '@/img/Background.jpg'
 
-const Game = () => {
+interface Params {
+  params: { id: string }
+}
+
+const Game = ({ params }: Params) => {
+  const { id } = params
+  
   return (
     <Image
       src={img}
