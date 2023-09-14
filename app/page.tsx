@@ -2,6 +2,8 @@ import Image from "next/image"
 import img from '@/img/StarWars.gif'
 
 export default function Home() {
+  const imageUrl = "/ChronoCross/00-background.jpg";
+
   return (
     <main>
       <div className='card-body bg-base-200'>
@@ -10,6 +12,14 @@ export default function Home() {
           src={img}
           alt="Star Wars"
           height={100}
+        >
+        </Image>
+
+        <Image
+          src={imageUrl}
+          alt="Star Wars"
+          height={100}
+          width={100}
         >
         </Image>
       </div>
