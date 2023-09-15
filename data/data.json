@@ -49,12 +49,6 @@
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 35,
-        "name": "Kid",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
         "id": 5,
         "name": "Glenn",
         "text": "",
@@ -291,6 +285,12 @@
       {
         "id": 45,
         "name": "Orcha",
+        "text": "",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "id": 35,
+        "name": "Kid",
         "text": "",
         "img": "/sin-personaje.gif"
       }
