@@ -70,7 +70,7 @@
             "important": true,
             "status": false,
             "img": [
-              "/ChronoCross/adventure/arni_village_00.jpg"
+              "/ChronoCross/adventure/arni_village_01.jpg"
             ]
           },
           {
@@ -86,8 +86,8 @@
             "important": false,
             "status": false,
             "img": [
-              "/ChronoCross/adventure/arni_village_01.jpg",
-              "/ChronoCross/adventure/arni_village_02.jpg"
+              "/ChronoCross/adventure/arni_village_02.jpg",
+              "/ChronoCross/adventure/arni_village_03.jpg"
             ]
           },
           {
@@ -96,7 +96,6 @@
             "important": false,
             "status": false,
             "img": [
-              "/ChronoCross/adventure/arni_village_03.jpg",
               "/ChronoCross/adventure/arni_village_04.jpg",
               "/ChronoCross/adventure/arni_village_05.jpg"
             ]
@@ -130,25 +129,87 @@
             "text": "✓ Empuja la roca enfrente de la cueva, y lucha con el primer Komodo",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/lizard_rock_01.jpg"
+            ]
           },
           {
             "id": 2,
             "text": "✓ Usa el saliente para llegar el segundo Komodo",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/lizard_rock_02.jpg"
+            ]
           },
           {
             "id": 3,
             "text": "✓ Debes perseguir, para cazar y luego luchar con el tercer Komodo, y luego a Mamá Komodo",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/lizard_rock_03.jpg"
+            ]
           },
           {
             "id": 4,
             "text": "✓ Sal por la izquierda de la playa, y sigue recto…",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Another World",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Ve a Arni y habla con Marge y Leena",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Ve donde conseguiste el Shark Tooth Amulet para coger a Mojo",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ Ve a Cape Howl y examina la tumba",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 4,
+            "text": "✓ Lucharás con Karsh, Solt y Peppor",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 5,
+            "text": "✓ Nombra a Kid pero no la dejes entrar en tu grupo aún (rechaza 3 veces)",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 6,
+            "text": "✓ Leena y Poshul se te unirán ahora (la única manera de conseguir a Leena)",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 7,
+            "text": "✓ Con cualquiera de los personajes, ve al Hydra Swamp (Pantano de la Hydra)",
             "important": false,
             "status": false,
             "img": []
