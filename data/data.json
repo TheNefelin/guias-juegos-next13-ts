@@ -23,6 +23,7 @@
         "url": "https://game8.co/games/Chrono-Cross-Radical-Dreamers-Edition/archives/375630"
       }
     ],
+    "characters": [],
     "guides": [
       {
         "id": 1,
@@ -224,30 +225,9 @@
     "imgCover": "/Comrades/00-game.png",
     "imgBackground": "/Comrades/00-background.jpg",
     "text": "Creo que soy el único que juega a esto, los servidores siempre están vacíos.",
-    "source": [
-      {
-        "name": "Sin Fuentes",
-        "url": "/"
-      }
-    ],
-    "guides": [
-      {
-        "id": 0,
-        "name": "Sin Guia",
-        "status": false,
-        "adventure": [
-          {
-            "id": 1,
-            "text": "✓ En Desarrollo...",
-            "important": false,
-            "status": false,
-            "img": [
-              "/sin-guia.gif"
-            ]
-          }
-        ]
-      }
-    ]
+    "characters": [],
+    "source": [],
+    "guides": []
   },
   {
     "id": 3,    
@@ -255,6 +235,7 @@
     "imgCover": "/Darksiders2/00-game.jpg",
     "imgBackground": "/Darksiders2/00-background.jpg",
     "text": "Un MANJAR de los dioses",
+    "characters": [],
     "source": [],
     "guides": []
   }
