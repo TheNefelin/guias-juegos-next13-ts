@@ -12,16 +12,16 @@ const SideBar = async () => {
   return (
     <ul className="bg-base-100 h-full menu menu-xs">
       {data.map(e => (
-        <li key={e.id.toString()}>
+        <li key={e.id}>
           <Link href={`/game/${e.id}`}>
 
-            <div key={e.id.toString()} className="avatar grid place-items-center">
+            <div key={e.id} className="avatar grid place-items-center">
               <div className="rounded-xl">
                 <Image
-                  src={e.imgCover.toString()}
+                  src={e.imgCover}
                   width={100}
                   height={100}
-                  alt={e.name.toString()}
+                  alt={e.name}
                 ></Image>
               </div>
               <p>{e.name}</p>

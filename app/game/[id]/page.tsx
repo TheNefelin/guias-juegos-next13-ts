@@ -20,7 +20,7 @@ const Game = async ({ params }: Params) => {
       <p className='indent-8 p-4 bg-base-200 shadow-md mb-4'>{data[0].text}</p>
       <Image
         className='m-auto shadow-xl mb-4'
-        src={data[0].imgBackground.toString()}
+        src={data[0].imgBackground}
         alt='background'
         height={700}
         width={700}

@@ -1,8 +1,21 @@
 import React from 'react'
 import Check from '@/components/Check'
 import { chronocross } from "@/data/chronocross"
+import Controller from '@/services/Controller'
 
-const TimeLine = () => {
+interface Params {
+  params: { id: String }
+}
+
+const TimeLine = async ({ params }: Params) => {
+  if (isNaN(Number(params.id))) return <></>
+
+  const id = Number(params.id)
+  const dt = new Controller()
+  await dt.test(id)
+
+  // if (data.length === 0 ) return <></>
+
   const data = chronocross
 
   return (

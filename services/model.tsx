@@ -17,3 +17,17 @@ export interface GameSourceType {
   name: string,
   url: string
 }
+
+export interface GameGuidesType {
+  id: number
+  name: string,
+  status: boolean,
+  adventure: [
+    {
+      id: number,
+      texto: string,
+      img: string,
+      importante: boolean
+    }
+  ]
+}

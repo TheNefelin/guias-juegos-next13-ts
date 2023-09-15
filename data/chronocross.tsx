@@ -2,6 +2,7 @@ export const chronocross = [
   {
     id: 1,
     titulo: "El Sueño",
+    status: false,
     aventura: [
       {
         texto: "- Sigue el camino hasta el pilar de luz",
@@ -22,7 +23,17 @@ export const chronocross = [
   },
 
 
-  
+  {
+    id: 1000,
+    titulo: "",
+    aventura: [
+      {
+        texto: "",
+        img: "",
+        importante: false,
+      },
+    ]
+  },  
   {
     id: 1001,
     titulo: "Final Bueno",

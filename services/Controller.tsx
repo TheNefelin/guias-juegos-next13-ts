@@ -52,15 +52,6 @@ export default class Controller {
   }
 
   async test(id: number) {
-    data.filter(e => e.id === id).forEach(e => {
-      const res: GameSourceType[] = e.source.map(e => (
-        {
-          name: e.name,
-          url: e.url
-        }
-      ))
-
-      console.log(res)
-    })
+    console.log(id)
   }
 }
