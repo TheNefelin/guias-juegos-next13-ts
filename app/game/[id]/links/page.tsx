@@ -1,13 +1,27 @@
 import React from 'react'
 import Link from 'next/link'
+import Controller from '@/services/Controller'
 
-const Links = () => {
+interface Params {
+  params: { id: string }
+}
+
+const Links = async ({ params }: Params) => {
+  if (isNaN(Number(params.id))) return <></>
+
+  const id = Number(params.id)
+  const dt = new Controller()
+  const data = await dt.get_game_source_byid(id)
+
+  if (data.length === 0) return <></>
+
   return (
     <div className='flex flex-col gap-1 pl-16 py-4 bg-base-200'>
-      <Link className='link' target="_blank" href={"https://guiamania.com/41154/"}>Guia</Link>
-      <Link className='link ' target="_blank" href={"https://www.thegamer.com/chrono-cross-custom-frame-locations-how-to-get/"}>Window Frame</Link>
-      <Link className='link' target="_blank" href={"https://guiltybit.com/como-conseguir-las-tecnicas-definitivas-de-todos-los-personajes-en-chrono-cross/"}>Tecnicas</Link>
-      <Link className='link' target="_blank" href={"https://game8.co/games/Chrono-Cross-Radical-Dreamers-Edition/archives/375630"}>Finales</Link>
+      {
+        data.map(e => (
+          <Link className='link' target="_blank" href={e.url}>{e.name}</Link>
+        ))
+      }
     </div>
   )
 }

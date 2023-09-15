@@ -1,12 +1,13 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-
 import Controller from '@/services/Controller'
 
 const SideBar = async () => {
   const dt = new Controller()
   const data = await dt.get_game_all()
+
+  if (data.length === 0 ) return <></>
 
   return (
     <ul className="bg-base-100 h-full menu menu-xs">

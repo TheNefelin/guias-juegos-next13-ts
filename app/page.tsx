@@ -1,6 +1,5 @@
 import Image from "next/image"
 import Link from "next/link"
-
 import img from '@/img/StarWars.gif'
 import imgTwitch from '@/img/twitch.png'
 import imgYoutube from '@/img/youtube.png'

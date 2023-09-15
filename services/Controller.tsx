@@ -1,11 +1,11 @@
 import data from '@/data/data.json'
-import { GameType } from '@/services/model'
+import { GameMenuType, GameSourceType, GameType } from '@/services/model'
 
 export default class Controller {
-  constructor() {}
+  constructor() { }
 
   async get_game_all() {
-    const res: GameType[] = data.map(e => (
+    return data.map(e => (
       {
         id: e.id,
         name: e.name,
@@ -14,12 +14,10 @@ export default class Controller {
         text: e.text
       }
     ))
-
-    return res
   }
 
   async get_game_byid(id: Number) {
-    const res: GameType[] = data.filter(e => e.id === id).map(e => (
+    return data.filter(e => e.id === id).map(e => (
       {
         id: e.id,
         name: e.name,
@@ -28,12 +26,41 @@ export default class Controller {
         text: e.text
       }
     ))
-
-    return res
   }
 
-  async test() {
-    const res: GameType[] = data.filter(e => e.id === 1)
-    return res
+  async get_game_menu_byid(id: Number) {
+    return data.filter(e => e.id === id).map(e => (
+      {
+        name: e.name,
+        cantSource: e.source.length,
+        cantGuides: e.guides.length
+      }
+    ))
+  }
+
+  async get_game_source_byid(id: Number) {
+    const obj = data.find(e => e.id === id);
+
+    if (obj) {
+      return obj.source.map(e => ({
+        name: e.name,
+        url: e.url
+      }));
+    }
+  
+    return [];
+  }
+
+  async test(id: number) {
+    data.filter(e => e.id === id).forEach(e => {
+      const res: GameSourceType[] = e.source.map(e => (
+        {
+          name: e.name,
+          url: e.url
+        }
+      ))
+
+      console.log(res)
+    })
   }
 }
