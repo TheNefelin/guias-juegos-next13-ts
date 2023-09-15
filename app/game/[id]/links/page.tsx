@@ -18,8 +18,8 @@ const Links = async ({ params }: Params) => {
   return (
     <div className='flex flex-col gap-1 pl-16 py-4 bg-base-200'>
       {
-        data.map(e => (
-          <Link className='link' target="_blank" href={e.url}>{e.name}</Link>
+        data.map((e, index) => (
+          <Link key={index} className='link' target="_blank" href={e.url}>{e.name}</Link>
         ))
       }
     </div>
