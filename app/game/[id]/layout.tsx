@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-import data from "@/data/data.json"
+import data from '@/data/data.json'
 
 interface Params {
   children: React.ReactNode

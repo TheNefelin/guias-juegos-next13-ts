@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import Theme from './Theme'
+import Theme from '../nav/Theme'
 import logo from '@/img/logo.svg'
 
 const NavBar = () => {
