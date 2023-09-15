@@ -31,21 +31,21 @@
         "adventure": [
           {
             "id": 1,
-            "text": "- Sigue el camino hasta el pilar de luz",
+            "text": "✓ Sigue el camino hasta el pilar de luz",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 2,
-            "text": "- Ponte encima de la plataforma magenta",
+            "text": "✓ Ponte encima de la plataforma magenta",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 3,
-            "text": "- Entra por la puerta",
+            "text": "✓ Entra por la puerta",
             "important": false,
             "status": false,
             "img": []
@@ -59,22 +59,31 @@
         "adventure": [
           {
             "id": 1,
-            "text": "- Habla con Marge (Mamá)",
+            "text": "✓ Habla con Marge (Mamá)",
             "important": false,
             "status": false,
             "img": []
           },
           {
+            "id": 999,
+            "text": "✓ (NG+) Crea un guardado independiente de la partida, cuando termines el juego carga el NG+ desde este guardado. Vencer al 'Time Devourer' inmediatamente sin reclutar compañeros y obtendras el Final: Programmer's Ending",
+            "important": true,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/arni_village_00.jpg"
+            ]
+          },
+          {
             "id": 2,
-            "text": "- Ve al puerto y habla con Leena",
+            "text": "✓ Ve al puerto y habla con Leena",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 3,
-            "text": "- Coge la Shellfish Window Frame de la tienda de elements",
-            "important": true,
+            "text": "✓ Coge la Shellfish Window Frame de la tienda de elements",
+            "important": false,
             "status": false,
             "img": [
               "/ChronoCross/adventure/arni_village_01.jpg",
@@ -83,7 +92,7 @@
           },
           {
             "id": 4,
-            "text": "- Coge el Shark Tooth Amulet de uno de los tipos de las casas de la derecha",
+            "text": "✓ Coge el Shark Tooth Amulet de uno de los tipos de las casas de la derecha",
             "important": false,
             "status": false,
             "img": [
@@ -94,15 +103,53 @@
           },
           {
             "id": 5,
-            "text": "- Consigue un Hueso Heckran de debajo de la cama del bar",
+            "text": "✓ Consigue un Hueso Heckran de debajo de la cama del bar",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/arni_village_06.jpg",
+              "/ChronoCross/adventure/arni_village_07.jpg"
+            ]
+          },
+          {
+            "id": 6,
+            "text": "✓ 'NO' reclutes a Poshul aún",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Lizard Rock",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Empuja la roca enfrente de la cueva, y lucha con el primer Komodo",
             "important": false,
             "status": false,
             "img": []
           },
           {
-            "id": 6,
-            "text": "- 'NO' reclutes a Poshul aún",
-            "important": true,
+            "id": 2,
+            "text": "✓ Usa el saliente para llegar el segundo Komodo",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ Debes perseguir, para cazar y luego luchar con el tercer Komodo, y luego a Mamá Komodo",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 4,
+            "text": "✓ Sal por la izquierda de la playa, y sigue recto…",
+            "important": false,
             "status": false,
             "img": []
           }
@@ -116,8 +163,30 @@
     "imgCover": "/Comrades/00-game.png",
     "imgBackground": "/Comrades/00-background.jpg",
     "text": "Creo que soy el único que juega a esto, los servidores siempre están vacíos.",
-    "source": [],
-    "guides": []
+    "source": [
+      {
+        "name": "Sin Fuentes",
+        "url": "/"
+      }
+    ],
+    "guides": [
+      {
+        "id": 0,
+        "name": "Sin Guia",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ En Desarrollo...",
+            "important": false,
+            "status": false,
+            "img": [
+              "/sin-guia.gif"
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 3,    

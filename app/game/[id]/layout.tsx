@@ -22,11 +22,11 @@ const LayoutGame = async ({ children, params }: Params) => {
       <div className='my-2'>
         <Link className='btn btn-ghost' href={`/game/${id}`}>Juego</Link>
         {
-          data[0].cantSource > 0 &&
+          data[0].cantGuides > 0 &&
           <Link className='btn btn-ghost' href={`/game/${id}/timeline`}>Guia Time Line</Link>
         }
         {
-          data[0].cantGuides > 0 &&
+          data[0].cantSource > 0 &&
           <Link className='btn btn-ghost' href={`/game/${id}/links`}>Fuentes</Link>
         }
       </div>

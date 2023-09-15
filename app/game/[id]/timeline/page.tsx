@@ -37,7 +37,14 @@ const TimeLine = async ({ params }: Params) => {
 
             {guide.adventure.map((adventure) => (
               <>
-                <p key={adventure.id}>{adventure.text}</p>
+                {adventure.important ?
+                  <p className='bg-accent-content p-2' key={adventure.id}>
+                    {adventure.text}
+                    <Check></Check>
+                  </p>
+                  :
+                  <p key={adventure.id}>{adventure.text}</p>
+                }
 
                 {adventure.img.map((img, index) => (
                   <Image
