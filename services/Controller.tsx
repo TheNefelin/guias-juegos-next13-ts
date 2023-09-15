@@ -58,6 +58,7 @@ export default class Controller {
     if (obj) {
       return obj.characters.map(e => ({
         name: e.name,
+        text: e.text,
         img: e.img
       }));
     }

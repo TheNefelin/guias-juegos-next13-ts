@@ -16,38 +16,22 @@ const Characters = async ({ params }: Params) => {
   const data = await dt.get_game_characters_byid(id)
 
   return (
-    <div className='bg-base-200 mb-2 shadow-md p-4 grid gap-4'>
+    <div className='bg-base-200 mb-2 shadow-md p-4 flex flex-wrap justify-center gap-4'>
       {data.map((character, index) => (
-        <div key={index} className="card card-side bg-base-100 shadow-xl">
+        <div key={index} className="card card-side bg-base-100 shadow-xl max-w-xs">
           <figure>
             <Image
               className='w-24'
               src={character.img}
               alt={character.name}
-              height={60}
-              width={60}
+              height={50}
+              width={50}
             />
           </figure>
           <div className="card-body">
             <h2 className="card-title">{character.name}</h2>
-            <p>Click the button to watch on Jetflix app.</p>
+            <p>{character.text}</p>
           </div>
-        </div>
-      ))}
-
-
-
-      {data.map((character, index) => (
-        <div key={index} className='card'>
-          <p className='t card-title'>{character.name}</p>
-          <Image
-            src={character.img}
-            alt={character.name}
-            height={100}
-            width={100}
-            loading='lazy'
-          >
-          </Image>
         </div>
       ))}
     </div>

@@ -26,182 +26,227 @@
     "characters": [
       {
         "name": "Serge",
+        "text": "Este personaje lo obtienes al inciar la aventura",
         "img": "/ChronoCross/characters/serge.jpg"
       },
       {
         "name": "Leena",
+        "text": "No Recuerdo donde viene No Recuerdo donde viene",
         "img": "/ChronoCross/characters/leena.jpg"
       },
       {
         "name": "Mojo",
+        "text": "Este personaje lo obtienes en el Time Line 4.- Another World de la Guia",
         "img": "/ChronoCross/characters/mojo.jpg"
       },
       {
         "name": "Kid",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Glenn",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Lynx",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Fargo",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Greco",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Grobyc",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Guile",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Harle",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Irenes",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Karsh",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Korcha",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Radius",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Starky",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Viper",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Zoah",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Marcy",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Riddel",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Zappa",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Miki",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Sprigg",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Neofio",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Skelly",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Van",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Sneff",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Pip",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Luccia",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Draggy",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Leah",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Orlha",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Norris",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Niki",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Poshul",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Macha",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Janice",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Turnip",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Funguy",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Mel",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Steena",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Doc",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Pierrie",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Razzly",
+        "text": "",
         "img": "/sin-personaje.gif"
       },
       {
         "name": "Orcha",
+        "text": "",
         "img": "/sin-personaje.gif"
       }
     ],
