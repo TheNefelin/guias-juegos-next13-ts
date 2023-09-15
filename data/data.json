@@ -32,15 +32,15 @@
       },
       {
         "id": 2,
-        "name": "Leena",
-        "text": "No Recuerdo donde viene No Recuerdo donde viene",
-        "img": "/ChronoCross/characters/leena.jpg"
-      },
-      {
-        "id": 3,
         "name": "Mojo",
         "text": "Este personaje lo obtienes en la Guia: 4.- Another World",
         "img": "/ChronoCross/characters/mojo.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Leena",
+        "text": "No Recuerdo donde viene No Recuerdo donde viene",
+        "img": "/ChronoCross/characters/leena.jpg"
       },
       {
         "id": 4,
@@ -338,7 +338,7 @@
           },
           {
             "id": 999,
-            "text": "✓ (NG+) Crea un guardado independiente de la partida, cuando termines el juego carga el NG+ desde este guardado. Vencer al 'Time Devourer' inmediatamente sin reclutar compañeros y obtendras el Final: Programmer's Ending",
+            "text": "✓ (NG+) Crea un guardado independiente de la partida principal, cuando termines el juego carga el NG+ desde este guardado. Vencer al 'Time Devourer' inmediatamente sin reclutar compañeros y obtendras el Final: Programmer's Ending",
             "important": true,
             "status": false,
             "img": [
@@ -449,7 +449,10 @@
             "text": "✓ Ve donde conseguiste el Shark Tooth Amulet para coger a Mojo",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/another_world_01.jpg",
+              "/ChronoCross/adventure/another_world_02.jpg"
+            ]
           },
           {
             "id": 3,
