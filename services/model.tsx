@@ -19,6 +19,7 @@ export interface GameSourceType {
 }
 
 export interface GameCharactersType {
+  id: number,
   name: string,
   text: string,
   img: string
