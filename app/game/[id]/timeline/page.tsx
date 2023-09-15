@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import Check from '@/components/Check'
-import { chronocross } from "@/data/chronocross"
 import Controller from '@/services/Controller'
 
 interface Params {
@@ -16,12 +15,6 @@ const TimeLine = async ({ params }: Params) => {
   const data = await dt.test(id)
 
   if (data.length === 0) return <></>
-
-  data.map(e => {
-    console.log(e)
-  })
-
-  const temp = chronocross
 
   return (
     <>
@@ -62,21 +55,6 @@ const TimeLine = async ({ params }: Params) => {
           </div>
         </div>
       ))}
-
-      {/* {temp.map(e => (
-        <div key={e.id} className="collapse bg-base-200 mb-2">
-          <input type="checkbox" />
-          <div className="collapse-title text-lg font-medium">
-            {`${e.id}.- ${e.titulo}`}
-          </div>
-          <div className="collapse-content">
-            <Check></Check>
-            {e.aventura.map((a, index) => (
-              <p key={index}>{a.texto}</p>
-            ))}
-          </div>
-        </div>
-      ))} */}
     </>
   )
 }
