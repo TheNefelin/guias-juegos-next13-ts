@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 import Check from '@/components/Check'
 import { chronocross } from "@/data/chronocross"
 import Controller from '@/services/Controller'
@@ -24,20 +25,33 @@ const TimeLine = async ({ params }: Params) => {
 
   return (
     <>
-      {data.map(e => (
-        <div key={e.id} className="collapse bg-base-200 mb-2">
+      {data.map(guide => (
+        <div key={guide.id} className="collapse bg-base-200 mb-2">
           <input type="checkbox" />
           <div className="collapse-title text-lg font-medium">
-            {`${e.id}.- ${e.name}`}
+            {`${guide.id}.- ${guide.name}`}
           </div>
 
           <div className="collapse-content">
             <Check></Check>
 
-            {e.adventure.map((a) => (
-              <p key={a.id}>{a.text}</p>
+            {guide.adventure.map((adventure) => (
+              <>
+                <p key={adventure.id}>{adventure.text}</p>
+
+                {adventure.img.map((img, index) => (
+                  <Image
+                    key={index}
+                    className='m-4'
+                    src={img}
+                    alt="Twitch"
+                    height={100}
+                    width={500}
+                  ></Image>
+                ))}
+              </>
             ))}
-            
+
           </div>
         </div>
       ))}
