@@ -19,7 +19,7 @@ const TimeLine = async ({ params }: Params) => {
   return (
     <>
       {data.map(guide => (
-        <div key={guide.id} className="collapse bg-base-200 mb-2">
+        <div key={guide.id} className="collapse bg-base-200 mb-2 shadow-md">
           <input type="checkbox" />
           <div className="collapse-title text-lg font-medium">
             {`${guide.id}.- ${guide.name}`}
@@ -42,7 +42,7 @@ const TimeLine = async ({ params }: Params) => {
                 {adventure.img.map((img, index) => (
                   <Image
                     key={index}
-                    className='mx-auto my-4'
+                    className='mx-auto my-4 shadow-md'
                     src={img}
                     alt="Twitch"
                     height={100}

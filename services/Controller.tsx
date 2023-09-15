@@ -33,6 +33,7 @@ export default class Controller {
       {
         name: e.name,
         cantSource: e.source.length,
+        cantCharacters: e.characters.length,
         cantGuides: e.guides.length
       }
     ))
@@ -45,6 +46,19 @@ export default class Controller {
       return obj.source.map(e => ({
         name: e.name,
         url: e.url
+      }));
+    }
+
+    return [];
+  }
+
+  async get_game_characters_byid(id: Number) {
+    const obj = data.find(e => e.id === id);
+
+    if (obj) {
+      return obj.characters.map(e => ({
+        name: e.name,
+        img: e.img
       }));
     }
 

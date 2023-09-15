@@ -16,7 +16,7 @@ const Links = async ({ params }: Params) => {
   if (data.length === 0) return <></>
 
   return (
-    <div className='flex flex-col gap-1 pl-16 py-4 bg-base-200'>
+    <div className='flex flex-col gap-1 pl-16 py-4 bg-base-200 shadow-md mb-4'>
       {
         data.map((e, index) => (
           <Link key={index} className='link' target="_blank" href={e.url}>{e.name}</Link>

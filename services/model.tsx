@@ -18,6 +18,11 @@ export interface GameSourceType {
   url: string
 }
 
+export interface GameCharactersType {
+  name: string,
+  img: string
+}
+
 export interface GameGuidesType {
   id: number
   name: string,

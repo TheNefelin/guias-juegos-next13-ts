@@ -14,7 +14,7 @@ const LayoutGame = async ({ children, params }: Params) => {
   const dt = new Controller()
   const data = await dt.get_game_menu_byid(id)
 
-  if (data.length === 0 ) return <></>
+  if (data.length === 0) return <></>
 
   return (
     <article className='mr-2'>
@@ -24,6 +24,10 @@ const LayoutGame = async ({ children, params }: Params) => {
         {
           data[0].cantGuides > 0 &&
           <Link className='btn btn-ghost' href={`/game/${id}/timeline`}>Guia Time Line</Link>
+        }
+        {
+          data[0].cantCharacters > 0 &&
+          <Link className='btn btn-ghost' href={`/game/${id}/characters`}>Personajes</Link>
         }
         {
           data[0].cantSource > 0 &&

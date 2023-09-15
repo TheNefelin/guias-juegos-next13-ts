@@ -23,7 +23,188 @@
         "url": "https://game8.co/games/Chrono-Cross-Radical-Dreamers-Edition/archives/375630"
       }
     ],
-    "characters": [],
+    "characters": [
+      {
+        "name": "Serge",
+        "img": "/ChronoCross/characters/serge.jpg"
+      },
+      {
+        "name": "Leena",
+        "img": "/ChronoCross/characters/leena.jpg"
+      },
+      {
+        "name": "Mojo",
+        "img": "/ChronoCross/characters/mojo.jpg"
+      },
+      {
+        "name": "Kid",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Glenn",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Lynx",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Fargo",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Greco",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Grobyc",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Guile",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Harle",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Irenes",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Karsh",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Korcha",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Radius",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Starky",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Viper",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Zoah",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Marcy",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Riddel",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Zappa",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Miki",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Sprigg",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Neofio",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Skelly",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Van",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Sneff",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Pip",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Luccia",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Draggy",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Leah",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Orlha",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Norris",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Niki",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Poshul",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Macha",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Janice",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Turnip",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Funguy",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Mel",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Steena",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Doc",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Pierrie",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Razzly",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "name": "Orcha",
+        "img": "/sin-personaje.gif"
+      }
+    ],
     "guides": [
       {
         "id": 1,
@@ -220,7 +401,7 @@
     ]
   },
   {
-    "id": 2,    
+    "id": 2,
     "name": "Comrades",
     "imgCover": "/Comrades/00-game.png",
     "imgBackground": "/Comrades/00-background.jpg",
@@ -230,7 +411,7 @@
     "guides": []
   },
   {
-    "id": 3,    
+    "id": 3,
     "name": "Darksiders 2",
     "imgCover": "/Darksiders2/00-game.jpg",
     "imgBackground": "/Darksiders2/00-background.jpg",

@@ -18,6 +18,7 @@ const SideBar = async () => {
             <div key={e.id} className="avatar grid place-items-center">
               <div className="rounded-xl">
                 <Image
+                  className='shadow-md'
                   src={e.imgCover}
                   width={100}
                   height={100}
