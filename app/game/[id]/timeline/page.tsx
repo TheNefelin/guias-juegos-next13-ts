@@ -38,10 +38,10 @@ const TimeLine = async ({ params }: Params) => {
             {guide.adventure.map((adventure) => (
               <>
                 {adventure.important ?
-                  <p className='bg-accent-content p-2' key={adventure.id}>
+                  <div className='bg-accent-content p-2' key={adventure.id}>
                     {adventure.text}
                     <Check></Check>
-                  </p>
+                  </div>
                   :
                   <p key={adventure.id}>{adventure.text}</p>
                 }
