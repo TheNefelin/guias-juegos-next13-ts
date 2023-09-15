@@ -21,14 +21,14 @@ const Characters = async ({ params }: Params) => {
         <div key={character.id} className="card card-side bg-base-100 shadow-xl max-w-xs">
           <figure>
             <Image
-              className='h-full'
+              className='w-full'
               src={character.img}
               alt={character.name}
               height={50}
               width={50}
             />
           </figure>
-          <div className="card-body px-4">
+          <div className="card-body p-4">
             <h2 className="card-title">{character.name}</h2>
             <p>{character.text}</p>
           </div>
