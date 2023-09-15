@@ -1,7 +1,11 @@
 'use client'
 import React, { useState } from 'react'
 
-const Check = () => {
+interface Txt {
+  text: string
+}
+
+const Check = (props: Txt) => {
   const [estado, setEstado] = useState(false)
 
   const handleClick = () => {
@@ -12,7 +16,7 @@ const Check = () => {
     <div className="form-control">
       <label className="cursor-pointer flex items-center">
         <input type="checkbox" onChange={handleClick} checked={estado} className="checkbox checkbox-accent" />
-        <label className='label'>Completado</label>
+        <label className='label'>{props.text}</label>
       </label>
     </div>
   )
