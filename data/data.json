@@ -27,23 +27,29 @@
       {
         "id": 1,
         "name": "Serge",
-        "text": "Este personaje lo obtienes al inciar la aventura",
+        "text": "Se obtiene al inciar la aventura",
         "img": "/ChronoCross/characters/serge.jpg"
       },
       {
         "id": 2,
         "name": "Mojo",
-        "text": "Este personaje lo obtienes en la Guia: 4.- Another World",
+        "text": "Se obtiene con Shark Tooth Amulet",
         "img": "/ChronoCross/characters/mojo.jpg"
       },
       {
         "id": 3,
         "name": "Leena",
-        "text": "No Recuerdo donde viene No Recuerdo donde viene",
+        "text": "Se obtiene rechazando a Kid 3 veces",
         "img": "/ChronoCross/characters/leena.jpg"
       },
       {
         "id": 4,
+        "name": "Poshul",
+        "text": "Se obtiene rechazando a Kid 3 veces",
+        "img": "/sin-personaje.gif"
+      },
+      {
+        "id": 35,
         "name": "Kid",
         "text": "",
         "img": "/sin-personaje.gif"
@@ -225,12 +231,6 @@
       {
         "id": 34,
         "name": "Niki",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
-        "id": 35,
-        "name": "Poshul",
         "text": "",
         "img": "/sin-personaje.gif"
       },
@@ -470,14 +470,14 @@
           },
           {
             "id": 5,
-            "text": "✓ Nombra a Kid pero no la dejes entrar en tu grupo aún (rechaza 3 veces)",
+            "text": "✓ Nombra a Kid pero NO la reclutes aún (rechaza 3 veces)",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 6,
-            "text": "✓ Leena y Poshul se te unirán ahora (la única manera de conseguir a Leena)",
+            "text": "✓ Leena y Poshul se te unirán ahora (es la única manera de conseguir a Leena)",
             "important": false,
             "status": false,
             "img": []
