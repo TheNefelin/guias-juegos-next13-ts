@@ -47,11 +47,27 @@ export default class Controller {
         url: e.url
       }));
     }
-  
+
     return [];
   }
 
+  async get_game_guides_byid(id: Number) {
+
+  }
+
+
   async test(id: number) {
-    console.log(id)
+    const obj = data.find(e => e.id === id);
+
+    if (obj) {
+      return obj.guides.map(e => ({
+        id: e.id,
+        name: e.name,
+        status: e.status,
+        adventure: e.adventure
+      }));
+    }
+
+    return [];
   }
 }

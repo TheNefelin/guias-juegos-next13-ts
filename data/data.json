@@ -30,19 +30,81 @@
         "status": false,
         "adventure": [
           {
-            "texto": "- Sigue el camino hasta el pilar de luz",
-            "img": "",
-            "importante": false
+            "id": 1,
+            "text": "- Sigue el camino hasta el pilar de luz",
+            "important": false,
+            "status": false,
+            "img": []
           },
           {
-            "texto": "- Ponte encima de la plataforma magenta",
-            "img": "",
-            "importante": false
+            "id": 2,
+            "text": "- Ponte encima de la plataforma magenta",
+            "important": false,
+            "status": false,
+            "img": []
           },
           {
-            "texto": "- Entra por la puerta",
-            "img": "",
-            "importante": false
+            "id": 3,
+            "text": "- Entra por la puerta",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Arni Village",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "- Habla con Marge (Mamá)",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "- Ve al puerto y habla con Leena",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "- Coge la Shellfish Window Frame de la tienda de elements",
+            "important": true,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/arni_village_01.jpg",
+              "/ChronoCross/adventure/arni_village_02.jpg"
+            ]
+          },
+          {
+            "id": 4,
+            "text": "- Coge el Shark Tooth Amulet de uno de los tipos de las casas de la derecha",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/arni_village_03.jpg",
+              "/ChronoCross/adventure/arni_village_04.jpg",
+              "/ChronoCross/adventure/arni_village_05.jpg"
+            ]
+          },
+          {
+            "id": 5,
+            "text": "- Consigue un Hueso Heckran de debajo de la cama del bar",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 6,
+            "text": "- 'NO' reclutes a Poshul aún",
+            "important": true,
+            "status": false,
+            "img": []
           }
         ]
       }

@@ -6,18 +6,55 @@ export const chronocross = [
     aventura: [
       {
         texto: "- Sigue el camino hasta el pilar de luz",
-        img: "",
+        img: [],
         importante: false,
       },
       {
         texto: "- Ponte encima de la plataforma magenta",
-        img: "",
+        img: [],
         importante: false,
       },
       {
         texto: "- Entra por la puerta",
-        img: "",
+        img: [],
         importante: false,
+      },
+    ]
+  },
+  {
+    id: 2,
+    titulo: "Arni Village",
+    status: false,
+    aventura: [
+      {
+        texto: "- Habla con Marge (Mamá)",
+        img: [],
+        importante: false,
+      },
+      {
+        texto: "- Ve al puerto y habla con Leena",
+        img: [],
+        importante: false,
+      },
+      {
+        texto: "- Coge la Shellfish Window Frame de la tienda de elements",
+        img: [],
+        importante: true,
+      },
+      {
+        texto: "- Coge el Shark Tooth Amulet de uno de los tipos de las casas de la derecha",
+        img: [],
+        importante: false,
+      },
+      {
+        texto: "- Consigue un Hueso Heckran de debajo de la cama del bar",
+        img: [],
+        importante: false,
+      },
+      {
+        texto: "- 'NO' reclutes a Poshul aún",
+        img: [],
+        importante: true,
       },
     ]
   },

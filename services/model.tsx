@@ -25,9 +25,10 @@ export interface GameGuidesType {
   adventure: [
     {
       id: number,
-      texto: string,
-      img: string,
-      importante: boolean
+      text: string,
+      important: boolean,
+      status: boolean,
+      img: []
     }
   ]
 }

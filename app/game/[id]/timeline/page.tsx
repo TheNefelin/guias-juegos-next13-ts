@@ -12,15 +12,37 @@ const TimeLine = async ({ params }: Params) => {
 
   const id = Number(params.id)
   const dt = new Controller()
-  await dt.test(id)
+  const data = await dt.test(id)
 
-  // if (data.length === 0 ) return <></>
+  if (data.length === 0) return <></>
 
-  const data = chronocross
+  data.map(e => {
+    console.log(e)
+  })
+
+  const temp = chronocross
 
   return (
     <>
       {data.map(e => (
+        <div key={e.id} className="collapse bg-base-200 mb-2">
+          <input type="checkbox" />
+          <div className="collapse-title text-lg font-medium">
+            {`${e.id}.- ${e.name}`}
+          </div>
+
+          <div className="collapse-content">
+            <Check></Check>
+
+            {e.adventure.map((a) => (
+              <p key={a.id}>{a.text}</p>
+            ))}
+            
+          </div>
+        </div>
+      ))}
+
+      {/* {temp.map(e => (
         <div key={e.id} className="collapse bg-base-200 mb-2">
           <input type="checkbox" />
           <div className="collapse-title text-lg font-medium">
@@ -33,7 +55,7 @@ const TimeLine = async ({ params }: Params) => {
             ))}
           </div>
         </div>
-      ))}
+      ))} */}
     </>
   )
 }
