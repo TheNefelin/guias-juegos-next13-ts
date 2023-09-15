@@ -12,7 +12,7 @@ const TimeLine = async ({ params }: Params) => {
 
   const id = Number(params.id)
   const dt = new Controller()
-  const data = await dt.test(id)
+  const data = await dt.get_game_guides_byid(id)
 
   if (data.length === 0) return <></>
 

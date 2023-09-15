@@ -52,11 +52,6 @@ export default class Controller {
   }
 
   async get_game_guides_byid(id: Number) {
-
-  }
-
-
-  async test(id: number) {
     const obj = data.find(e => e.id === id);
 
     if (obj) {
@@ -69,5 +64,9 @@ export default class Controller {
     }
 
     return [];
+  }
+
+  async test(id: number) {
+
   }
 }
