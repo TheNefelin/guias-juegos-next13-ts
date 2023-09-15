@@ -49,7 +49,7 @@ const TimeLine = async ({ params }: Params) => {
                 {adventure.img.map((img, index) => (
                   <Image
                     key={index}
-                    className='m-4'
+                    className='mx-auto my-4'
                     src={img}
                     alt="Twitch"
                     height={100}
