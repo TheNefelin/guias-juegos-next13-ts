@@ -12,10 +12,6 @@
       },
       {
         "name": "Window Frame",
-        "url": "https://www.thegamer.com/chrono-cross-custom-frame-locations-how-to-get/"
-      },
-      {
-        "name": "Window Frame",
         "url": "https://www.ign.com/wikis/chrono-cross/Window_Frames/"
       },
       {
@@ -25,6 +21,10 @@
       {
         "name": "Finales",
         "url": "https://game8.co/games/Chrono-Cross-Radical-Dreamers-Edition/archives/375630/"
+      },
+      {
+        "name": "Items",
+        "url": "https://game8.co/games/Chrono-Cross-Radical-Dreamers-Edition/archives/371977"
       }
     ],
     "characters": [
@@ -383,8 +383,8 @@
             "important": false,
             "status": false,
             "img": [
-              "/ChronoCross/adventure/arni_village_04.jpg",
-              "/ChronoCross/adventure/arni_village_05.jpg"
+              "/ChronoCross/adventure/arni_village_03.jpg",
+              "/ChronoCross/items/shark_tooth_amulet.jpg"
             ]
           },
           {
@@ -393,8 +393,8 @@
             "important": false,
             "status": false,
             "img": [
-              "/ChronoCross/adventure/arni_village_06.jpg",
-              "/ChronoCross/adventure/arni_village_07.jpg"
+              "/ChronoCross/adventure/arni_village_04.jpg",
+              "/ChronoCross/items/heckran.jpg"
             ]
           },
           {
@@ -505,6 +505,58 @@
             "img": []
           }
         ]
+      },
+      {
+        "id": 5,
+        "name": "Hydra Swamp",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Ve al noroeste, encuentra a un chico que te dará un traje para lo radiactivo",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/hydra_swamp_01.jpg",
+              "/ChronoCross/items/safety_gear.jpg"
+            ]
+          },
+          {
+            "id": 2,
+            "text": "✓ Vete por ahora al Fossil Valley",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Fossil Valley",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Obten la calavera para un personaje que se llama Skelly",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Obten las Bell Flowers y el huevo gigante (cerca del pájaro)",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ Continua el camino hacia el norte y lucha contra Solt y Peppor",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
       }
     ]
   },
@@ -516,7 +568,22 @@
     "text": "Creo que soy el único que juega a esto, los servidores siempre están vacíos.",
     "characters": [],
     "source": [],
-    "guides": []
+    "guides": [
+      {
+        "id": 1,
+        "name": "Another World",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Ve a Arni y habla con Marge y Leena",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 3,
