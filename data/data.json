@@ -113,187 +113,187 @@
         "img": "/ChronoCross/characters/luccia.jpg"
       },
       {
-        "id": 34,
+        "id": 15,
+        "name": "Sprigg",
+        "text": "Se obtiene en el Mundo Abstracto",
+        "img": "/ChronoCross/characters/sprigg.jpg"
+      },
+      {
+        "id": 1001,
         "name": "Fargo",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 9,
+        "id": 1002,
         "name": "Grobyc",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 10,
+        "id": 1003,
         "name": "Lynx",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 11,
+        "id": 1004,
         "name": "Harle",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 12,
+        "id": 1005,
         "name": "Irenes",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 13,
+        "id": 1006,
         "name": "Karsh",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 14,
+        "id": 1007,
         "name": "Korcha",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 15,
+        "id": 1008,
         "name": "Radius",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 16,
+        "id": 1009,
         "name": "Starky",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 17,
+        "id": 1010,
         "name": "Viper",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 18,
+        "id": 1011,
         "name": "Zoah",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 19,
+        "id": 1012,
         "name": "Marcy",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 20,
+        "id": 1013,
         "name": "Riddel",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 21,
+        "id": 1014,
         "name": "Zappa",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 22,
+        "id": 1015,
         "name": "Miki",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 23,
-        "name": "Sprigg",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
-        "id": 24,
+        "id": 1016,
         "name": "Neofio",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 25,
+        "id": 1017,
         "name": "Skelly",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 26,
+        "id": 1018,
         "name": "Van",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 27,
+        "id": 1019,
         "name": "Sneff",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 28,
+        "id": 1020,
         "name": "Pip",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 30,
+        "id": 1021,
         "name": "Draggy",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 31,
+        "id": 1022,
         "name": "Leah",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 32,
+        "id": 1023,
         "name": "Orlha",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 33,
+        "id": 1024,
         "name": "Norris",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 37,
+        "id": 1025,
         "name": "Janice",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 38,
+        "id": 1026,
         "name": "Turnip",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 39,
+        "id": 1027,
         "name": "Funguy",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 41,
+        "id": 1028,
         "name": "Steena",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 42,
+        "id": 1029,
         "name": "Doc",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 45,
+        "id": 1030,
         "name": "Orcha",
         "text": "",
         "img": "/sin-personaje.gif"
@@ -892,7 +892,7 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Consigue a Luccia en Viper Manor",
+            "text": "✓ Consigue a Luccia en Viper Manor (Personaje /46)",
             "important": false,
             "status": false,
             "img": []
@@ -900,6 +900,122 @@
           {
             "id": 2,
             "text": "✓ Consigue a Greco en la casa del cementerio de Termina, si es que no lo habias conseguido antes",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "(HW) Arni Village",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Habla con el viejo pescador cerca de Leena, te llevará a la Isla del Dragón de Agua",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Aquí, ve hasta el Dragón de Agua y te dará el Ice Berta (Item /57)",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/items/ice_breath.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "(HW) Costa Este de El Nido",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Cruza el Monte Piro, usa el Ice Berta para congelar la lava",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Te recomiendo recoger todos los cofres primero antes de congelar todo",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ Cruza todo el Monte hasta llegar a Fort Dragonia",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Final oculto: The Magical Dreamers (Final 4/12)",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Antes de terminar la Fortaleza, crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+. Vencer al 'Time Devourer' con la siguiente formacion Nikki, Razzly y Kid, Para reemplazar a Serge del euipo puede usar el Relief Charm (Item /57) que obtienes al iniciar la partida NG+",
+            "important": true,
+            "status": false,
+            "img": [
+              "/ChronoCross/items/relief_charm.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "(HW) Fort Dragonia",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Resuelve todos los puzzles y jefes",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Debes vencer al SOL (Hincha Pelotas), toma el acensor",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ Lynx y Viper estarán aquí, continua la historia...",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Mundo Abstracto y el Más Allá",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Toma una manzana del árbol y Sprigg vendrá",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 1,
+            "text": "✓ Entra en su casa y lo podras reclutar",
             "important": false,
             "status": false,
             "img": []
