@@ -341,7 +341,7 @@
       },
       {
         "id": 2,
-        "name": "Arni Village",
+        "name": "(HW) Arni Village",
         "status": false,
         "adventure": [
           {
@@ -415,7 +415,7 @@
       },
       {
         "id": 3,
-        "name": "Lizard Rock",
+        "name": "(HW) Lizard Rock",
         "status": false,
         "adventure": [
           {
@@ -456,7 +456,7 @@
       },
       {
         "id": 4,
-        "name": "Another World",
+        "name": "(AW) Another World",
         "status": false,
         "adventure": [
           {
@@ -515,7 +515,7 @@
       },
       {
         "id": 5,
-        "name": "Hydra Swamp",
+        "name": "(AW) Hydra Swamp",
         "status": false,
         "adventure": [
           {
@@ -539,7 +539,7 @@
       },
       {
         "id": 6,
-        "name": "Fossil Valley",
+        "name": "(AW) Fossil Valley",
         "status": false,
         "adventure": [
           {
@@ -569,12 +569,12 @@
       },
       {
         "id": 7,
-        "name": "Termina",
+        "name": "(AW) Termina",
         "status": false,
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Ve a la estatua en lo más alto del pueblo, y consigue a Kid(Personaje 5/46)",
+            "text": "✓ Ve a la estatua en lo más alto del pueblo, y consigue a Kid (Personaje 5/46)",
             "important": false,
             "status": false,
             "img": []
@@ -620,12 +620,51 @@
       },
       {
         "id": 9,
-        "name": "Infiltración a Viper Manor",
+        "name": "(AW) Infiltración a Viper Manor",
         "status": false,
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Ve a Arni y habla con Marge y Leena",
+            "text": "✓ La puerta principal está cerrada",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ La llave Manor Key (Item 9/57) está en la parte superior derecha del establo de alimentación de dragones",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/items/manor_key.jpg"
+            ]
+          },
+          {
+            "id": 3,
+            "text": "✓ Debes jugar al juego de alimentar dragones al menos una vez, si quieres alimentarlos todos sin fallar, puedes usar el Time Shifter (Item 10/57) que puedes obtener en la partida (NG+)",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/items/time_shifter.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "(AW) Viper Manor",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Gira la estatua de la serpiente, y cae en la trampa",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Lucha con los guardias, coge su ropa y entra en las habitaciones de la parte izquierda",
             "important": false,
             "status": false,
             "img": []
