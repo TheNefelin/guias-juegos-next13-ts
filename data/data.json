@@ -15,12 +15,16 @@
         "url": "https://www.thegamer.com/chrono-cross-custom-frame-locations-how-to-get/"
       },
       {
+        "name": "Window Frame",
+        "url": "https://www.ign.com/wikis/chrono-cross/Window_Frames/"
+      },
+      {
         "name": "Tecnicas",
         "url": "https://guiltybit.com/como-conseguir-las-tecnicas-definitivas-de-todos-los-personajes-en-chrono-cross/"
       },
       {
         "name": "Finales",
-        "url": "https://game8.co/games/Chrono-Cross-Radical-Dreamers-Edition/archives/375630"
+        "url": "https://game8.co/games/Chrono-Cross-Radical-Dreamers-Edition/archives/375630/"
       }
     ],
     "characters": [
@@ -321,6 +325,17 @@
             "important": false,
             "status": false,
             "img": []
+          },
+          {
+            "id": 4,
+            "text": "✓ Inicias el juego con estos 3 marcos de 15",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/frames/arnian_wood.jpg",
+              "/ChronoCross/frames/simple_line.jpg",
+              "/ChronoCross/frames/iron_plate.jpg"
+            ]
           }
         ]
       },
@@ -354,12 +369,12 @@
           },
           {
             "id": 3,
-            "text": "✓ Coge la Shellfish Window Frame de la tienda de elements",
+            "text": "✓ Coge la Shellfish Window Frame de la tienda de elements 4/15",
             "important": false,
             "status": false,
             "img": [
               "/ChronoCross/adventure/arni_village_02.jpg",
-              "/ChronoCross/adventure/arni_village_03.jpg"
+              "/ChronoCross/frames/shellfish.jpg"
             ]
           },
           {
