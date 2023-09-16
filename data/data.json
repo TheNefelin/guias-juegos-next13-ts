@@ -83,20 +83,32 @@
         "img": "/ChronoCross/characters/glenn.jpg"
       },
       {
-        "id": 36,
+        "id": 10,
         "name": "Macha",
         "text": "Se obtiene en Termina al decidir No salvar a Kid",
         "img": "/ChronoCross/characters/macha.jpg"
       },
       {
-        "id": 34,
-        "name": "Fargo",
-        "text": "",
-        "img": "/sin-personaje.gif"
+        "id": 11,
+        "name": "Greco",
+        "text": "Se obtiene en Termina al decidir salvar a Kid",
+        "img": "/ChronoCross/characters/greco.jpg"
       },
       {
-        "id": 43,
-        "name": "Greco",
+        "id": 12,
+        "name": "Razzly",
+        "text": "Se obtiene en Hydra Marsh al decidir salvar a Kid",
+        "img": "/ChronoCross/characters/razzly.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Mel",
+        "text": "Se obtiene en Guldove, despue se capturarla y salir de la isla",
+        "img": "/ChronoCross/characters/mel.jpg"
+      },
+      {
+        "id": 34,
+        "name": "Fargo",
         "text": "",
         "img": "/sin-personaje.gif"
       },
@@ -269,12 +281,6 @@
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 40,
-        "name": "Mel",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
         "id": 41,
         "name": "Steena",
         "text": "",
@@ -283,12 +289,6 @@
       {
         "id": 42,
         "name": "Doc",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
-        "id": 44,
-        "name": "Razzly",
         "text": "",
         "img": "/sin-personaje.gif"
       },
@@ -588,36 +588,46 @@
           },
           {
             "id": 2,
+            "text": "✓ Obten el marco Tea for Three (Marco 5/15)",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/frames/tea_for_three.jpg"
+            ]
+          },
+          {
+            "id": 3,
             "text": "✓ Ve a la parte más al este del pueblo, dale las flores a Glenn",
             "important": false,
             "status": false,
             "img": []
           },
           {
-            "id": 3,
+            "id": 4,
             "text": "✓ Aqui debes decidir cual de los 3 personajes quieres reclutar para infiltrarte en el Viper Manor, No los puedes conseguir a todos en una partida, deberas iniciar una partida (NG+) para los 2 que falten.",
             "important": false,
             "status": false,
             "img": []
           },
           {
-            "id": 4,
+            "id": 5,
             "text": "✓ Opción 1: Consigue a Guile (Personaje 6/46), Habla con él en el bar. Ve al puerto de Termina, encuentra el barco de Korcha y sube por el rompeolas",
             "important": true,
             "status": false,
             "img": []
           },
           {
-            "id": 5,
-            "text": "✓ Opción 2: Consigue a Nikki (Personaje 7/46), habla con Miki en el barco de Magical Dreamers. Ve al Bosque Shadow, consigue la Aroma Bag (Item 7/57) y úsalo para mover a los monstruitos hacia el monstruo-planta gigante, avanza por el camino que bloqueaba el mounstruo hasta salir por el pozo",
+            "id": 6,
+            "text": "✓ Opción 2: Consigue a Nikki (Personaje 7/46), habla con Miki en el barco de Magical Dreamers. Ve al Bosque Shadow, consigue la Aroma Bag (Item 7/57) y úsalo para mover a los monstruitos hacia el monstruo-planta gigante, en la cueva puedes encontrar el Skullduggery (Marco /15), avanza por el camino que bloqueaba el mounstruo hasta salir por el pozo",
             "important": true,
             "status": false,
             "img": [
-              "/ChronoCross/items/aroma_pouch.jpg"
+              "/ChronoCross/items/aroma_pouch.jpg",
+              "/ChronoCross/frames/skullduggery.jpg"
             ]
           },
           {
-            "id": 6,
+            "id": 7,
             "text": "✓ Opción 3: Consigue a Pierre (Personaje 8/46), en la Herrería, primero debes conseguir el Hero's Medal (Item 8/57) del del niño que juega afuera, Ve a la puerta principal de Viper Manor",
             "important": true,
             "status": false,
@@ -734,13 +744,22 @@
           },
           {
             "id": 9,
+            "text": "✓ Obten el marco Porre's Furnace (Marco 6/15)",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/frames/porres_furnace.jpg"
+            ]
+          },
+          {
+            "id": 10,
             "text": "✓ Lucha con los guardias, toma el ascensor y para la puerta derecha",
             "important": false,
             "status": false,
             "img": []
           },
           {
-            "id": 10,
+            "id": 11,
             "text": "✓ Lucha contra Lynx, habrá unas cuantas escenas",
             "important": false,
             "status": false,
@@ -797,14 +816,34 @@
           },
           {
             "id": 3,
-            "text": "✓ Opcion 1: No salvar a Kid: Habla con Macha y todo el mundo en Guldove, toma el barco de Kocha hacia Termina, en la entrada y verás a Glenn. Vuelve al barco, conseguirás a Glenn y Macha (Personaje 9 y 10/46), ve al mar nublado al este de El Nido y haz el capitulo Piratas Fantasmas luego vuelve a Guldove para ver al Doc y Kid.",
+            "text": "✓ Opcion 1: No salvar a Kid: Habla con Macha y todo el mundo en Guldove, toma el barco de Kocha hacia Termina, en la entrada verás a Glenn. Vuelve al barco, conseguirás a Glenn y Macha (Personaje 9 y 10/46), Macha te dara el Tropical Paradise (Marco 7/15), ve al mar nublado al este de El Nido y haz el capítulo Piratas Fantasmas luego vuelve a Guldove para ver al Doc y Kid.",
             "important": true,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/frames/tropical_paradise.jpg"
+            ]
           },
           {
             "id": 4,
-            "text": "✓ Opcion 2: Salvar a Kid:",
+            "text": "✓ Opcion 2: Salvar a Kid: Toma el barco hacia Termina, pero consigue a Greco (Personaje 11/46) en la casa del cementerio en Termina, Ve a la Playa Opassa, usa el Astral Amulet (Item /57) de Kid en el agujero para volver a Home World, Ve al Hydra Marsh, lucha con Beeba, coge la flauta (Item /57) y úsala al norte de todo, Lucha contra el Wingapede, luego con el pulpo y consigue a Razzly el hada (Personaje 12/46), sigue luego por la parte este, lucha contra la Hydra, obtendras la medicina ahora vuelve a Guldove, asegúrate de cazar a Mel (Personaje 13/46) si la quieres conseguir más tarde y ella te da el Guldovian Stitch (Marco 8/15), finalmente conseguiras a Kid. Capítulo Piratas Fantasmas",
+            "important": true,
+            "status": false,
+            "img": [
+              "/ChronoCross/items/astral_amulet.jpg",
+              "/ChronoCross/items/beeba_flute.jpg",
+              "/ChronoCross/frames/guldovian_stitch.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "(AW) Piratas Fantasmas",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Holy Porfiad(@)",
             "important": false,
             "status": false,
             "img": []
