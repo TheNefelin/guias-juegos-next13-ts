@@ -16,7 +16,7 @@ const Characters = async ({ params }: Params) => {
   const data = await dt.get_game_characters_byid(id)
 
   return (
-    <div className='bg-base-200 mb-2 shadow-md p-4 flex flex-wrap justify-center gap-4'>
+    <div className='bg-base-200 mb-2 card card-side shadow-xl flex gap-4 flex-wrap justify-center p-4'>
       {data.map(character => (
         <div key={character.id} className="card card-side bg-base-100 shadow-xl max-w-xs">
           <figure>
@@ -28,7 +28,7 @@ const Characters = async ({ params }: Params) => {
               width={50}
             />
           </figure>
-          <div className="card-body p-4">
+          <div className="card-body">
             <h2 className="card-title">{character.name}</h2>
             <p>{character.text}</p>
           </div>

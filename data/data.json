@@ -107,6 +107,12 @@
         "img": "/ChronoCross/characters/mel.jpg"
       },
       {
+        "id": 14,
+        "name": "Luccia",
+        "text": "Se obtiene en Viper Manor al ir nuevamente",
+        "img": "/ChronoCross/characters/luccia.jpg"
+      },
+      {
         "id": 34,
         "name": "Fargo",
         "text": "",
@@ -229,12 +235,6 @@
       {
         "id": 28,
         "name": "Pip",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
-        "id": 29,
-        "name": "Luccia",
         "text": "",
         "img": "/sin-personaje.gif"
       },
@@ -843,7 +843,63 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Holy Porfiad(@)",
+            "text": "✓ Ve a la zona nublosa entre El Nido y el Mar del Edén",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Cuando ataquen los fantasmas, observa que la puerta principal está cerrada",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ Mata a todos los esqueletos y habla con los piratas para encontrar una llave",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 4,
+            "text": "✓ Llega a la cubierta, lucha con el Diamond Jar",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "(AW) Ermita Quemada",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Lucha con Harle, consigue sus Gafas Luna (un buen accesorio)",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "(AW) Viper Manor / Termina",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Consigue a Luccia en Viper Manor",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Consigue a Greco en la casa del cementerio de Termina, si es que no lo habias conseguido antes",
             "important": false,
             "status": false,
             "img": []

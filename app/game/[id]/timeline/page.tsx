@@ -44,7 +44,7 @@ const TimeLine = async ({ params }: Params) => {
                     key={index}
                     className='mx-auto my-4 shadow-md'
                     src={img}
-                    alt="Twitch"
+                    alt="Imagen de Guia"
                     height={100}
                     width={500}
                   ></Image>
