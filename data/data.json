@@ -77,6 +77,18 @@
         "img": "/ChronoCross/characters/pierre.jpg"
       },
       {
+        "id": 9,
+        "name": "Glenn",
+        "text": "Se obtiene en Termina al decidir No salvar a Kid",
+        "img": "/ChronoCross/characters/glenn.jpg"
+      },
+      {
+        "id": 36,
+        "name": "Macha",
+        "text": "Se obtiene en Termina al decidir No salvar a Kid",
+        "img": "/ChronoCross/characters/macha.jpg"
+      },
+      {
         "id": 34,
         "name": "Fargo",
         "text": "",
@@ -239,12 +251,6 @@
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 36,
-        "name": "Macha",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
         "id": 37,
         "name": "Janice",
         "text": "",
@@ -289,12 +295,6 @@
       {
         "id": 45,
         "name": "Orcha",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
-        "id": 35,
-        "name": "Glenn",
         "text": "",
         "img": "/sin-personaje.gif"
       }
@@ -783,7 +783,28 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Holy Porfiad(@)",
+            "text": "✓ Consigue la parte del pelvis de Skelly (Item /57) de la niña comerciante cerca del barco",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Tendras que eleguir entre salvar o NO salvar a kid, dependiendo de la decicion podras obtener nuevos personajes distintos en ambos casos",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ Opcion 1: No salvar a Kid: Habla con Macha y todo el mundo en Guldove, toma el barco de Kocha hacia Termina, en la entrada y verás a Glenn. Vuelve al barco, conseguirás a Glenn y Macha (Personaje 9 y 10/46), ve al mar nublado al este de El Nido y haz el capitulo Piratas Fantasmas luego vuelve a Guldove para ver al Doc y Kid.",
+            "important": true,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 4,
+            "text": "✓ Opcion 2: Salvar a Kid:",
             "important": false,
             "status": false,
             "img": []
