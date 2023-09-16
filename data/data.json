@@ -49,29 +49,41 @@
       {
         "id": 4,
         "name": "Poshul",
-        "text": "Se obtiene rechazando a Kid 3 veces",
+        "text": "Se obtiene rechazando a Kid 3 veces o en Arni Village",
         "img": "/ChronoCross/characters/poshul.jpg"
       },
       {
         "id": 5,
-        "name": "Glenn",
-        "text": "",
-        "img": "/sin-personaje.gif"
+        "name": "Kid",
+        "text": "Se obtiene en Termina o Cape Howl",
+        "img": "/ChronoCross/characters/kid.jpg"
       },
       {
         "id": 6,
-        "name": "Lynx",
-        "text": "",
-        "img": "/sin-personaje.gif"
+        "name": "Guile",
+        "text": "Se obtiene en Termina hablando con él en el bar",
+        "img": "/ChronoCross/characters/guile.jpg"
       },
       {
         "id": 7,
+        "name": "Nikki",
+        "text": "Se obtiene en Termina hablando con Miki en el barco de Magical Dreamers",
+        "img": "/ChronoCross/characters/nikki.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Pierre",
+        "text": "Se obtiene en Termina entregandole el Hero's Medal en la herreria",
+        "img": "/ChronoCross/characters/pierre.jpg"
+      },
+      {
+        "id": 34,
         "name": "Fargo",
         "text": "",
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 8,
+        "id": 43,
         "name": "Greco",
         "text": "",
         "img": "/sin-personaje.gif"
@@ -84,7 +96,7 @@
       },
       {
         "id": 10,
-        "name": "Guile",
+        "name": "Lynx",
         "text": "",
         "img": "/sin-personaje.gif"
       },
@@ -227,12 +239,6 @@
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 34,
-        "name": "Niki",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
         "id": 36,
         "name": "Macha",
         "text": "",
@@ -275,12 +281,6 @@
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 43,
-        "name": "Pierrie",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
         "id": 44,
         "name": "Razzly",
         "text": "",
@@ -294,7 +294,7 @@
       },
       {
         "id": 35,
-        "name": "Kid",
+        "name": "Glenn",
         "text": "",
         "img": "/sin-personaje.gif"
       }
@@ -553,7 +553,7 @@
           },
           {
             "id": 2,
-            "text": "✓ Obten las Bellflowers y el huevo gigante (cerca del pájaro) (Item 5/57)",
+            "text": "✓ Obten las Bellflowers y el huevo gigante (cerca del pájaro) (Item 6/57)",
             "important": false,
             "status": false,
             "img": []
@@ -561,6 +561,71 @@
           {
             "id": 3,
             "text": "✓ Continua el camino hacia el norte y lucha contra Solt y Peppor",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Termina",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Ve a la estatua en lo más alto del pueblo, y consigue a Kid(Personaje 5/46)",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Ve a la parte más al este del pueblo, dale las flores a Glenn",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ Aqui debes decidir cual de los 3 personajes quieres reclutar para infiltrarte en el Viper Manor, No los puedes conseguir a todos en una partida, deberas iniciar una partida (NG+) para los 2 que falten.",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 4,
+            "text": "✓ Opción 1: Consigue a Guile (Personaje 6/46), Habla con él en el bar. Ve al puerto de Termina, encuentra el barco de Korcha y sube por el rompeolas",
+            "important": true,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 5,
+            "text": "✓ Opción 2: Consigue a Nikki (Personaje 7/46), habla con Miki en el barco de Magical Dreamers. Ve al Bosque Shadow, consigue la Aroma Bag (Item 7/57) y úsalo para mover a los monstruitos hacia el monstruo-planta gigante, avanza por el camino que bloqueaba el mounstruo hasta salir por el pozo",
+            "important": true,
+            "status": false,
+            "img": [
+              "/ChronoCross/items/aroma_pouch.jpg"
+            ]
+          },
+          {
+            "id": 6,
+            "text": "✓ Opción 3: Consigue a Pierre (Personaje 8/46), en la Herrería, primero debes conseguir el Hero's Medal (Item 8/57) del del niño que juega afuera, Ve a la puerta principal de Viper Manor",
+            "important": true,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Infiltración a Viper Manor",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Ve a Arni y habla con Marge y Leena",
             "important": false,
             "status": false,
             "img": []
