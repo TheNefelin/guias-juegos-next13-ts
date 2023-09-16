@@ -1,0 +1,27 @@
+[
+  {
+    "id": 2,
+    "name": "Title",
+    "imgCover": "img",
+    "imgBackground": "img",
+    "text": "text",
+    "characters": [],
+    "source": [],
+    "guides": [
+      {
+        "id": 1,
+        "name": "Title",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Text",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      }
+    ]
+  }
+]

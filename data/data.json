@@ -131,6 +131,36 @@
         "img": "/sin-personaje.gif"
       },
       {
+        "id": 18,
+        "name": "Radius",
+        "text": "Se obtiene al vencerlo en Arni Village",
+        "img": "/ChronoCross/characters/Radius.jpg"
+      },
+      {
+        "id": 19,
+        "name": "Zappa",
+        "text": "Se obtiene en Termina con Lynx",
+        "img": "/ChronoCross/characters/zappa.jpg"
+      },
+      {
+        "id": 20,
+        "name": "Van",
+        "text": "Se obtiene en Termina con Lynx",
+        "img": "/ChronoCross/characters/van.jpg"
+      },
+      {
+        "id": 21,
+        "name": "Norris",
+        "text": "Se obtiene en Viper Manor si Radius esta en tu equipo",
+        "img": "/ChronoCross/characters/norris.jpg"
+      },
+      {
+        "id": 22,
+        "name": "Starky",
+        "text": "Se obtiene venciendolo en la isla de Sky Dragon",
+        "img": "/ChronoCross/characters/starky.jpg"
+      },
+      {
         "id": 1001,
         "name": "Fargo",
         "text": "",
@@ -161,18 +191,6 @@
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 1008,
-        "name": "Radius",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
-        "id": 1009,
-        "name": "Starky",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
         "id": 1010,
         "name": "Viper",
         "text": "",
@@ -197,12 +215,6 @@
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 1014,
-        "name": "Zappa",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
         "id": 1015,
         "name": "Miki",
         "text": "",
@@ -217,12 +229,6 @@
       {
         "id": 1017,
         "name": "Skelly",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
-        "id": 1018,
-        "name": "Van",
         "text": "",
         "img": "/sin-personaje.gif"
       },
@@ -253,12 +259,6 @@
       {
         "id": 1023,
         "name": "Orlha",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
-        "id": 1024,
-        "name": "Norris",
         "text": "",
         "img": "/sin-personaje.gif"
       },
@@ -305,6 +305,13 @@
         "name": "El Sueño",
         "status": false,
         "adventure": [
+          {
+            "id": 0,
+            "text": "✓ Obs: (HW) = Home World, (AQ) = Another World",
+            "important": false,
+            "status": false,
+            "img": []
+          },
           {
             "id": 1,
             "text": "✓ Sigue el camino hasta el pilar de luz",
@@ -1015,7 +1022,7 @@
           },
           {
             "id": 2,
-            "text": "✓ Entra en su casa y lo podras reclutar",
+            "text": "✓ Entra en su casa y lo podras reclutar a Sprigg (Personaje /46)",
             "important": false,
             "status": false,
             "img": []
@@ -1043,8 +1050,170 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+. Vencer al 'Time Devourer' con Lynx (Personaje /46)",
+            "text": "✓ Crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+. Vencer al 'Time Devourer' con Lynx (Personaje /46)",
             "important": true,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "name": "(AW) Intentar ir a Viper Manar",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Intenta cruzar el Fossil Valley",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Ve a Arni Village, habla con Marge y lucha contra Radius para reclutarlo (Personaje /46)",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ Cruza el Fossil Valley y consigue el Infrared Vision (Marco /15)",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/frames/infrared_vision.jpg"
+            ]
+          },
+          {
+            "id": 4,
+            "text": "✓ Ve Termina para reclutara Zappa (Personaje /46) y a Van (Personaje /46)",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "(AW) Viper Manor",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Con Radius, entra por el Shadow Forest ",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Recoge la Angry Scapula de Skelly (Item /57) en la cueva de la cascada",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ Ve por las mazmorras. Habla con Norris (Personaje /46), se te unirá si Radius está contigo",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 4,
+            "text": "✓ Ve a Termina, ahora podras usar un bote inflable donde estaba el barco de Nikki",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "(AW) El Nido Triangle",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Nada hasta el fondo y obten el Star Fragment (Item /57)",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/items/star_fragment.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "name": "(AW) Isla del Sky Dragon",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Intenta abrir el cofre. Lucha contra Starky (Personaje /46) y véncelo para reclutarlo",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Obten Our Favorite Martian (Marco /15) ",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/frames/our_favorite_martian.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "name": "(AW) Marbule",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Ve Marbule sin ningun humano en tu equipo",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Habla con Toma y el otro tipo, y obten el Valencian Cloth (Marco /15)",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/frames/valencian_cloth.jpg"
+            ]
+          },
+          {
+            "id": 3,
+            "text": "✓ Duerme en la posada, habla con Irenes por la noche",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "(AW) El Zelbess de Fargo",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Intenta cruzar la puerta del fondo del barco",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Mira el show de Sneff, habla con Fargo y juega a la Roulette",
+            "important": false,
             "status": false,
             "img": []
           }
@@ -1060,22 +1229,7 @@
     "text": "Creo que soy el único que juega a esto, los servidores siempre están vacíos.",
     "characters": [],
     "source": [],
-    "guides": [
-      {
-        "id": 1,
-        "name": "Sin Guia",
-        "status": false,
-        "adventure": [
-          {
-            "id": 1,
-            "text": "✓ Holy Porfiad(@)",
-            "important": false,
-            "status": false,
-            "img": []
-          }
-        ]
-      }
-    ]
+    "guides": []
   },
   {
     "id": 3,
