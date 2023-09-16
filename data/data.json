@@ -341,6 +341,22 @@
       },
       {
         "id": 2,
+        "name": "Final oculto: Programmer's Ending (Final 1/12)",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Cuando despiertes crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+ (NO con el NG+). Vencer al 'Time Devourer' inmediatamente sin reclutar compañeros.",
+            "important": true,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/arni_village_01.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
         "name": "(HW) Arni Village",
         "status": false,
         "adventure": [
@@ -360,22 +376,13 @@
           },
           {
             "id": 3,
-            "text": "✓ (NG+) Crea un guardado independiente de la partida principal, cuando termines el juego carga el NG+ desde este guardado. Vencer al 'Time Devourer' inmediatamente sin reclutar compañeros y obtendras el Final: Programmer's Ending",
-            "important": true,
-            "status": false,
-            "img": [
-              "/ChronoCross/adventure/arni_village_01.jpg"
-            ]
-          },
-          {
-            "id": 4,
             "text": "✓ Ve al puerto y habla con Leena",
             "important": false,
             "status": false,
             "img": []
           },
           {
-            "id": 5,
+            "id": 4,
             "text": "✓ Coge la Shellfish Window Frame de la tienda de elements (Marco 4/15)",
             "important": false,
             "status": false,
@@ -385,7 +392,7 @@
             ]
           },
           {
-            "id": 6,
+            "id": 5,
             "text": "✓ Coge el Shark Tooth Amulet de uno de los tipos de las casas de la derecha (Item 1/57)",
             "important": false,
             "status": false,
@@ -395,7 +402,7 @@
             ]
           },
           {
-            "id": 7,
+            "id": 6,
             "text": "✓ Consigue un Hueso Heckran de debajo de la cama del bar (Item 2/57)",
             "important": false,
             "status": false,
@@ -405,7 +412,7 @@
             ]
           },
           {
-            "id": 8,
+            "id": 7,
             "text": "✓ 'NO' reclutes a Poshul aún",
             "important": false,
             "status": false,
@@ -414,7 +421,7 @@
         ]
       },
       {
-        "id": 3,
+        "id": 4,
         "name": "(HW) Lizard Rock",
         "status": false,
         "adventure": [
@@ -455,7 +462,7 @@
         ]
       },
       {
-        "id": 4,
+        "id": 5,
         "name": "(AW) Another World",
         "status": false,
         "adventure": [
@@ -514,7 +521,7 @@
         ]
       },
       {
-        "id": 5,
+        "id": 6,
         "name": "(AW) Hydra Swamp",
         "status": false,
         "adventure": [
@@ -538,7 +545,7 @@
         ]
       },
       {
-        "id": 6,
+        "id": 7,
         "name": "(AW) Fossil Valley",
         "status": false,
         "adventure": [
@@ -568,7 +575,7 @@
         ]
       },
       {
-        "id": 7,
+        "id": 8,
         "name": "(AW) Termina",
         "status": false,
         "adventure": [
@@ -620,6 +627,20 @@
       },
       {
         "id": 9,
+        "name": "Final oculto: General Kid (Final 2/12)",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+ (NO con el NG+). Vencer al 'Time Devourer' antes de infiltrarte en Viper Manor",
+            "important": true,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 10,
         "name": "(AW) Infiltración a Viper Manor",
         "status": false,
         "adventure": [
@@ -651,7 +672,7 @@
         ]
       },
       {
-        "id": 10,
+        "id": 11,
         "name": "(AW) Viper Manor",
         "status": false,
         "adventure": [
@@ -665,6 +686,104 @@
           {
             "id": 2,
             "text": "✓ Lucha con los guardias, coge su ropa y entra en las habitaciones de la parte izquierda",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ En la cocina, habla con Glenn, ve a su habitación, y te escribirá la combinación de la estatua",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 4,
+            "text": "✓ En las habitaciones de la derecha, intenta coger el pendiente y cae en otra trampa",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 5,
+            "text": "✓ Lucha con los bichos de Luccia",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 6,
+            "text": "✓ Vuelve a la entrada y usa la combinación apropiada en la estatua de la serpiente",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 7,
+            "text": "✓ Ve al oeste, a la biblioteca, verás a Balthasar (Chrono Trigger), lucha con Marcy",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 8,
+            "text": "✓ Habla con el viejo, vuelve a la habitación grande, busca en las columnas un botón que accione el ascensor",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 9,
+            "text": "✓ Lucha con los guardias, toma el ascensor y para la puerta derecha",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 10,
+            "text": "✓ Lucha contra Lynx, habrá unas cuantas escenas",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Final oculto: The True Hero (Final 3/12)",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Este final tiene 2 variantes, las variantes dependeran de que decisión tomas en Guldove.",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Opcion 1: No salvar a Kid. Crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+ (NO con el NG+), Vencer al 'Time Devourer' inmediatamente despues de que Kid quede envenenada",
+            "important": true,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ Opcion 2: Salvar a Kid con la cura encontrada en Hydra Marsh. Crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+ (NO con el NG+), Vencer al 'Time Devourer' inmediatamente despues de que Kid se haya curado",
+            "important": true,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "(AW) Guldove",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Holy Porfiad(@)",
             "important": false,
             "status": false,
             "img": []
@@ -684,12 +803,12 @@
     "guides": [
       {
         "id": 1,
-        "name": "Another World",
+        "name": "Sin Guia",
         "status": false,
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Ve a Arni y habla con Marge y Leena",
+            "text": "✓ Holy Porfiad(@)",
             "important": false,
             "status": false,
             "img": []
