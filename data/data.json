@@ -114,9 +114,21 @@
       },
       {
         "id": 15,
+        "name": "Lynx",
+        "text": "Se obtiene despues del evento en Fort Dragonia",
+        "img": "/ChronoCross/characters/lynx.jpg"
+      },
+      {
+        "id": 16,
         "name": "Sprigg",
         "text": "Se obtiene en el Mundo Abstracto",
         "img": "/ChronoCross/characters/sprigg.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Harle",
+        "text": "Se obtiene en el Mundo Abstracto",
+        "img": "/sin-personaje.gif"
       },
       {
         "id": 1001,
@@ -127,18 +139,6 @@
       {
         "id": 1002,
         "name": "Grobyc",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
-        "id": 1003,
-        "name": "Lynx",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
-        "id": 1004,
-        "name": "Harle",
         "text": "",
         "img": "/sin-personaje.gif"
       },
@@ -1014,9 +1014,37 @@
             "img": []
           },
           {
-            "id": 1,
+            "id": 2,
             "text": "✓ Entra en su casa y lo podras reclutar",
             "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ Ve al norte, sigue a Serge a cada puerta que vaya (en tu piso)",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 4,
+            "text": "✓ Harle (Personaje /46) se te une, avanza y aparecerás en Hydra Marsh",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Final oculto: New Beginnings (Final 5/12)",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+. Vencer al 'Time Devourer' con Lynx (Personaje /46)",
+            "important": true,
             "status": false,
             "img": []
           }
