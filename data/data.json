@@ -203,6 +203,12 @@
         "img": "/ChronoCross/characters/leah.jpg"
       },
       {
+        "id": 30,
+        "name": "Draggy",
+        "text": "Se obtiene al poner el huevo gigante en Fort Dragonia",
+        "img": "/ChronoCross/characters/draggy.jpg"
+      },
+      {
         "id": 1001,
         "name": "Fargo",
         "text": "",
@@ -247,12 +253,6 @@
       {
         "id": 1020,
         "name": "Pip",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
-        "id": 1021,
-        "name": "Draggy",
         "text": "",
         "img": "/sin-personaje.gif"
       },
@@ -1815,6 +1815,62 @@
           {
             "id": 3,
             "text": "✓ Lleva a Steena a Fort Dragonia",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "name": "(HW) Fuerte Dragonian",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Ve a Fort Dragonia y resuelve los puzzles",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Pon el amuleto en la ranura de la entrada",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ Lucha contra Dark Serge en la sala del ascensor",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 4,
+            "text": "✓ Baja, pon el huevo gigante en el centro y y obtendras a Draggy (Personaje /46)",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 5,
+            "text": "✓ Sube a la habitación principal y abre la puerta",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "name": "Fina",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Text",
             "important": false,
             "status": false,
             "img": []
