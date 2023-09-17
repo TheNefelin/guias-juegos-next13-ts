@@ -89,6 +89,12 @@
         "img": "/ChronoCross/characters/macha.jpg"
       },
       {
+        "id": 1029,
+        "name": "Doc",
+        "text": "Se obtiene en Termina al decidir No salvar a Kid",
+        "img": "/ChronoCross/characters/doc.jpg"
+      },
+      {
         "id": 11,
         "name": "Korcha",
         "text": "Se obtiene en Termina al decidir salvar a Kid",
@@ -251,6 +257,18 @@
         "img": "/ChronoCross/characters/draggy.jpg"
       },
       {
+        "id": 36,
+        "name": "Funguy",
+        "text": "Se obtiene en Shadow Forest al darle el Mushroom al hombre de la cueva en la cascada",
+        "img": "/ChronoCross/characters/funguy.jpg"
+      },
+      {
+        "id": 37,
+        "name": "Orlha",
+        "text": "Se obtiene en Guldove devolviendole el Sapphire Brooch como Serge",
+        "img": "/ChronoCross/characters/orlha.jpg"
+      },
+      {
         "id": 1001,
         "name": "Fargo",
         "text": "",
@@ -271,24 +289,6 @@
       {
         "id": 1013,
         "name": "Riddel",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
-        "id": 1023,
-        "name": "Orlha",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
-        "id": 1027,
-        "name": "Funguy",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
-        "id": 1029,
-        "name": "Doc",
         "text": "",
         "img": "/sin-personaje.gif"
       },
@@ -627,7 +627,7 @@
           },
           {
             "id": 6,
-            "text": "✓ Opción 2: Consigue a Nikki (Personaje 7/46), habla con Miki en el barco de Magical Dreamers. Ve al Bosque Shadow, consigue la Aroma Bag (Item 7/57) y úsalo para mover a los monstruitos hacia el monstruo-planta gigante, en la cueva puedes encontrar el Skullduggery (Marco /15), avanza por el camino que bloqueaba el mounstruo hasta salir por el pozo",
+            "text": "✓ Opción 2: Consigue a Nikki (Personaje 7/46), habla con Miki en el barco de Magical Dreamers. Ve al Bosque Shadow, consigue la Aroma Bag (Item 7/57) y úsalo para mover a los monstruitos hacia el monstruo-planta gigante, en la cueva de la cascada puedes encontrar el Skullduggery (Marco /15), avanza por el camino que bloqueaba el mounstruo, mueve la roca para detener a los insectos,avanza hasta salir por el pozo",
             "important": true,
             "status": false,
             "img": [
@@ -832,7 +832,7 @@
           },
           {
             "id": 3,
-            "text": "✓ Opcion 1: No salvar a Kid: Habla con Macha y todo el mundo en Guldove, toma el barco de Kocha hacia Termina, en la entrada verás a Glenn. Vuelve al barco, conseguirás a Glenn y Macha (Personaje 9 y 10/46), Macha te dara el Tropical Paradise (Marco 7/15), ve al mar nublado al este de El Nido y haz el capítulo Piratas Fantasmas luego vuelve a Guldove para ver al Doc y Kid.",
+            "text": "✓ Opcion 1: No salvar a Kid: Habla con Macha y todo el mundo en Guldove, toma el barco de Kocha hacia Termina, en la entrada verás a Glenn. Vuelve al barco, conseguirás a Glenn y Macha (Personaje 9 y 10/46), Macha te dara el Tropical Paradise (Marco 7/15), ve al mar nublado al este de El Nido y haz el capítulo Piratas Fantasmas luego vuelve a Guldove para ver al Doc y Kid. Se te unira el Doc (Personaje /46)",
             "important": true,
             "status": false,
             "img": [
@@ -1603,7 +1603,7 @@
         ]
       },
       {
-        "id": 0,
+        "id": 39,
         "name": "Preparación",
         "status": false,
         "adventure": [
@@ -1613,11 +1613,18 @@
             "important": false,
             "status": false,
             "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Funguy Shadow Forest",
+            "important": false,
+            "status": false,
+            "img": []
           }
         ]
       },
       {
-        "id": 39,
+        "id": 40,
         "name": "(HW) Dragón de Agua",
         "status": false,
         "adventure": [
@@ -1640,7 +1647,7 @@
         ]
       },
       {
-        "id": 40,
+        "id": 41,
         "name": "(AW) Dragón de Fuego",
         "status": false,
         "adventure": [
@@ -1670,7 +1677,7 @@
         ]
       },
       {
-        "id": 41,
+        "id": 42,
         "name": "(HW) Dragón Verde",
         "status": false,
         "adventure": [
@@ -1721,7 +1728,7 @@
         ]
       },
       {
-        "id": 42,
+        "id": 43,
         "name": "(AW) Dragón Negro",
         "status": false,
         "adventure": [
@@ -1767,7 +1774,7 @@
         ]
       },
       {
-        "id": 43,
+        "id": 44,
         "name": "(HW) Dragón de Tierra",
         "status": false,
         "adventure": [
@@ -1813,7 +1820,7 @@
         ]
       },
       {
-        "id": 44,
+        "id": 45,
         "name": "(AW) Dragón del Cielo",
         "status": false,
         "adventure": [
@@ -1836,7 +1843,7 @@
         ]
       },
       {
-        "id": 45,
+        "id": 46,
         "name": "(AW) Guldove",
         "status": false,
         "adventure": [
@@ -1866,7 +1873,7 @@
         ]
       },
       {
-        "id": 46,
+        "id": 47,
         "name": "(HW) Fuerte Dragonian",
         "status": false,
         "adventure": [
@@ -1908,20 +1915,27 @@
         ]
       },
       {
-        "id": 47,
+        "id": 48,
         "name": "(HW) Mar de Edén",
         "status": false,
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Si tienes a Glenn, ahora le puedes equipar la Einlanzer",
+            "text": "✓ Si quieres reclutar a Orlha (Personaje /46), ve a Guldove (AW) y dale el Sapphire Brooch",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 2,
-            "text": "✓ Lleva a Steena y entra en uno de los agujeros",
+            "text": "✓ Si tienes a Glenn, ahora le puedes equipar la Einlanzer",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ Lleva a Steena aly entra en uno de los agujeros",
             "important": false,
             "status": false,
             "img": []
