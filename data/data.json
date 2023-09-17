@@ -161,26 +161,38 @@
         "img": "/ChronoCross/characters/starky.jpg"
       },
       {
+        "id": 23,
+        "name": "Irenes",
+        "text": "Se obtiene en Zelbess derrotando al sabio",
+        "img": "/ChronoCross/characters/irenes.jpg"
+      },
+      {
+        "id": 24,
+        "name": "Miki",
+        "text": "Se obtiene en Zelbess derrotando al sabio",
+        "img": "/ChronoCross/characters/miki.jpg"
+      },
+      {
+        "id": 25,
+        "name": "Zoah",
+        "text": "Se obtiene en el bar de Termina, habitacion oculta",
+        "img": "/ChronoCross/characters/zoah.jpg"
+      },
+      {
+        "id": 26,
+        "name": "Karsh",
+        "text": "Se obtiene en el bar de Termina, habitacion oculta",
+        "img": "/ChronoCross/characters/karsh.jpg"
+      },
+      {
+        "id": 27,
+        "name": "Grobyc",
+        "text": "Se obtiene en Viper Manor despues del combate con el Mecha",
+        "img": "/ChronoCross/characters/grobyc.jpg"
+      },
+      {
         "id": 1001,
         "name": "Fargo",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
-        "id": 1002,
-        "name": "Grobyc",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
-        "id": 1005,
-        "name": "Irenes",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
-        "id": 1006,
-        "name": "Karsh",
         "text": "",
         "img": "/sin-personaje.gif"
       },
@@ -197,12 +209,6 @@
         "img": "/sin-personaje.gif"
       },
       {
-        "id": 1011,
-        "name": "Zoah",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
         "id": 1012,
         "name": "Marcy",
         "text": "",
@@ -211,12 +217,6 @@
       {
         "id": 1013,
         "name": "Riddel",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
-        "id": 1015,
-        "name": "Miki",
         "text": "",
         "img": "/sin-personaje.gif"
       },
@@ -1213,6 +1213,217 @@
           {
             "id": 2,
             "text": "✓ Mira el show de Sneff, habla con Fargo y juega a la Roulette",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ Ve a la posada, verás a alguien preocupado por el gato, y que Sneff te convierta en gato",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 4,
+            "text": "✓ Mientras seas gato puedes obtener el Monster's Mouth (Marco /15)",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 5,
+            "text": "✓ Entra en el en la habitacion que esta debajo de la ruleta, roba el Handle (Item /57)",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/items/handle.jpg"
+            ]
+          },
+          {
+            "id": 6,
+            "text": "✓ Ve donde Sneff y que te vuelva a convertir, juega a la Roulette con Fargo otra vez. Perderá, ahora cruza esa puerta",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 7,
+            "text": "✓ Lucha contra el Sabio y obten la Fiddler Crab (Item /57)",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/items/fiddler_crab.jpg"
+            ]
+          },
+          {
+            "id": 8,
+            "text": "✓ Ahora puedes conseguir a Irenes (Personaje /46) y Miki (Personaje /46) en los barcos",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "name": "(HW) Mar del Edén",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Usa la Fiddler Crab, entra y verás la Masamune",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Después de hablar, ve a la Hermit's Hideaway (HW), habla con Radius y recibe el Garai's Keepsake (Item /57)",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/items/garais_keepsake.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "name": "(HW) Isla Maldita",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Recoge los Mixed Bones de Skelly (Item /57) en la cueva al noroeste de la primera pantalla",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Llega al espejo de la izquierda del todo (bajando por el esqueleto serpiente)",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ Lucha con Garai (a llorar a la playa)",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 4,
+            "text": "✓ Coge la Einlanzer (Item /57) y úsala para destruir la Masamune",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/items/einlanzer.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "name": "(HW) Mar del Edén",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ LLega hasta el edificio recoge todos los cofres",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Lucha con Miguel, y la ciudad será destruida (el Dragón del Cielo te salvará)",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "name": "(AW) Viper Manor",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Ve al bar de Termina, hay una habitacion secreta, aqui podras reclutar a Zoah o Karsh, siquieres obtener a los 2 deberas terminar el juego e iniciar (NG+)",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Opcion 1: Consigue a Zoah",
+            "important": true,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ Opcion 2: Consigue a Karsh",
+            "important": true,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 4,
+            "text": "✓ Ve a Viper Manor, habla con Norris en la habitación del oeste de la entrada",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 5,
+            "text": "✓ Ve a las alcantarillas desde la cocina, encuentra y apaga la válvula",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 6,
+            "text": "✓ Vuelve a la primera sección, ahora ya puedes cruzar, y apaga la segunda válvula",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 7,
+            "text": "✓ En la siguiente pantalla, sube la válvula y vuelve al otro lado",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 8,
+            "text": "✓ Bájala, procede, y lucharás contra un bicho gordo, y luego contra Dark Orcha",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 9,
+            "text": "✓ Sigue recto hacia la biblioteca, lucharás con Grovyc y Mecha",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 10,
+            "text": "✓ Eapa hacia la biblioteca, lucha con Mecha otra vez, y escapa por la ventana",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 11,
+            "text": "✓ Grobyc se unirá a tu grupo",
             "important": false,
             "status": false,
             "img": []
