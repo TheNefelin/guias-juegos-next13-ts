@@ -17,16 +17,28 @@
         "url": "https://www.ign.com/wikis/chrono-cross/Window_Frames/"
       },
       {
-        "name": "Tecnicas",
-        "url": "https://guiltybit.com/como-conseguir-las-tecnicas-definitivas-de-todos-los-personajes-en-chrono-cross/"
-      },
-      {
         "name": "Finales",
         "url": "https://game8.co/games/Chrono-Cross-Radical-Dreamers-Edition/archives/375630/"
       },
       {
         "name": "Items",
         "url": "https://game8.co/games/Chrono-Cross-Radical-Dreamers-Edition/archives/371977"
+      },
+      {
+        "name": "Dragones",
+        "url": "https://chrono.fandom.com/wiki/Chronopedia"
+      },
+      {
+        "name": "Tecnicas",
+        "url": "https://guiltybit.com/como-conseguir-las-tecnicas-definitivas-de-todos-los-personajes-en-chrono-cross/"
+      },
+      {
+        "name": "Criosphinx",
+        "url": "https://chrono.fandom.com/wiki/Criosphinx"
+      },
+      {
+        "name": "Bend of Time",
+        "url": "https://chrono.fandom.com/wiki/Bend_of_Time"
       }
     ],
     "characters": [
@@ -359,7 +371,7 @@
             "important": true,
             "status": false,
             "img": [
-              "/ChronoCross/adventure/arni_village_01.jpg"
+              "/ChronoCross/adventure/final_01.jpg"
             ]
           }
         ]
@@ -396,32 +408,43 @@
             "important": false,
             "status": false,
             "img": [
-              "/ChronoCross/adventure/arni_village_02.jpg",
+              "/ChronoCross/adventure/adv_03_01.jpg",
               "/ChronoCross/frames/shellfish.jpg"
             ]
           },
           {
             "id": 5,
-            "text": "✓ Coge el Shark Tooth Amulet de uno de los tipos de las casas de la derecha (Item 1/57)",
+            "text": "✓ Consogue la Komodo Scale (Item 1/57) dandole la razon al vendedor, regalasela al muchacho",
             "important": false,
             "status": false,
             "img": [
-              "/ChronoCross/adventure/arni_village_03.jpg",
-              "/ChronoCross/items/shark_tooth.jpg"
+              "/ChronoCross/adventure/adv_03_02.jpg",
+              "/ChronoCross/adventure/adv_03_03.jpg",
+              "/ChronoCross/items/komodo_scale.jpg"
             ]
           },
           {
             "id": 6,
-            "text": "✓ Consigue un Hueso Heckran de debajo de la cama del bar (Item 2/57)",
+            "text": "✓ Coge el Shark Tooth Amulet de uno de los tipos de las casas de la derecha (Item 1/57)",
             "important": false,
             "status": false,
             "img": [
-              "/ChronoCross/adventure/arni_village_04.jpg",
-              "/ChronoCross/items/heckran.jpg"
+              "/ChronoCross/adventure/adv_03_05.jpg",
+              "/ChronoCross/items/shark_tooth.jpg"
             ]
           },
           {
             "id": 7,
+            "text": "✓ Consigue un Hueso Heckran de debajo de la cama del bar (Item 2/57)",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_03_06.jpg",
+              "/ChronoCross/items/heckran.jpg"
+            ]
+          },
+          {
+            "id": 8,
             "text": "✓ 'NO' reclutes a Poshul aún",
             "important": false,
             "status": false,
@@ -440,7 +463,7 @@
             "important": false,
             "status": false,
             "img": [
-              "/ChronoCross/adventure/lizard_rock_01.jpg"
+              "/ChronoCross/adventure/adv_04_01.jpg"
             ]
           },
           {
@@ -449,7 +472,7 @@
             "important": false,
             "status": false,
             "img": [
-              "/ChronoCross/adventure/lizard_rock_02.jpg"
+              "/ChronoCross/adventure/adv_04_02.jpg"
             ]
           },
           {
@@ -458,7 +481,7 @@
             "important": false,
             "status": false,
             "img": [
-              "/ChronoCross/adventure/lizard_rock_03.jpg"
+              "/ChronoCross/adventure/adv_04_03.jpg"
             ]
           },
           {
@@ -488,8 +511,8 @@
             "important": false,
             "status": false,
             "img": [
-              "/ChronoCross/adventure/another_world_01.jpg",
-              "/ChronoCross/adventure/another_world_02.jpg"
+              "/ChronoCross/adventure/adv_05_01.jpg",
+              "/ChronoCross/adventure/adv_05_02.jpg"
             ]
           },
           {
@@ -540,7 +563,7 @@
             "important": false,
             "status": false,
             "img": [
-              "/ChronoCross/adventure/hydra_swamp_01.jpg",
+              "/ChronoCross/adventure/adv_06_01.jpg",
               "/ChronoCross/items/safety_gear.jpg"
             ]
           },

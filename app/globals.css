@@ -13,6 +13,10 @@ body {
     "side main";
 }
 
+body::-webkit-scrollbar{
+  display: none;
+}
+
 .header {
   grid-area: header;
 }
