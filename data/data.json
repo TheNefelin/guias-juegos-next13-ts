@@ -627,7 +627,7 @@
           },
           {
             "id": 6,
-            "text": "✓ Opción 2: Consigue a Nikki (Personaje 7/45), habla con Miki en el barco de Magical Dreamers. Ve al Bosque Shadow, consigue la Aroma Bag (Item 7/57) y úsalo para mover a los monstruitos hacia el monstruo-planta gigante, en la cueva de la cascada puedes encontrar el Skullduggery (Marco /15), avanza por el camino que bloqueaba el mounstruo, mueve la roca para detener a los insectos, avanza hasta salir por el pozo",
+            "text": "✓ Opción 2: Consigue a Nikki (Personaje 7/45), habla con Miki en el barco de Magical Dreamers. Ve al Bosque Shadow, consigue la Aroma Bag (Item 7/57) y úsalo para mover a los monstruitos hacia el monstruo-planta gigante, en la cueva de la cascada puedes encontrar el Skullduggery (Marco 6/15), avanza por el camino que bloqueaba el mounstruo, mueve la roca para detener a los insectos, avanza hasta salir por el pozo",
             "important": true,
             "status": false,
             "img": [
@@ -753,7 +753,7 @@
           },
           {
             "id": 9,
-            "text": "✓ Obten el marco Porre's Furnace (Marco 6/15)",
+            "text": "✓ Obten el marco Porre's Furnace (Marco 7/15)",
             "important": false,
             "status": false,
             "img": [
@@ -832,7 +832,7 @@
           },
           {
             "id": 3,
-            "text": "✓ Opcion 1: No salvar a Kid: Habla con Macha y todo el mundo en Guldove, toma el barco de Kocha hacia Termina, en la entrada verás a Glenn. Vuelve al barco, conseguirás a Glenn (Personaje 9/45) y Macha (Personaje 10/45), Macha te dara el Tropical Paradise (Marco 10/15), ve al mar nublado al este de El Nido y haz el capítulo Piratas Fantasmas luego vuelve a Guldove para ver al Doc y Kid. Se te unira el Doc (Personaje 11/45)",
+            "text": "✓ Opcion 1: No salvar a Kid: Habla con Macha y todo el mundo en Guldove, toma el barco de Kocha hacia Termina, en la entrada verás a Glenn. Vuelve al barco, conseguirás a Glenn (Personaje 9/45) y Macha (Personaje 10/45), Macha te dara el Tropical Paradise (Marco 8/15), ve al mar nublado al este de El Nido y haz el capítulo Piratas Fantasmas luego vuelve a Guldove para ver al Doc y Kid. Se te unira el Doc (Personaje 11/45)",
             "important": true,
             "status": false,
             "img": [
@@ -841,7 +841,7 @@
           },
           {
             "id": 4,
-            "text": "✓ Opcion 2: Salvar a Kid: Se te une Korcha (Personaje 12/45), Toma el barco hacia Termina, consigue a Greco (Personaje 13/45) en la casa del cementerio en Termina, Ve a la Playa Opassa, usa el Astral Amulet (Item /57) de Kid en el agujero para volver a Home World, Ve al Hydra Marsh, lucha con Beeba, coge la flauta (Item /57) y úsala al norte de todo, Lucha contra el Wingapede, luego con el pulpo y consigue a Razzly el hada (Personaje 14/45), sigue luego por la parte este, lucha contra la Hydra, obtendras la medicina ahora vuelve a Guldove, asegúrate de cazar a Mel (Personaje 15/45) si la quieres conseguir más tarde y ella te da el Guldovian Stitch (Marco 8/15), finalmente conseguiras a Kid. Capítulo Piratas Fantasmas",
+            "text": "✓ Opcion 2: Salvar a Kid: Se te une Korcha (Personaje 12/45), Toma el barco hacia Termina, consigue a Greco (Personaje 13/45) en la casa del cementerio en Termina, Ve a la Playa Opassa, usa el Astral Amulet (Item /57) de Kid en el agujero para volver a Home World, Ve al Hydra Marsh, lucha con Beeba, coge la flauta (Item /57) y úsala al norte de todo, Lucha contra el Wingapede, luego con el pulpo y consigue a Razzly el hada (Personaje 14/45), sigue luego por la parte este, lucha contra la Hydra, obtendras la medicina ahora vuelve a Guldove, asegúrate de cazar a Mel (Personaje 15/45) si la quieres conseguir más tarde y ella te da el Guldovian Stitch (Marco 9/15), finalmente conseguiras a Kid. Capítulo Piratas Fantasmas",
             "important": true,
             "status": false,
             "img": [
@@ -1094,7 +1094,7 @@
           },
           {
             "id": 3,
-            "text": "✓ Cruza el Fossil Valley y consigue el Infrared Vision (Marco /15)",
+            "text": "✓ Cruza el Fossil Valley y consigue el Infrared Vision (Marco 10/15)",
             "important": false,
             "status": false,
             "img": [
@@ -1177,7 +1177,7 @@
           },
           {
             "id": 2,
-            "text": "✓ Obten Our Favorite Martian (Marco /15) ",
+            "text": "✓ Obten Our Favorite Martian (Marco 11/15) ",
             "important": false,
             "status": false,
             "img": [
@@ -1200,7 +1200,7 @@
           },
           {
             "id": 2,
-            "text": "✓ Habla con Toma y el otro tipo, y obten el Valencian Cloth (Marco /15)",
+            "text": "✓ Habla con Toma y el otro tipo, y obten el Valencian Cloth (Marco 12/15)",
             "important": false,
             "status": false,
             "img": [
@@ -1244,7 +1244,7 @@
           },
           {
             "id": 4,
-            "text": "✓ Mientras seas gato puedes obtener el Monster's Mouth (Marco /15)",
+            "text": "✓ Mientras seas gato puedes obtener el Monster's Mouth (Marco 13/15)",
             "important": false,
             "status": false,
             "img": []
@@ -1748,7 +1748,7 @@
           },
           {
             "id": 5,
-            "text": "✓ vence a todos todos los bichos y pájaros gigantes, aqui consigues el Snakes & Orbs (Marco /15)",
+            "text": "✓ vence a todos todos los bichos y pájaros gigantes, aqui consigues el Snakes & Orbs (Marco 14/15)",
             "important": false,
             "status": false,
             "img": []
@@ -1785,7 +1785,7 @@
           },
           {
             "id": 3,
-            "text": "✓ Ve a Marbule (AW), el dragón estará en la cueva, habla con el NPC y te dara el Quill and Papyrus (Marco /15)",
+            "text": "✓ Ve a Marbule (AW), el dragón estará en la cueva, habla con el NPC y te dara el Quill and Papyrus (Marco 15/15)",
             "important": false,
             "status": false,
             "img": [
