@@ -37,7 +37,7 @@
       {
         "id": 2,
         "name": "Mojo",
-        "text": "Se obtiene con Shark Tooth Amulet",
+        "text": "Se obtiene con el Shark Tooth Amulet",
         "img": "/ChronoCross/characters/mojo.png"
       },
       {
@@ -49,7 +49,7 @@
       {
         "id": 4,
         "name": "Poshul",
-        "text": "Se obtiene rechazando a Kid 3 veces o en Arni Village",
+        "text": "Se obtiene rechazando a Kid 3 veces o en Arni Village dandole el hueso",
         "img": "/ChronoCross/characters/poshul.png"
       },
       {
@@ -89,211 +89,211 @@
         "img": "/ChronoCross/characters/macha.png"
       },
       {
-        "id": 1029,
+        "id": 11,
         "name": "Doc",
         "text": "Se obtiene en Termina al decidir No salvar a Kid",
         "img": "/ChronoCross/characters/doc.png"
       },
       {
-        "id": 11,
+        "id": 12,
         "name": "Korcha",
         "text": "Se obtiene en Termina al decidir salvar a Kid",
         "img": "/ChronoCross/characters/korcha.png"
       },
       {
-        "id": 12,
+        "id": 13,
         "name": "Greco",
         "text": "Se obtiene en Termina al decidir salvar a Kid",
         "img": "/ChronoCross/characters/greco.png"
       },
       {
-        "id": 13,
+        "id": 14,
         "name": "Razzly",
         "text": "Se obtiene en Hydra Marsh al decidir salvar a Kid",
         "img": "/ChronoCross/characters/razzly.png"
       },
       {
-        "id": 14,
+        "id": 15,
         "name": "Mel",
         "text": "Se obtiene en Guldove, despue se capturarla y salir de la isla",
         "img": "/ChronoCross/characters/mel.png"
       },
       {
-        "id": 15,
+        "id": 16,
         "name": "Pip",
         "text": "Se obtiene en el barco fantasma",
         "img": "/ChronoCross/characters/pip.png"
       },
       {
-        "id": 16,
+        "id": 17,
         "name": "Luccia",
         "text": "Se obtiene en Viper Manor al ir nuevamente",
         "img": "/ChronoCross/characters/luccia.png"
       },
       {
-        "id": 17,
+        "id": 18,
         "name": "Lynx",
         "text": "Se obtiene despues del evento en Fort Dragonia",
         "img": "/ChronoCross/characters/lynx.png"
       },
       {
-        "id": 18,
+        "id": 19,
         "name": "Sprigg",
         "text": "Se obtiene en el Mundo Abstracto",
         "img": "/ChronoCross/characters/sprigg.png"
       },
       {
-        "id": 19,
+        "id": 20,
         "name": "Harle",
         "text": "Se obtiene en el Mundo Abstracto",
         "img": "/ChronoCross/characters/harle.png"
       },
       {
-        "id": 20,
+        "id": 21,
         "name": "Radius",
         "text": "Se obtiene al vencerlo en Arni Village",
         "img": "/ChronoCross/characters/radius.png"
       },
       {
-        "id": 21,
+        "id": 22,
         "name": "Zappa",
         "text": "Se obtiene en Termina con Lynx",
         "img": "/ChronoCross/characters/zappa.png"
       },
       {
-        "id": 22,
+        "id": 23,
         "name": "Van",
         "text": "Se obtiene en Termina con Lynx",
         "img": "/ChronoCross/characters/van.png"
       },
       {
-        "id": 23,
+        "id": 24,
         "name": "Norris",
         "text": "Se obtiene en Viper Manor si Radius esta en tu equipo",
         "img": "/ChronoCross/characters/norris.png"
       },
       {
-        "id": 24,
+        "id": 25,
         "name": "Starky",
         "text": "Se obtiene venciendolo en la isla de Sky Dragon",
         "img": "/ChronoCross/characters/starky.png"
       },
       {
-        "id": 25,
+        "id": 26,
         "name": "Janice",
-        "text": "Se obtiene en el Zelbess al ganar en el coliseo",
+        "text": "Se obtiene en el Zelbess al ganar el SLAM de combate",
         "img": "/ChronoCross/characters/janice.png"
       },
       {
-        "id": 26,
+        "id": 27,
         "name": "Sneff",
         "text": "Se obtiene en Zelbess despues de derrotar al sabio",
         "img": "/ChronoCross/characters/sneff.png"
       },
       {
-        "id": 27,
+        "id": 28,
         "name": "Irenes",
         "text": "Se obtiene en Zelbess despues de derrotar al sabio",
         "img": "/ChronoCross/characters/irenes.png"
       },
       {
-        "id": 28,
+        "id": 29,
         "name": "Miki",
         "text": "Se obtiene en Zelbess despues de derrotar al sabio",
         "img": "/ChronoCross/characters/miki.png"
       },
       {
-        "id": 1030,
-        "name": "Orcha",
-        "text": "Se obtiene en Viper Manor despues de rescatar a Riddel",
-        "img": "/ChronoCross/characters/orcha.png"
-      },
-      {
-        "id": 29,
+        "id": 30,
         "name": "Zoah",
         "text": "Se obtiene en el bar de Termina, habitacion oculta",
         "img": "/ChronoCross/characters/zoah.png"
       },
       {
-        "id": 30,
+        "id": 31,
         "name": "Karsh",
         "text": "Se obtiene en el bar de Termina, habitacion oculta",
         "img": "/ChronoCross/characters/karsh.png"
       },
       {
-        "id": 31,
+        "id": 32,
+        "name": "Orcha",
+        "text": "Se obtiene en Viper Manor despues de rescatar a Riddel",
+        "img": "/ChronoCross/characters/orcha.png"
+      },
+      {
+        "id": 33,
         "name": "Grobyc",
         "text": "Se obtiene en Viper Manor despues del combate con el Mecha",
         "img": "/ChronoCross/characters/grobyc.png"
       },
       {
-        "id": 32,
+        "id": 34,
         "name": "Skelly",
         "text": "Se obtiene al conseguir todos sus huesos, son 6 en total",
         "img": "/ChronoCross/characters/skelly.png"
       },
       {
-        "id": 1013,
+        "id": 35,
         "name": "Riddel",
         "text": "Se obtiene al rescatarla del ejercito en Viper Manor",
         "img": "/ChronoCross/characters/riddel.png"
       },
       {
-        "id": 1010,
+        "id": 36,
         "name": "Viper",
         "text": "Se obtiene despues de rescatar a Riddel en Viper Manor",
         "img": "/ChronoCross/characters/viper.png"
       },
       {
-        "id": 1001,
+        "id": 37,
         "name": "Fargo",
         "text": "Se obtiene despues de rescatar a Riddel en Viper Manor",
         "img": "/ChronoCross/characters/fargo.png"
       },
       {
-        "id": 1012,
+        "id": 38,
         "name": "Marcy",
         "text": "Se obtiene despues de rescatar a Riddel en Viper Manor",
         "img": "/ChronoCross/characters/marcy.png"
       },
       {
-        "id": 1026,
+        "id": 39,
         "name": "Turnip",
         "text": "Se obtiene en Hermit's Hideaway (AW) (HW) utilizando Ice Gun o Ice Breath con Poshul en tu equipo",
         "img": "/ChronoCross/characters/turnip.png"
       },
       {
-        "id": 1016,
-        "name": "Neofio",
-        "text": "Se obtiene en la pileta de Viper Manor con la Life Sparkle",
-        "img": "/ChronoCross/characters/neofio.png"
-      },
-      {
-        "id": 33,
-        "name": "Leah",
-        "text": "Se obtiene al llegar a la isla de Gaea's Navel",
-        "img": "/ChronoCross/characters/leah.png"
-      },
-      {
-        "id": 34,
-        "name": "Steena",
-        "text": "Se obtiene en Guldove al mostrarle el Dragon Emblem",
-        "img": "/ChronoCross/characters/steena.png"
-      },
-      {
-        "id": 35,
-        "name": "Draggy",
-        "text": "Se obtiene al poner el huevo gigante en Fort Dragonia",
-        "img": "/ChronoCross/characters/draggy.png"
-      },
-      {
-        "id": 36,
+        "id": 40,
         "name": "Funguy",
         "text": "Se obtiene en Shadow Forest al darle el Mushroom al hombre de la cueva en la cascada",
         "img": "/ChronoCross/characters/funguy.png"
       },
       {
-        "id": 37,
+        "id": 41,
+        "name": "Neofio",
+        "text": "Se obtiene en la pileta de Viper Manor con la Life Sparkle",
+        "img": "/ChronoCross/characters/neofio.png"
+      },
+      {
+        "id": 42,
+        "name": "Leah",
+        "text": "Se obtiene al llegar a la isla de Gaea's Navel",
+        "img": "/ChronoCross/characters/leah.png"
+      },
+      {
+        "id": 43,
+        "name": "Steena",
+        "text": "Se obtiene en Guldove al mostrarle el Dragon Emblem",
+        "img": "/ChronoCross/characters/steena.png"
+      },
+      {
+        "id": 44,
+        "name": "Draggy",
+        "text": "Se obtiene al poner el huevo gigante en Fort Dragonia",
+        "img": "/ChronoCross/characters/draggy.png"
+      },
+      {
+        "id": 45,
         "name": "Orlha",
         "text": "Se obtiene en Guldove devolviendole el Sapphire Brooch como Serge",
         "img": "/ChronoCross/characters/orlha.png"
@@ -335,7 +335,7 @@
           },
           {
             "id": 4,
-            "text": "✓ Inicias el juego con estos marcos (Marco 3/15)",
+            "text": "✓ Inicias el juego con estos marcos (Marco 1/15) (Marco 2/15) (Marco 3/15)",
             "important": false,
             "status": false,
             "img": [
@@ -369,7 +369,7 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Despiertas con Serge (Personaje 1/46)",
+            "text": "✓ Despiertas con Serge (Personaje 1/45)",
             "important": false,
             "status": false,
             "img": []
@@ -482,7 +482,7 @@
           },
           {
             "id": 2,
-            "text": "✓ Ve donde conseguiste el Shark Tooth Amulet para coger a Mojo (Personaje 2/46)",
+            "text": "✓ Ve donde conseguiste el Shark Tooth Amulet y obtendras a Mojo (Personaje 2/45)",
             "important": false,
             "status": false,
             "img": [
@@ -506,14 +506,14 @@
           },
           {
             "id": 5,
-            "text": "✓ Nombra a Kid pero NO la reclutes aún (rechaza 3 veces)",
+            "text": "✓ Nombra a Kid pero NO la reclutes aún (rechazala 3 veces)",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 6,
-            "text": "✓ Leena y Poshul se te unirán ahora (es la única manera de conseguir a Leena) (Personaje 4/46)",
+            "text": "✓ Leena (Personaje 3/45) y (Personaje 4/45) Poshul se te unirán ahora, (es la única manera de conseguir a Leena)",
             "important": false,
             "status": false,
             "img": []
@@ -567,7 +567,7 @@
           },
           {
             "id": 2,
-            "text": "✓ Obten las Bellflowers y el huevo gigante (cerca del pájaro) (Item 6/57)",
+            "text": "✓ Obten las Bellflowers (Item /57) y el huevo  gigante (Item /57) cerca del pájaro",
             "important": false,
             "status": false,
             "img": []
@@ -588,7 +588,7 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Ve a la estatua en lo más alto del pueblo, y consigue a Kid (Personaje 5/46) y obtendras el Tele Porter (Item /57)",
+            "text": "✓ Ve a la estatua en lo más alto del pueblo, y consigue a Kid (Personaje 5/45) y obtendras el Tele Porter (Item /57)",
             "important": false,
             "status": false,
             "img": [
@@ -620,14 +620,14 @@
           },
           {
             "id": 5,
-            "text": "✓ Opción 1: Consigue a Guile (Personaje 6/46), Habla con él en el bar. Ve al puerto de Termina, encuentra el barco de Korcha y sube por el rompeolas",
+            "text": "✓ Opción 1: Consigue a Guile (Personaje 6/45), Habla con él en el bar. Ve al puerto de Termina, encuentra el barco de Korcha y sube por el rompeolas",
             "important": true,
             "status": false,
             "img": []
           },
           {
             "id": 6,
-            "text": "✓ Opción 2: Consigue a Nikki (Personaje 7/46), habla con Miki en el barco de Magical Dreamers. Ve al Bosque Shadow, consigue la Aroma Bag (Item 7/57) y úsalo para mover a los monstruitos hacia el monstruo-planta gigante, en la cueva de la cascada puedes encontrar el Skullduggery (Marco /15), avanza por el camino que bloqueaba el mounstruo, mueve la roca para detener a los insectos,avanza hasta salir por el pozo",
+            "text": "✓ Opción 2: Consigue a Nikki (Personaje 7/45), habla con Miki en el barco de Magical Dreamers. Ve al Bosque Shadow, consigue la Aroma Bag (Item 7/57) y úsalo para mover a los monstruitos hacia el monstruo-planta gigante, en la cueva de la cascada puedes encontrar el Skullduggery (Marco /15), avanza por el camino que bloqueaba el mounstruo, mueve la roca para detener a los insectos, avanza hasta salir por el pozo",
             "important": true,
             "status": false,
             "img": [
@@ -637,7 +637,7 @@
           },
           {
             "id": 7,
-            "text": "✓ Opción 3: Consigue a Pierre (Personaje 8/46), en la Herrería, primero debes conseguir el Hero's Medal (Item 8/57) del del niño que juega afuera, Ve a la puerta principal de Viper Manor",
+            "text": "✓ Opción 3: Consigue a Pierre (Personaje 8/45), en la Herrería, primero debes conseguir el Hero's Medal (Item 8/57) del del niño que juega afuera, Ve a la puerta principal de Viper Manor",
             "important": true,
             "status": false,
             "img": []
@@ -804,7 +804,7 @@
           },
           {
             "id": 3,
-            "text": "✓ Opcion 2: Salvar a Kid con la cura encontrada en Hydra Marsh. Crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+ (NO con el NG+), Vencer al 'Time Devourer' inmediatamente despues de que Kid se haya curado",
+            "text": "✓ Opcion 2: Salvar a Kid. Crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+ (NO con el NG+), Vencer al 'Time Devourer' inmediatamente despues de encontrar la cura en Hydra Marsh y Kid se haya recuperado",
             "important": true,
             "status": false,
             "img": []
@@ -832,7 +832,7 @@
           },
           {
             "id": 3,
-            "text": "✓ Opcion 1: No salvar a Kid: Habla con Macha y todo el mundo en Guldove, toma el barco de Kocha hacia Termina, en la entrada verás a Glenn. Vuelve al barco, conseguirás a Glenn (Personaje 8/46) y Macha (Personaje  9/46), Macha te dara el Tropical Paradise (Marco 10/15), ve al mar nublado al este de El Nido y haz el capítulo Piratas Fantasmas luego vuelve a Guldove para ver al Doc y Kid. Se te unira el Doc (Personaje /46)",
+            "text": "✓ Opcion 1: No salvar a Kid: Habla con Macha y todo el mundo en Guldove, toma el barco de Kocha hacia Termina, en la entrada verás a Glenn. Vuelve al barco, conseguirás a Glenn (Personaje 9/45) y Macha (Personaje 10/45), Macha te dara el Tropical Paradise (Marco 10/15), ve al mar nublado al este de El Nido y haz el capítulo Piratas Fantasmas luego vuelve a Guldove para ver al Doc y Kid. Se te unira el Doc (Personaje 11/45)",
             "important": true,
             "status": false,
             "img": [
@@ -841,7 +841,7 @@
           },
           {
             "id": 4,
-            "text": "✓ Opcion 2: Salvar a Kid: Se te une Korcha (Personaje /46), Toma el barco hacia Termina, pero consigue a Greco (Personaje 11/46) en la casa del cementerio en Termina, Ve a la Playa Opassa, usa el Astral Amulet (Item /57) de Kid en el agujero para volver a Home World, Ve al Hydra Marsh, lucha con Beeba, coge la flauta (Item /57) y úsala al norte de todo, Lucha contra el Wingapede, luego con el pulpo y consigue a Razzly el hada (Personaje 12/46), sigue luego por la parte este, lucha contra la Hydra, obtendras la medicina ahora vuelve a Guldove, asegúrate de cazar a Mel (Personaje 13/46) si la quieres conseguir más tarde y ella te da el Guldovian Stitch (Marco 8/15), finalmente conseguiras a Kid. Capítulo Piratas Fantasmas",
+            "text": "✓ Opcion 2: Salvar a Kid: Se te une Korcha (Personaje 12/45), Toma el barco hacia Termina, consigue a Greco (Personaje 13/45) en la casa del cementerio en Termina, Ve a la Playa Opassa, usa el Astral Amulet (Item /57) de Kid en el agujero para volver a Home World, Ve al Hydra Marsh, lucha con Beeba, coge la flauta (Item /57) y úsala al norte de todo, Lucha contra el Wingapede, luego con el pulpo y consigue a Razzly el hada (Personaje 14/45), sigue luego por la parte este, lucha contra la Hydra, obtendras la medicina ahora vuelve a Guldove, asegúrate de cazar a Mel (Personaje 15/45) si la quieres conseguir más tarde y ella te da el Guldovian Stitch (Marco 8/15), finalmente conseguiras a Kid. Capítulo Piratas Fantasmas",
             "important": true,
             "status": false,
             "img": [
@@ -880,7 +880,7 @@
           },
           {
             "id": 4,
-            "text": "✓ Durante el recorrido encontraras a la criatura que liberaste, si la capturas reclutaras a Pip (Personaje /46)",
+            "text": "✓ Durante el recorrido encontraras a la criatura que liberaste, si la capturas reclutaras a Pip (Personaje 16/45)",
             "important": false,
             "status": false,
             "img": []
@@ -915,7 +915,7 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Consigue a Luccia en Viper Manor (Personaje /46)",
+            "text": "✓ Consigue a Luccia (Personaje 17/45) en Viper Manor",
             "important": false,
             "status": false,
             "img": []
@@ -1031,14 +1031,14 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Toma una manzana del árbol y Sprigg vendrá",
+            "text": "✓ Hola Lynx (Personaje 18/45), toma una manzana del árbol y Sprigg vendrá",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 2,
-            "text": "✓ Entra en su casa y lo podras reclutar a Sprigg (Personaje /46)",
+            "text": "✓ Entra en su casa y lo podras reclutar a Sprigg (Personaje 19/45)",
             "important": false,
             "status": false,
             "img": []
@@ -1052,7 +1052,7 @@
           },
           {
             "id": 4,
-            "text": "✓ Harle (Personaje /46) se te une, avanza y aparecerás en Hydra Marsh",
+            "text": "✓ Harle (Personaje 20/45) se te une, avanza y aparecerás en Hydra Marsh",
             "important": false,
             "status": false,
             "img": []
@@ -1066,7 +1066,7 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+. Vencer al 'Time Devourer' con Lynx (Personaje /46)",
+            "text": "✓ Crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+. Vencer al 'Time Devourer' con Lynx",
             "important": true,
             "status": false,
             "img": []
@@ -1087,7 +1087,7 @@
           },
           {
             "id": 2,
-            "text": "✓ Ve a Arni Village, habla con Marge y lucha contra Radius para reclutarlo (Personaje /46)",
+            "text": "✓ Ve a Arni Village, habla con Marge y lucha contra Radius (Personaje 21/45) para reclutarlo",
             "important": false,
             "status": false,
             "img": []
@@ -1103,7 +1103,7 @@
           },
           {
             "id": 4,
-            "text": "✓ Ve Termina para reclutara Zappa (Personaje /46) este te data el Smith Spirit (Item /57) y a Van (Personaje /46)",
+            "text": "✓ Ve Termina para reclutara Zappa (Personaje 22/45) este te data el Smith Spirit (Item /57) y a Van (Personaje 23/45)",
             "important": false,
             "status": false,
             "img": [
@@ -1133,7 +1133,7 @@
           },
           {
             "id": 3,
-            "text": "✓ Ve por las mazmorras. Habla con Norris (Personaje /46), se te unirá si Radius está contigo",
+            "text": "✓ Ve por las mazmorras. Habla con Norris (Personaje 24/45), se te unirá si Radius está contigo",
             "important": false,
             "status": false,
             "img": []
@@ -1170,7 +1170,7 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Intenta abrir el cofre. Lucha contra Starky (Personaje /46) y véncelo para reclutarlo",
+            "text": "✓ Intenta abrir el cofre. Lucha contra Starky (Personaje 25/45) y véncelo para reclutarlo",
             "important": false,
             "status": false,
             "img": []
@@ -1267,7 +1267,7 @@
           },
           {
             "id": 7,
-            "text": "✓ Si ganas los 3 combates del coliseo podras reclutar a Janice (Personaje /46)",
+            "text": "✓ Si ganas los 3 combates del SLAM podras reclutar a Janice (Personaje 26/45)",
             "important": false,
             "status": false,
             "img": []
@@ -1283,14 +1283,14 @@
           },
           {
             "id": 8,
-            "text": "✓ Ve al casino donde esta la ruleta, luego ve a la segunda habitacion bajando las escaleras y reclutaras a Sneff (Personaje /46)",
+            "text": "✓ Ve al casino donde esta la ruleta, luego ve a la segunda habitacion bajando las escaleras y reclutaras a Sneff (Personaje 27/45)",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 9,
-            "text": "✓ Sube a la cubierta y luego por el mástil, aqui se unira Irenes (Personaje /46) y Miki (Personaje /46) en los barcos",
+            "text": "✓ Sube a la cubierta y luego por el mástil, aqui se unira Irenes (Personaje 28/45) y Miki (Personaje 29/45) en los barcos",
             "important": false,
             "status": false,
             "img": []
@@ -1385,7 +1385,7 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Ve al bar de Termina, hay una habitacion secreta, aqui podras reclutar a Zoah o Karsh, siquieres obtener a los 2 deberas terminar el juego e iniciar (NG+)",
+            "text": "✓ Ve al bar de Termina, hay una habitacion secreta, aqui podras reclutar a Zoah (Personaje 30/45) o Karsh (Personaje 31/45), siquieres obtener a los 2 deberas terminar el juego e iniciar (NG+)",
             "important": false,
             "status": false,
             "img": []
@@ -1441,7 +1441,7 @@
           },
           {
             "id": 9,
-            "text": "✓ Lucharás contra Dark Orcha para rescatar a Riddel, luego se te unira Orcha (Personaje /46)",
+            "text": "✓ Lucharás contra Dark Orcha para rescatar a Riddel, luego se te unira Orcha (Personaje 32/45)",
             "important": false,
             "status": false,
             "img": []
@@ -1462,7 +1462,7 @@
           },
           {
             "id": 12,
-            "text": "✓ Grobyc se unirá a tu grupo",
+            "text": "✓ Grobyc (Personaje 33/45) se unirá a tu grupo",
             "important": false,
             "status": false,
             "img": []
@@ -1534,7 +1534,7 @@
           },
           {
             "id": 3,
-            "text": "✓ Ve a la casa de la derecha de la estatua de Viper, y se te unirá Skelly (Personaje /46)",
+            "text": "✓ Ve a la casa de la derecha de la estatua de Viper, y se te unirá Skelly (Personaje 34/45)",
             "important": false,
             "status": false,
             "img": []
@@ -1555,14 +1555,14 @@
           },
           {
             "id": 2,
-            "text": "✓ Habla con Riddel (Personaje /46) y se te unira",
+            "text": "✓ Habla con Riddel (Personaje 35/45) y se te unira",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 3,
-            "text": "✓ Se te uniran Viper (Personaje /46), Fargo (Personaje /46) y Mercy (Personaje /46)",
+            "text": "✓ Se te uniran Viper (Personaje 36/45), Fargo (Personaje 37/45) y Mercy (Personaje 38/45)",
             "important": false,
             "status": false,
             "img": []
@@ -1646,14 +1646,14 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Si quieres reclutar a Turnip (Personaje /46) debes usa el Ice Berta o la Ice Gun en el suelo en Hermit's Hideaway (AW), si ya lo hiciste ve a Hermit's Hideaway (HW) con Poshul en tu equipo",
+            "text": "✓ Si quieres reclutar a Turnip (Personaje 39/45) debes usa el Ice Berta o la Ice Gun en el suelo en Hermit's Hideaway (AW), si ya lo hiciste ve a Hermit's Hideaway (HW) con Poshul en tu equipo",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 2,
-            "text": "✓ Funguy Shadow Forest",
+            "text": "✓ Funguy (Personaje 40/45) Shadow Forest",
             "important": false,
             "status": false,
             "img": []
@@ -1727,7 +1727,7 @@
           },
           {
             "id": 2,
-            "text": "✓ Ve a la pileta de Viper Manor con el Life Sparkle y obtendras a Neofio (Personaje /46)",
+            "text": "✓ Ve a la pileta de Viper Manor con el Life Sparkle y obtendras a Neofio (Personaje 41/45)",
             "important": false,
             "status": false,
             "img": []
@@ -1741,7 +1741,7 @@
           },
           {
             "id": 4,
-            "text": "✓ El bicho Hydra te llevará a Gaea's Navel, aqui reclutas a Leah (Personaje /46)",
+            "text": "✓ El bicho Hydra te llevará a Gaea's Navel, aqui reclutas a Leah (Personaje 42/45)",
             "important": false,
             "status": false,
             "img": []
@@ -1902,7 +1902,7 @@
           },
           {
             "id": 3,
-            "text": "✓ Ahora Steena (Personaje /46) será reclutada, Lleva a Steena a Fort Dragonia",
+            "text": "✓ Ahora Steena (Personaje 43/45) será reclutada, Lleva a Steena a Fort Dragonia",
             "important": false,
             "status": false,
             "img": []
@@ -1937,7 +1937,7 @@
           },
           {
             "id": 4,
-            "text": "✓ Baja, pon el huevo gigante en el centro y y obtendras a Draggy (Personaje /46)",
+            "text": "✓ Baja, pon el huevo gigante en el centro y y obtendras a Draggy (Personaje 44/45)",
             "important": false,
             "status": false,
             "img": []
@@ -1958,7 +1958,7 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Si quieres reclutar a Orlha (Personaje /46), ve a Guldove (AW) y dale el Sapphire Brooch",
+            "text": "✓ Si quieres reclutar a Orlha (Personaje 45/45), ve a Guldove (AW) y dale el Sapphire Brooch",
             "important": false,
             "status": false,
             "img": []

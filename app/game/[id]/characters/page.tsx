@@ -28,7 +28,7 @@ const Characters = async ({ params }: Params) => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">{character.name}</h2>
+            <h2 className="card-title">{`${character.name} (${character.id})`}</h2>
             <p>{character.text}</p>
           </div>
         </div>
