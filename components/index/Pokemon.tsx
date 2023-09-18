@@ -21,6 +21,7 @@ const Pokemon = () => {
   }
 
   const getPokemon = async () => {
+    setNewPokemon(null)
     const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${randomID(1, 1010)}`, { cache: 'no-cache' })
     const data: Pokemon = await response.json()
     setNewPokemon(data)
