@@ -3,7 +3,7 @@
     "id": 2,
     "name": "Title",
     "imgCover": "img",
-    "imgBackground": "img",
+    "imgBackground": [],
     "text": "text",
     "characters": [],
     "source": [],

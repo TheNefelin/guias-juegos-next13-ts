@@ -3,7 +3,9 @@
     "id": 1,
     "name": "Chrono Cross",
     "imgCover": "/ChronoCross/00-game.jpg",
-    "imgBackground": "/ChronoCross/00-background.jpg",
+    "imgBackground": [
+      "/ChronoCross/00-background.jpg"
+    ],
     "text": "Lejos el mejor RPG en mi opinion personal. Precisamente, este juego, me inspiro hacer esta pagina.",
     "source": [
       {
@@ -2429,7 +2431,9 @@
     "id": 2,
     "name": "Comrades",
     "imgCover": "/Comrades/00-game.png",
-    "imgBackground": "/Comrades/00-background.jpg",
+    "imgBackground": [
+      "/Comrades/00-background.jpg"
+    ],
     "text": "Creo que soy el único que juega a esto, los servidores siempre están vacíos.",
     "characters": [],
     "source": [],
@@ -2439,7 +2443,13 @@
     "id": 3,
     "name": "Darksiders 2",
     "imgCover": "/Darksiders2/00-game.jpg",
-    "imgBackground": "/Darksiders2/00-background.jpg",
+    "imgBackground": [
+      "/Darksiders2/00-background.jpg",
+      "/Darksiders2/mapa_01.jpg",
+      "/Darksiders2/mapa_02.jpg",
+      "/Darksiders2/mapa_03.jpg",
+      "/Darksiders2/mapa_04.jpg"
+    ],
     "text": "Un MANJAR de los dioses",
     "characters": [],
     "source": [],
