@@ -32,271 +32,271 @@
         "id": 1,
         "name": "Serge",
         "text": "Se obtiene al inciar la aventura",
-        "img": "/ChronoCross/characters/serge.jpg"
+        "img": "/ChronoCross/characters/serge.png"
       },
       {
         "id": 2,
         "name": "Mojo",
         "text": "Se obtiene con Shark Tooth Amulet",
-        "img": "/ChronoCross/characters/mojo.jpg"
+        "img": "/ChronoCross/characters/mojo.png"
       },
       {
         "id": 3,
         "name": "Leena",
         "text": "Se obtiene rechazando a Kid 3 veces",
-        "img": "/ChronoCross/characters/leena.jpg"
+        "img": "/ChronoCross/characters/leena.png"
       },
       {
         "id": 4,
         "name": "Poshul",
         "text": "Se obtiene rechazando a Kid 3 veces o en Arni Village",
-        "img": "/ChronoCross/characters/poshul.jpg"
+        "img": "/ChronoCross/characters/poshul.png"
       },
       {
         "id": 5,
         "name": "Kid",
         "text": "Se obtiene en Termina o Cape Howl",
-        "img": "/ChronoCross/characters/kid.jpg"
+        "img": "/ChronoCross/characters/kid.png"
       },
       {
         "id": 6,
         "name": "Guile",
         "text": "Se obtiene en Termina hablando con él en el bar",
-        "img": "/ChronoCross/characters/guile.jpg"
+        "img": "/ChronoCross/characters/guile.png"
       },
       {
         "id": 7,
         "name": "Nikki",
         "text": "Se obtiene en Termina hablando con Miki en el barco de Magical Dreamers",
-        "img": "/ChronoCross/characters/nikki.jpg"
+        "img": "/ChronoCross/characters/nikki.png"
       },
       {
         "id": 8,
         "name": "Pierre",
         "text": "Se obtiene en Termina entregandole el Hero's Medal en la herreria",
-        "img": "/ChronoCross/characters/pierre.jpg"
+        "img": "/ChronoCross/characters/pierre.png"
       },
       {
         "id": 9,
         "name": "Glenn",
         "text": "Se obtiene en Termina al decidir No salvar a Kid",
-        "img": "/ChronoCross/characters/glenn.jpg"
+        "img": "/ChronoCross/characters/glenn.png"
       },
       {
         "id": 10,
         "name": "Macha",
         "text": "Se obtiene en Termina al decidir No salvar a Kid",
-        "img": "/ChronoCross/characters/macha.jpg"
+        "img": "/ChronoCross/characters/macha.png"
       },
       {
         "id": 1029,
         "name": "Doc",
         "text": "Se obtiene en Termina al decidir No salvar a Kid",
-        "img": "/ChronoCross/characters/doc.jpg"
+        "img": "/ChronoCross/characters/doc.png"
       },
       {
         "id": 11,
         "name": "Korcha",
         "text": "Se obtiene en Termina al decidir salvar a Kid",
-        "img": "/ChronoCross/characters/korcha.jpg"
+        "img": "/ChronoCross/characters/korcha.png"
       },
       {
         "id": 12,
         "name": "Greco",
         "text": "Se obtiene en Termina al decidir salvar a Kid",
-        "img": "/ChronoCross/characters/greco.jpg"
+        "img": "/ChronoCross/characters/greco.png"
       },
       {
         "id": 13,
         "name": "Razzly",
         "text": "Se obtiene en Hydra Marsh al decidir salvar a Kid",
-        "img": "/ChronoCross/characters/razzly.jpg"
+        "img": "/ChronoCross/characters/razzly.png"
       },
       {
         "id": 14,
         "name": "Mel",
         "text": "Se obtiene en Guldove, despue se capturarla y salir de la isla",
-        "img": "/ChronoCross/characters/mel.jpg"
+        "img": "/ChronoCross/characters/mel.png"
       },
       {
         "id": 15,
         "name": "Pip",
         "text": "Se obtiene en el barco fantasma",
-        "img": "/ChronoCross/characters/pip.jpg"
+        "img": "/ChronoCross/characters/pip.png"
       },
       {
         "id": 16,
         "name": "Luccia",
         "text": "Se obtiene en Viper Manor al ir nuevamente",
-        "img": "/ChronoCross/characters/luccia.jpg"
+        "img": "/ChronoCross/characters/luccia.png"
       },
       {
         "id": 17,
         "name": "Lynx",
         "text": "Se obtiene despues del evento en Fort Dragonia",
-        "img": "/ChronoCross/characters/lynx.jpg"
+        "img": "/ChronoCross/characters/lynx.png"
       },
       {
         "id": 18,
         "name": "Sprigg",
         "text": "Se obtiene en el Mundo Abstracto",
-        "img": "/ChronoCross/characters/sprigg.jpg"
+        "img": "/ChronoCross/characters/sprigg.png"
       },
       {
         "id": 19,
         "name": "Harle",
         "text": "Se obtiene en el Mundo Abstracto",
-        "img": "/sin-personaje.gif"
+        "img": "/ChronoCross/characters/harle.png"
       },
       {
         "id": 20,
         "name": "Radius",
         "text": "Se obtiene al vencerlo en Arni Village",
-        "img": "/ChronoCross/characters/radius.jpg"
+        "img": "/ChronoCross/characters/radius.png"
       },
       {
         "id": 21,
         "name": "Zappa",
         "text": "Se obtiene en Termina con Lynx",
-        "img": "/ChronoCross/characters/zappa.jpg"
+        "img": "/ChronoCross/characters/zappa.png"
       },
       {
         "id": 22,
         "name": "Van",
         "text": "Se obtiene en Termina con Lynx",
-        "img": "/ChronoCross/characters/van.jpg"
+        "img": "/ChronoCross/characters/van.png"
       },
       {
         "id": 23,
         "name": "Norris",
         "text": "Se obtiene en Viper Manor si Radius esta en tu equipo",
-        "img": "/ChronoCross/characters/norris.jpg"
+        "img": "/ChronoCross/characters/norris.png"
       },
       {
         "id": 24,
         "name": "Starky",
         "text": "Se obtiene venciendolo en la isla de Sky Dragon",
-        "img": "/ChronoCross/characters/starky.jpg"
+        "img": "/ChronoCross/characters/starky.png"
       },
       {
         "id": 25,
         "name": "Janice",
         "text": "Se obtiene en el Zelbess al ganar en el coliseo",
-        "img": "/ChronoCross/characters/janice.jpg"
+        "img": "/ChronoCross/characters/janice.png"
       },
       {
         "id": 26,
         "name": "Sneff",
         "text": "Se obtiene en Zelbess despues de derrotar al sabio",
-        "img": "/ChronoCross/characters/sneff.jpg"
+        "img": "/ChronoCross/characters/sneff.png"
       },
       {
         "id": 27,
         "name": "Irenes",
         "text": "Se obtiene en Zelbess despues de derrotar al sabio",
-        "img": "/ChronoCross/characters/irenes.jpg"
+        "img": "/ChronoCross/characters/irenes.png"
       },
       {
         "id": 28,
         "name": "Miki",
         "text": "Se obtiene en Zelbess despues de derrotar al sabio",
-        "img": "/ChronoCross/characters/miki.jpg"
+        "img": "/ChronoCross/characters/miki.png"
       },
       {
         "id": 1030,
         "name": "Orcha",
         "text": "Se obtiene en Viper Manor despues de rescatar a Riddel",
-        "img": "/ChronoCross/characters/orcha.jpg"
+        "img": "/ChronoCross/characters/orcha.png"
       },
       {
         "id": 29,
         "name": "Zoah",
         "text": "Se obtiene en el bar de Termina, habitacion oculta",
-        "img": "/ChronoCross/characters/zoah.jpg"
+        "img": "/ChronoCross/characters/zoah.png"
       },
       {
         "id": 30,
         "name": "Karsh",
         "text": "Se obtiene en el bar de Termina, habitacion oculta",
-        "img": "/ChronoCross/characters/karsh.jpg"
+        "img": "/ChronoCross/characters/karsh.png"
       },
       {
         "id": 31,
         "name": "Grobyc",
         "text": "Se obtiene en Viper Manor despues del combate con el Mecha",
-        "img": "/ChronoCross/characters/grobyc.jpg"
+        "img": "/ChronoCross/characters/grobyc.png"
       },
       {
         "id": 32,
         "name": "Skelly",
         "text": "Se obtiene al conseguir todos sus huesos, son 6 en total",
-        "img": "/ChronoCross/characters/skelly.jpg"
+        "img": "/ChronoCross/characters/skelly.png"
       },
       {
         "id": 1013,
         "name": "Riddel",
         "text": "Se obtiene al rescatarla del ejercito en Viper Manor",
-        "img": "/ChronoCross/characters/riddel.jpg"
+        "img": "/ChronoCross/characters/riddel.png"
       },
       {
         "id": 1010,
         "name": "Viper",
         "text": "Se obtiene despues de rescatar a Riddel en Viper Manor",
-        "img": "/ChronoCross/characters/viper.jpg"
+        "img": "/ChronoCross/characters/viper.png"
       },
       {
         "id": 1001,
         "name": "Fargo",
         "text": "Se obtiene despues de rescatar a Riddel en Viper Manor",
-        "img": "/ChronoCross/characters/fargo.jpg"
+        "img": "/ChronoCross/characters/fargo.png"
       },
       {
         "id": 1012,
         "name": "Marcy",
         "text": "Se obtiene despues de rescatar a Riddel en Viper Manor",
-        "img": "/ChronoCross/characters/marcy.jpg"
+        "img": "/ChronoCross/characters/marcy.png"
       },
       {
         "id": 1026,
         "name": "Turnip",
         "text": "Se obtiene en Hermit's Hideaway (AW) (HW) utilizando Ice Gun o Ice Breath con Poshul en tu equipo",
-        "img": "/ChronoCross/characters/turnip.jpg"
+        "img": "/ChronoCross/characters/turnip.png"
       },
       {
         "id": 1016,
         "name": "Neofio",
         "text": "Se obtiene en la pileta de Viper Manor con la Life Sparkle",
-        "img": "/ChronoCross/characters/neofio.jpg"
+        "img": "/ChronoCross/characters/neofio.png"
       },
       {
         "id": 33,
         "name": "Leah",
         "text": "Se obtiene al llegar a la isla de Gaea's Navel",
-        "img": "/ChronoCross/characters/leah.jpg"
+        "img": "/ChronoCross/characters/leah.png"
       },
       {
         "id": 34,
         "name": "Steena",
         "text": "Se obtiene en Guldove al mostrarle el Dragon Emblem",
-        "img": "/ChronoCross/characters/steena.jpg"
+        "img": "/ChronoCross/characters/steena.png"
       },
       {
         "id": 35,
         "name": "Draggy",
         "text": "Se obtiene al poner el huevo gigante en Fort Dragonia",
-        "img": "/ChronoCross/characters/draggy.jpg"
+        "img": "/ChronoCross/characters/draggy.png"
       },
       {
         "id": 36,
         "name": "Funguy",
         "text": "Se obtiene en Shadow Forest al darle el Mushroom al hombre de la cueva en la cascada",
-        "img": "/ChronoCross/characters/funguy.jpg"
+        "img": "/ChronoCross/characters/funguy.png"
       },
       {
         "id": 37,
         "name": "Orlha",
         "text": "Se obtiene en Guldove devolviendole el Sapphire Brooch como Serge",
-        "img": "/ChronoCross/characters/orlha.jpg"
+        "img": "/ChronoCross/characters/orlha.png"
       }
     ],
     "guides": [
