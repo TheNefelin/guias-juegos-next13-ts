@@ -348,7 +348,7 @@
       },
       {
         "id": 2,
-        "name": "Final oculto: Programmer's Ending (Final 1/12)",
+        "name": "Final oculto: Programmer's Ending (Final 1/11)",
         "status": false,
         "adventure": [
           {
@@ -646,7 +646,7 @@
       },
       {
         "id": 9,
-        "name": "Final oculto: General Kid (Final 2/12)",
+        "name": "Final oculto: General Kid (Final 2/11)",
         "status": false,
         "adventure": [
           {
@@ -785,7 +785,7 @@
       },
       {
         "id": 12,
-        "name": "Final oculto: The True Hero (Final 3/12)",
+        "name": "Final oculto: The True Hero (Final 3/11)",
         "status": false,
         "adventure": [
           {
@@ -832,7 +832,7 @@
           },
           {
             "id": 3,
-            "text": "✓ Opcion 1: No salvar a Kid: Habla con Macha y todo el mundo en Guldove, toma el barco de Kocha hacia Termina, en la entrada verás a Glenn. Vuelve al barco, conseguirás a Glenn y Macha (Personaje 9 y 10/46), Macha te dara el Tropical Paradise (Marco 7/15), ve al mar nublado al este de El Nido y haz el capítulo Piratas Fantasmas luego vuelve a Guldove para ver al Doc y Kid. Se te unira el Doc (Personaje /46)",
+            "text": "✓ Opcion 1: No salvar a Kid: Habla con Macha y todo el mundo en Guldove, toma el barco de Kocha hacia Termina, en la entrada verás a Glenn. Vuelve al barco, conseguirás a Glenn (Personaje 8/46) y Macha (Personaje  9/46), Macha te dara el Tropical Paradise (Marco 10/15), ve al mar nublado al este de El Nido y haz el capítulo Piratas Fantasmas luego vuelve a Guldove para ver al Doc y Kid. Se te unira el Doc (Personaje /46)",
             "important": true,
             "status": false,
             "img": [
@@ -982,7 +982,7 @@
       },
       {
         "id": 19,
-        "name": "Final oculto: The Magical Dreamers (Final 4/12)",
+        "name": "Final oculto: The Magical Dreamers (Final 4/11)",
         "status": false,
         "adventure": [
           {
@@ -1061,7 +1061,7 @@
       },
       {
         "id": 22,
-        "name": "Final oculto: New Beginnings (Final 5/12)",
+        "name": "Final oculto: New Beginnings (Final 5/11)",
         "status": false,
         "adventure": [
           {
@@ -1470,6 +1470,20 @@
         ]
       },
       {
+        "id": 99,
+        "name": "Final oculto: Onward Dragoons (Final 6/11)",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+. Vencer al 'Time Devourer inmediatamente despues de rescatar a Riddel'",
+            "important": true,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
         "id": 33,
         "name": "(AW) Guldove",
         "status": false,
@@ -1557,7 +1571,7 @@
       },
       {
         "id": 37,
-        "name": "Final oculto: Darkened Fate (Final 6/12)",
+        "name": "Final oculto: Darkened Fate (Final 7/11)",
         "status": false,
         "adventure": [
           {
@@ -2109,8 +2123,301 @@
           },
           {
             "id": 2,
-            "text": "✓ Lucha con Solt y Peppor en Isle of the Damned ",
+            "text": "✓ Lucha con Solt y Peppor en Isle of the Damned (AW) y obtendras el Memento Pendant (Item /57)",
             "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/items/memento_pendant.jpg"
+            ]
+          },
+          {
+            "id": 3,
+            "text": "✓ Ve a la isla escondida al noreste de El Nido (HW)",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 4,
+            "text": "✓ Usa el pendiente y esto hará que luches con Dario (a llorar a la playa)",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 5,
+            "text": "✓ La Masamune se transformará en la la Mastermune, la mejor arma de Serge",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 6,
+            "text": "✓ Pon a Glenn en posición principal y llévalo a la tumba de Dario",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 7,
+            "text": "✓ Con la Einlanzer equipada, puedes equiparle la otra que esta en la tumba, Glen con 2 Einlanzers",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 53,
+        "name": "Final oculto: Career Change (Final 8/11)",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+. Vencer al 'Time Devourer' despues de vencer a Dario y antes de que aparezca Terra Tower",
+            "important": true,
+            "status": true,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 54,
+        "name": "(HW) El Escondite del Ermitaño ",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Ve a Hermit's Hideaway, verás a Kid",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Si tienes la Mastermune, entrarás en un sueño",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ En casa de Lucca, busca por ahí y hay una puerta trampilla en la habitación de arriba derecha",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 4,
+            "text": "✓ En la primera habitación, pulsa L2, Triangulo, R2, y Triangulo en la máquina",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 5,
+            "text": "✓ Obtendrás el Ataque de nivel 7 de Kid",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 6,
+            "text": "✓ Necesitarás la Ice gun de Lucca para apagar las llamas",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/items/ice_gun.jpg"
+            ]
+          },
+          {
+            "id": 7,
+            "text": "✓ Rescata a todos los niños hasta que alcances a Kid y el sueño se acabará",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 55,
+        "name": "(AW) El Nido Triangle",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Ve con Starky, y lucha con el pez gigante en el fondo del mar",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ El Pez gigante es sólo débil al fuego, no a los ataques físicos",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ Ahora vuela con el bote hacia Dinopolis",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 56,
+        "name": "Final oculto: Return of the Downtrodden (Final 9/11)",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+. Vencer al 'Time Devourer' antes de terminar Terra Tower",
+            "important": true,
+            "status": true,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 57,
+        "name": "(AW) Dinopolis y Terra Tower",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Venciendo a los seis guardianes elementales",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Se recomienda usar elementos trap para robar las invocaciones",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ Al final, te encontrarás al Dragón Lunar",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 4,
+            "text": "✓ Atiende al orden de colores a los que cambia, y anotalos XD, igual los anote por ti",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 5,
+            "text": "✓ Si lo vences, la Llama Congelada se perderá en una corriente temporal",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 6,
+            "text": "✓ Obtendrás el Time Egg (Item /57)",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/items/time_egg.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 58,
+        "name": "(HW) Playa Opassa",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Ve a la playa que gatillo todos los eventos de tu historia",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Habla con los Chrono, Lucca y Marle",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ Aca podras sacar 2 finales Distintos uno bueno y el otro malo, crea un guardado independiente de la partida principal, cuando termines el juego NO guardes la partida nueva, sino que carga esta partida de forma normal para sacar el otro final.",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 4,
+            "text": "✓ Usa el Time Egg encima del agujero de gusano lila para la batalla final",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 59,
+        "name": "Final: True Ending (Final 10/11)",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Salva a Schala del Time Devourer tocando el Chrono Cross",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Para sto debes crear la secuencia de colores que realizo el Dragón Lunar",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ Lanza elementos en este orden: Amarillo, Rojo, Verde, Azul, Negro, Blanco, y Chrono Cross",
+            "important": true,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 4,
+            "text": "✓ Ayuda si esperas a que todos puedan usar hasta la octava fila",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 5,
+            "text": "✓ Usa magias de curación de modo que el Time Devourer no lo cuente ni interrumpa tu orden de bolas",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 60,
+        "name": "Final: Bad Ending (Final 11/11)",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Mata al Time Devourer junto a Schala! Sin usar la secuencia de colores",
+            "important": true,
             "status": false,
             "img": []
           }

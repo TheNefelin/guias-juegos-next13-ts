@@ -1,12 +1,13 @@
 'use client'
 import React, { useState } from 'react'
 
-interface Txt {
-  text: string
+interface Props {
+  text: string,
+  status: boolean
 }
 
-const Check = (props: Txt) => {
-  const [estado, setEstado] = useState(false)
+const Check = (props: Props) => {
+  const [estado, setEstado] = useState(props.status)
 
   const handleClick = () => {
     setEstado(!estado)

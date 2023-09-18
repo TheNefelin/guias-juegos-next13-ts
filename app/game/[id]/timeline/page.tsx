@@ -26,14 +26,14 @@ const TimeLine = async ({ params }: Params) => {
           </div>
 
           <div className="collapse-content">
-            <Check text={"Capítulo Completado"}></Check>
+            <Check text={"Capítulo Completado"} status={guide.status}></Check>
 
             {guide.adventure.map((adventure) => (
               <>
                 {adventure.important ?
                   <div className='bg-accent-content p-2' key={adventure.id}>
                     {adventure.text}
-                    <Check text={"(NG+) Completado"}></Check>
+                    <Check text={"Completado"} status={adventure.status}></Check>
                   </div>
                   :
                   <p key={adventure.id}>{adventure.text}</p>

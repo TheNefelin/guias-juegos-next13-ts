@@ -33,24 +33,6 @@ const Characters = async ({ params }: Params) => {
           </div>
         </div>
       ))}
-
-      {/* {data.map(character => (
-        <div key={character.id} className="card card-side bg-base-100 shadow-xl max-w-xs">
-          <figure>
-            <Image
-              className='w-full'
-              src={character.img}
-              alt={character.name}
-              height={50}
-              width={50}
-            />
-          </figure>
-          <div className="card-body">
-            <h2 className="card-title">{character.name}</h2>
-            <p>{character.text}</p>
-          </div>
-        </div>
-      ))} */}
     </div>
   )
 }
