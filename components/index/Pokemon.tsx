@@ -1,6 +1,7 @@
 'use client'
-import React, { useEffect, useState } from 'react'
+import React, { Suspense, useEffect, useState } from 'react'
 import Image from 'next/image'
+import Loading from '@/components/Loading'
 
 interface Pokemon {
   name: string,
@@ -31,7 +32,7 @@ const Pokemon = () => {
 
   return (
     <button onClick={getPokemon} className='bg-base-100/10 rounded-full backdrop-blur-sm fixed z-10 p-0'>
-      {newPokemon &&
+      {newPokemon ?
         <Image
           className="m-0 p-0"
           src={newPokemon.sprites.front_default}
@@ -40,6 +41,8 @@ const Pokemon = () => {
           height={70}
           priority={true}
         ></Image>
+        :
+        <Loading></Loading>
       }
     </button>
   )
