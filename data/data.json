@@ -203,6 +203,12 @@
         "img": "/ChronoCross/characters/miki.jpg"
       },
       {
+        "id": 1030,
+        "name": "Orcha",
+        "text": "Se obtiene en Viper Manor despues de rescatar a Riddel",
+        "img": "/ChronoCross/characters/orcha.jpg"
+      },
+      {
         "id": 29,
         "name": "Zoah",
         "text": "Se obtiene en el bar de Termina, habitacion oculta",
@@ -225,6 +231,30 @@
         "name": "Skelly",
         "text": "Se obtiene al conseguir todos sus huesos, son 6 en total",
         "img": "/ChronoCross/characters/skelly.jpg"
+      },
+      {
+        "id": 1013,
+        "name": "Riddel",
+        "text": "Se obtiene al rescatarla del ejercito en Viper Manor",
+        "img": "/ChronoCross/characters/riddel.jpg"
+      },
+      {
+        "id": 1010,
+        "name": "Viper",
+        "text": "Se obtiene despues de rescatar a Riddel en Viper Manor",
+        "img": "/ChronoCross/characters/viper.jpg"
+      },
+      {
+        "id": 1001,
+        "name": "Fargo",
+        "text": "Se obtiene despues de rescatar a Riddel en Viper Manor",
+        "img": "/ChronoCross/characters/fargo.jpg"
+      },
+      {
+        "id": 1012,
+        "name": "Marcy",
+        "text": "Se obtiene despues de rescatar a Riddel en Viper Manor",
+        "img": "/ChronoCross/characters/marcy.jpg"
       },
       {
         "id": 1026,
@@ -267,36 +297,6 @@
         "name": "Orlha",
         "text": "Se obtiene en Guldove devolviendole el Sapphire Brooch como Serge",
         "img": "/ChronoCross/characters/orlha.jpg"
-      },
-      {
-        "id": 1001,
-        "name": "Fargo",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
-        "id": 1010,
-        "name": "Viper",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
-        "id": 1012,
-        "name": "Marcy",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
-        "id": 1013,
-        "name": "Riddel",
-        "text": "",
-        "img": "/sin-personaje.gif"
-      },
-      {
-        "id": 1030,
-        "name": "Orcha",
-        "text": "",
-        "img": "/sin-personaje.gif"
       }
     ],
     "guides": [
@@ -753,19 +753,19 @@
           },
           {
             "id": 9,
-            "text": "✓ Habla con el viejo, vuelve a la habitación grande, busca en las columnas un botón que accione el ascensor",
-            "important": false,
-            "status": false,
-            "img": []
-          },
-          {
-            "id": 10,
             "text": "✓ Obten el marco Porre's Furnace (Marco 6/15)",
             "important": false,
             "status": false,
             "img": [
               "/ChronoCross/frames/porres_furnace.jpg"
             ]
+          },
+          {
+            "id": 10,
+            "text": "✓ Habla con el viejo, vuelve a la habitación grande, busca en las columnas un botón que accione el ascensor",
+            "important": false,
+            "status": false,
+            "img": []
           },
           {
             "id": 11,
@@ -1103,10 +1103,12 @@
           },
           {
             "id": 4,
-            "text": "✓ Ve Termina para reclutara Zappa (Personaje /46) y a Van (Personaje /46)",
+            "text": "✓ Ve Termina para reclutara Zappa (Personaje /46) este te data el Smith Spirit (Item /57) y a Van (Personaje /46)",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/items/smith_spirit.jpg"
+            ]
           }
         ]
       },
@@ -1325,7 +1327,7 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Recoge los Mixed Bones de Skelly (Item /57) en la cueva al noroeste de la primera pantalla",
+            "text": "✓ Cuando llegues a Isle of the Damned, recoge los Mixed Bones de Skelly (Item /57) en la cueva al noroeste de la primera pantalla",
             "important": false,
             "status": false,
             "img": []
@@ -1432,27 +1434,34 @@
           },
           {
             "id": 8,
-            "text": "✓ Bájala, procede, y lucharás contra un bicho gordo, y luego contra Dark Orcha",
+            "text": "✓ Bájala, procede, y lucharás contra un bicho gordo, procede subir las escaleras",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 9,
-            "text": "✓ Sigue recto hacia la biblioteca, lucharás con Grovyc y Mecha",
+            "text": "✓ Lucharás contra Dark Orcha para rescatar a Riddel, luego se te unira Orcha (Personaje /46)",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 10,
-            "text": "✓ Eapa hacia la biblioteca, lucha con Mecha otra vez, y escapa por la ventana",
+            "text": "✓ Sigue recto hacia la biblioteca, lucharás con Grovyc y Mecha",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 11,
+            "text": "✓ Eapa hacia la biblioteca, lucha con Mecha otra vez, y escapa por la ventana",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 12,
             "text": "✓ Grobyc se unirá a tu grupo",
             "important": false,
             "status": false,
@@ -1525,7 +1534,21 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Mucha personajes se te unirá, pero Harle te dejará",
+            "text": "✓ Usa el Ice Berta en la tierra árida",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Habla con Riddel (Personaje /46) y se te unira",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ Se te uniran Viper (Personaje /46), Fargo (Personaje /46) y Mercy (Personaje /46)",
             "important": false,
             "status": false,
             "img": []
@@ -1609,7 +1632,7 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Si quieres reclutar a Turnip (Personaje /46) debes ir a Hermit's Hideaway (AW) y usa el Ice Berta o la Ice Gun en el suelo, luego ve a Hermit's Hideaway (HW) con Poshul en tu equipo",
+            "text": "✓ Si quieres reclutar a Turnip (Personaje /46) debes usa el Ice Berta o la Ice Gun en el suelo en Hermit's Hideaway (AW), si ya lo hiciste ve a Hermit's Hideaway (HW) con Poshul en tu equipo",
             "important": false,
             "status": false,
             "img": []
@@ -1935,7 +1958,158 @@
           },
           {
             "id": 3,
-            "text": "✓ Lleva a Steena aly entra en uno de los agujeros",
+            "text": "✓ Lleva a Steena al Sea of Eden y entra en uno de los agujeros",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 4,
+            "text": "✓ Ve a cada una de las islas",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 5,
+            "text": "✓ En la tercera tendrías que luchar contra los Destinos",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "name": "(HW) Chronopolis",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Se vienen los Mecha",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Encuentra la entrada a la sala de ordenadores y ve a la base",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ Usa el control remoto robot para accionar el puente",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 4,
+            "text": "✓ En la habitación principal, ve a la derecha hacia la habitación de las escaleras",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 5,
+            "text": "✓ Hay un objeto importante para Sprigg en el cofre del fondo de todo",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 6,
+            "text": "✓ En el segundo piso hay una habitación donde puedes activar el elevador",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 7,
+            "text": "✓ En el tercero y cuarto piso, obsérvalo todo, pero no puedes entrar en una habitación",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 8,
+            "text": "✓ En el primer piso, en el muelle, habla con el fantasma azul",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 9,
+            "text": "✓ Ve a la habitación donde no pudiste entrar y coge la Card Key (Item /57)",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/items/card_key.jpg"
+            ]
+          },
+          {
+            "id": 10,
+            "text": "✓ Ahora que el Séptimo dragón está aquí, el séptimo elemento es activado",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "(AW) Cascadas Divinas de los Dragones",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Ve al Divine Dragon Falls que están justo al este del Fossil Valley",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Usa los 2 fragmentos de cristal en los pilares",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ Ahora conseguirás el Chrono Cross (Item /57), y el elemento. Ponla en la primera ranura de Serge",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/items/chrono_cross.jpg"
+            ]
+          },
+          {
+            "id": 4,
+            "text": "✓ Presta atención en las bolas de colores que aparecen ahora en batalla, son importantes",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 51,
+        "name": "(HW) La Búsqueda de la Masamune",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Necesitarás a Riddel y Karsh",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Lucha con Solt y Peppor en Isle of the Damned ",
             "important": false,
             "status": false,
             "img": []
