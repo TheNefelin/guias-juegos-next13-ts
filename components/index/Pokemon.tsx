@@ -20,16 +20,16 @@ const Pokemon = async () => {
   const pokemon: Pokemon = await response.json()
 
   return (
-    <div>
+    <button className='bg-base-100/10 rounded-full backdrop-blur-sm fixed z-10 p-0'>
       <Image
-        className="-scale-x-100"
+        className="m-0 p-0"
         src={pokemon.sprites.front_default}
         alt={pokemon.name}
-        width={80}
-        height={80}
+        width={70}
+        height={70}
         priority={true}
       ></Image>
-    </div>
+    </button>
   )
 }
 
