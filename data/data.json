@@ -404,7 +404,7 @@
           },
           {
             "id": 4,
-            "text": "✓ Coge la Shellfish Window Frame de la tienda de elements (Marco 4/15)",
+            "text": "✓ Obten la Shellfish Window Frame (Marco 4/15) de la tienda de elements",
             "important": false,
             "status": false,
             "img": [
@@ -414,7 +414,7 @@
           },
           {
             "id": 5,
-            "text": "✓ Consogue la Komodo Scale (Item 1/57) dandole la razon al vendedor, regalasela al muchacho",
+            "text": "✓ Consogue la Komodo Scale (Item /56) dandole la razon al vendedor, regalasela al muchacho",
             "important": false,
             "status": false,
             "img": [
@@ -425,7 +425,7 @@
           },
           {
             "id": 6,
-            "text": "✓ Coge el Shark Tooth Amulet de uno de los tipos de las casas de la derecha (Item 1/57)",
+            "text": "✓ Coge el Shark Tooth Amulet (Item /56) de uno de los tipos de las casas de la derecha",
             "important": false,
             "status": false,
             "img": [
@@ -435,7 +435,7 @@
           },
           {
             "id": 7,
-            "text": "✓ Consigue un Hueso Heckran de debajo de la cama del bar (Item 2/57)",
+            "text": "✓ Consigue el Heckran Bone (Item /56) de debajo de la cama del bar",
             "important": false,
             "status": false,
             "img": [
@@ -445,7 +445,7 @@
           },
           {
             "id": 8,
-            "text": "✓ 'NO' reclutes a Poshul aún",
+            "text": "✓ Habla con la camarera del bar la de los poemas y finalmente 'NO' reclutes a Poshul aún",
             "important": false,
             "status": false,
             "img": []
@@ -517,34 +517,41 @@
           },
           {
             "id": 3,
-            "text": "✓ Ve a Cape Howl y examina la tumba",
+            "text": "✓ Habla con la camarera del bar la de los poemas",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 4,
-            "text": "✓ Lucharás con Karsh, Solt y Peppor",
+            "text": "✓ Ve a Cape Howl y examina la tumba",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 5,
-            "text": "✓ Nombra a Kid pero NO la reclutes aún (rechazala 3 veces)",
+            "text": "✓ Lucharás con Karsh, Solt y Peppor",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 6,
-            "text": "✓ Leena (Personaje 3/45) y (Personaje 4/45) Poshul se te unirán ahora, (es la única manera de conseguir a Leena)",
+            "text": "✓ Nombra a Kid pero NO la reclutes aún (rechazala 3 veces)",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 7,
+            "text": "✓ Leena (Personaje 3/45) y (Personaje 4/45) Poshul se te unirán ahora, (es la única manera de conseguir a Leena)",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 8,
             "text": "✓ Con cualquiera de los personajes, ve al Hydra Swamp (Pantano de la Hydra)",
             "important": false,
             "status": false,
@@ -559,7 +566,7 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Ve al noroeste, encuentra a un chico que te dará un traje para lo radiactivo (Item 3/57)",
+            "text": "✓ Ve al noroeste, encuentra a un chico que te dará el Safety Gear (Item /56)",
             "important": false,
             "status": false,
             "img": [
@@ -583,7 +590,7 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Obten el craneo para un personaje que se llama Skelly (Item 4/57)",
+            "text": "✓ Obten el Heavy Skull (Item /56) de Skelly",
             "important": false,
             "status": false,
             "img": [
@@ -592,7 +599,7 @@
           },
           {
             "id": 2,
-            "text": "✓ Obten las Bellflowers (Item /57) y el huevo  gigante (Item /57) cerca del pájaro",
+            "text": "✓ Obten las Bellflower (Item /56) y el Big Egg (Item /56) cerca del pájaro",
             "important": false,
             "status": false,
             "img": []
@@ -613,7 +620,7 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Ve a la estatua en lo más alto del pueblo, y consigue a Kid (Personaje 5/45) y obtendras el Tele Porter (Item /57)",
+            "text": "✓ Ve a la estatua en lo más alto del pueblo, y consigue a Kid (Personaje 5/45) y obtendras el Tele Porter (Item /56)",
             "important": false,
             "status": false,
             "img": [
@@ -652,7 +659,7 @@
           },
           {
             "id": 6,
-            "text": "✓ Opción 2: Consigue a Nikki (Personaje 7/45), habla con Miki en el barco de Magical Dreamers. Ve al Bosque Shadow, consigue la Aroma Bag (Item 7/57) y úsalo para mover a los monstruitos hacia el monstruo-planta gigante, en la cueva de la cascada puedes encontrar el Skullduggery (Marco 6/15), avanza por el camino que bloqueaba el mounstruo, mueve la roca para detener a los insectos, avanza hasta salir por el pozo",
+            "text": "✓ Opción 2: Consigue a Nikki (Personaje 7/45), habla con Miki en el barco de Magical Dreamers. Ve al Bosque Shadow, consigue la Aroma Pouch (Item /56) y úsalo para mover a los monstruitos hacia el monstruo-planta gigante, en la cueva de la cascada puedes encontrar el Skullduggery (Marco 6/15), avanza por el camino que bloqueaba el mounstruo, mueve la roca para detener a los insectos, al salvar a un hombre te dara el Mushroom (Item /56), avanza hasta salir por el pozo",
             "important": true,
             "status": false,
             "img": [
@@ -662,7 +669,7 @@
           },
           {
             "id": 7,
-            "text": "✓ Opción 3: Consigue a Pierre (Personaje 8/45), en la Herrería, primero debes conseguir el Hero's Medal (Item 8/57) del del niño que juega afuera, Ve a la puerta principal de Viper Manor",
+            "text": "✓ Opción 3: Consigue a Pierre (Personaje 8/45), en la Herrería, primero debes conseguir el Hero's Medal (Item /56) del del niño que juega afuera, Ve a la puerta principal de Viper Manor",
             "important": true,
             "status": false,
             "img": []
@@ -697,7 +704,7 @@
           },
           {
             "id": 2,
-            "text": "✓ La llave Manor Key (Item 9/57) está en la parte superior derecha del establo de alimentación de dragones",
+            "text": "✓ La llave Manor Key (Item /56) está en la parte superior derecha del establo de alimentación de dragones",
             "important": false,
             "status": false,
             "img": [
@@ -706,7 +713,7 @@
           },
           {
             "id": 3,
-            "text": "✓ Debes jugar al juego de alimentar dragones al menos una vez, si quieres alimentarlos todos sin fallar, puedes usar el Time Shifter (Item 10/57) que puedes obtener en la partida (NG+)",
+            "text": "✓ Debes jugar al juego de alimentar dragones al menos una vez, si quieres alimentarlos todos sin fallar, puedes usar el Time Shifter (Item /56) que puedes obtener en la partida (NG+)",
             "important": false,
             "status": false,
             "img": [
@@ -808,7 +815,7 @@
           },
           {
             "id": 13,
-            "text": "✓ Si vielves a entrar a Viper Manor y vas a la carcel, encontraras una la Parlor Key (Item /57) que abre las alcantarillas",
+            "text": "✓ Si vielves a entrar a Viper Manor y vas a la carcel, encontraras una la Parlor Key (Item /56) que abre las alcantarillas",
             "important": false,
             "status": false,
             "img": [
@@ -852,20 +859,27 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Consigue la parte del pelvis de Skelly (Item /57) de la niña comerciante cerca del barco",
+            "text": "✓ Consigue la parte del pelvis de Skelly (Item /56) de la niña comerciante cerca del barco",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 2,
-            "text": "✓ Tendras que eleguir entre salvar o NO salvar a kid, dependiendo de la decicion podras obtener nuevos personajes distintos en ambos casos",
+            "text": "✓ Despues de hablar con el Shaman ve al bar y habla con el enano, el te dara el Green Tinkler (Item /56)",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 3,
+            "text": "✓ Tendras que eleguir entre salvar o NO salvar a kid, dependiendo de la decicion podras obtener nuevos personajes distintos en ambos casos",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 4,
             "text": "✓ Opcion 1: No salvar a Kid: Habla con Macha y todo el mundo en Guldove, toma el barco de Kocha hacia Termina, en la entrada verás a Glenn. Vuelve al barco, conseguirás a Glenn (Personaje 9/45) y Macha (Personaje 10/45), Macha te dara el Tropical Paradise (Marco 8/15), ve al mar nublado al este de El Nido y haz el capítulo Piratas Fantasmas luego vuelve a Guldove para ver al Doc y Kid. Se te unira el Doc (Personaje 11/45)",
             "important": true,
             "status": false,
@@ -874,8 +888,8 @@
             ]
           },
           {
-            "id": 4,
-            "text": "✓ Opcion 2: Salvar a Kid: Se te une Korcha (Personaje 12/45), Toma el barco hacia Termina, consigue a Greco (Personaje 13/45) en la casa del cementerio en Termina, Ve a la Playa Opassa, usa el Astral Amulet (Item /57) de Kid en el agujero para volver a Home World, Ve al Hydra Marsh, lucha con Beeba, coge la flauta (Item /57) y úsala al norte de todo, Lucha contra el Wingapede, luego con el pulpo y consigue a Razzly el hada (Personaje 14/45), sigue luego por la parte este, lucha contra la Hydra, obtendras la medicina ahora vuelve a Guldove, asegúrate de cazar a Mel (Personaje 15/45) si la quieres conseguir más tarde y ella te da el Guldovian Stitch (Marco 9/15), finalmente conseguiras a Kid. Capítulo Piratas Fantasmas",
+            "id": 5,
+            "text": "✓ Opcion 2: Salvar a Kid: Se te une Korcha (Personaje 12/45), Toma el barco hacia Termina, consigue a Greco (Personaje 13/45) en la casa del cementerio en Termina, Ve a la Playa Opassa, usa el Astral Amulet (Item /56) de Kid en el agujero para volver a Home World, Ve al Hydra Marsh, lucha con Beeba, obten la Beeba Flute (Item /56) y úsala al norte de todo, Lucha contra el Wingapede, luego con el pulpo y consigue a Razzly el hada (Personaje 14/45), sigue luego por la parte este, lucha contra la Hydra, obtendras la Hydra Humour (Item /56) ahora vuelve a Guldove, asegúrate de cazar a Mel (Personaje 15/45) si la quieres conseguir más tarde y ella te da el Guldovian Stitch (Marco 9/15), finalmente conseguiras a Kid. Capítulo Piratas Fantasmas",
             "important": true,
             "status": false,
             "img": [
@@ -893,34 +907,41 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Ve a la zona nublosa entre El Nido y el The Dead Sea",
+            "text": "✓ Antes de continuar consigue el Book of Poems (Item /56) hablando con la camarera y entregaselo a ella misma en el otro mundo",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 2,
-            "text": "✓ Cuando ataquen los fantasmas, observa que la puerta principal está cerrada",
+            "text": "✓ Ve a la zona nublosa entre El Nido y el The Dead Sea",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 3,
-            "text": "✓ Mata a todos los esqueletos y habla con los piratas para encontrar una llave",
+            "text": "✓ Cuando ataquen los fantasmas, observa que la puerta principal está cerrada",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 4,
-            "text": "✓ Durante el recorrido encontraras a la criatura que liberaste, si la capturas reclutaras a Pip (Personaje 16/45)",
+            "text": "✓ Mata a todos los esqueletos y habla con los piratas para encontrar una llave",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 5,
+            "text": "✓ Durante el recorrido encontraras a la criatura que liberaste, si la capturas reclutaras a Pip (Personaje 16/45)",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 6,
             "text": "✓ Llega a la cubierta, lucha con el Diamond Jar",
             "important": false,
             "status": false,
@@ -977,7 +998,7 @@
           },
           {
             "id": 2,
-            "text": "✓ Aquí, ve hasta el Dragón de Agua y te dará el Ice Berta (Item /57)",
+            "text": "✓ Aquí, ve hasta el Dragón de Agua y te dará el Ice Breath (Item /56)",
             "important": false,
             "status": false,
             "img": [
@@ -993,7 +1014,7 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Cruza el Monte Piro, usa el Ice Berta para congelar la lava",
+            "text": "✓ Cruza el Monte Piro, usa el Ice Breath para congelar la lava",
             "important": false,
             "status": false,
             "img": []
@@ -1021,7 +1042,7 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Antes de terminar la Fortaleza, crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+. Vencer al 'Time Devourer' con la siguiente formacion Nikki, Razzly y Kid, Para reemplazar a Serge del euipo puede usar el Relief Charm (Item /57) que obtienes al iniciar la partida NG+",
+            "text": "✓ Antes de terminar la Fortaleza, crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+. Vencer al 'Time Devourer' con la siguiente formacion Nikki, Razzly y Kid, Para reemplazar a Serge del euipo puede usar el Relief Charm (Item /56) que obtienes al iniciar la partida NG+",
             "important": true,
             "status": false,
             "img": [
@@ -1137,7 +1158,7 @@
           },
           {
             "id": 4,
-            "text": "✓ Ve Termina para reclutara Zappa (Personaje 22/45) este te data el Smith Spirit (Item /57) y a Van (Personaje 23/45)",
+            "text": "✓ Ve Termina para reclutara Zappa (Personaje 22/45) este te data el Smith Spirit (Item /56) y a Van (Personaje 23/45)",
             "important": false,
             "status": false,
             "img": [
@@ -1160,7 +1181,7 @@
           },
           {
             "id": 2,
-            "text": "✓ Recoge la Angry Scapula de Skelly (Item /57) en la cueva de la cascada",
+            "text": "✓ Recoge la Angry Scapula (Item /56) de Skelly en la cueva de la cascada",
             "important": false,
             "status": false,
             "img": []
@@ -1188,7 +1209,7 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Nada hasta el fondo y obten el Star Fragment (Item /57)",
+            "text": "✓ Nada hasta el fondo y obten el Star Fragment (Item /56)",
             "important": false,
             "status": false,
             "img": [
@@ -1285,7 +1306,7 @@
           },
           {
             "id": 5,
-            "text": "✓ Entra en el en la habitacion que esta debajo de la ruleta, roba el Handle (Item /57)",
+            "text": "✓ Entra en el en la habitacion que esta debajo de la ruleta, roba el Handle (Item /56)",
             "important": false,
             "status": false,
             "img": [
@@ -1308,7 +1329,7 @@
           },
           {
             "id": 7,
-            "text": "✓ Lucha contra el Sabio y obten la Fiddler Crab (Item /57)",
+            "text": "✓ Lucha contra el Sabio y obten la Fiddler Crab (Item /56)",
             "important": false,
             "status": false,
             "img": [
@@ -1345,7 +1366,7 @@
           },
           {
             "id": 2,
-            "text": "✓ Después de hablar, ve a la Hermit's Hideaway (HW), habla con Radius y recibe el Garai's Keepsake (Item /57)",
+            "text": "✓ Después de hablar, ve a la Hermit's Hideaway (HW), habla con Radius y recibe el Garai's Keepsake (Item /56)",
             "important": false,
             "status": false,
             "img": [
@@ -1361,7 +1382,7 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Cuando llegues a Isle of the Damned, recoge los Mixed Bones de Skelly (Item /57) en la cueva al noroeste de la primera pantalla",
+            "text": "✓ Cuando llegues a Isle of the Damned, recoge los Mixed Bones de Skelly (Item /56) en la cueva al noroeste de la primera pantalla",
             "important": false,
             "status": false,
             "img": []
@@ -1382,7 +1403,7 @@
           },
           {
             "id": 4,
-            "text": "✓ Coge la Einlanzer (Item /57) y úsala para destruir la Masamune",
+            "text": "✓ Obten la Einlanzer (Item /56) y úsala para destruir la Masamune",
             "important": false,
             "status": false,
             "img": [
@@ -1405,7 +1426,7 @@
           },
           {
             "id": 2,
-            "text": "✓ Obten el Station Pass (Item /57)",
+            "text": "✓ Obten el Station Pass (Item /56)",
             "important": false,
             "status": false,
             "img": [
@@ -1414,7 +1435,7 @@
           },
           {
             "id": 3,
-            "text": "✓ Obten el Medical Book (Item /57)",
+            "text": "✓ Obten el Medical Book (Item /56)",
             "important": false,
             "status": false,
             "img": [
@@ -1423,7 +1444,7 @@
           },
           {
             "id": 4,
-            "text": "✓ Obten el Prop Sword (Item /57)",
+            "text": "✓ Obten el Prop Sword (Item /56)",
             "important": false,
             "status": false,
             "img": [
@@ -1446,7 +1467,7 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Ve al bar de Termina, hay una habitacion secreta, aqui podras reclutar a Zoah (Personaje 30/45) o Karsh (Personaje 31/45), siquieres obtener a los 2 deberas terminar el juego e iniciar (NG+)",
+            "text": "✓ Ve al bar de Termina, hay una habitacion secreta, aqui podras reclutar a Zoah (Personaje 30/45) o Karsh (Personaje 31/45), siquieres obtener a los 2 deberas terminar el juego e iniciar (NG+), aqui obtendras el Tear of Hate (Item /56)",
             "important": false,
             "status": false,
             "img": []
@@ -1467,7 +1488,7 @@
           },
           {
             "id": 4,
-            "text": "✓ Ve a Viper Manor, habla con Norris en la habitación del oeste de la entrada y te dara la Prison Key (Item /57)",
+            "text": "✓ Ve a Viper Manor, habla con Norris en la habitación del oeste de la entrada y te dara la Prison Key (Item /56)",
             "important": false,
             "status": false,
             "img": [
@@ -1511,20 +1532,27 @@
           },
           {
             "id": 10,
-            "text": "✓ Sigue recto hacia la biblioteca, lucharás con Grovyc y Mecha",
+            "text": "✓ La habitacion que esta al lado del laboratorio podras conseguir el Decor Shield (Item /56), si la colocas en la armadura sin escudo encontraras una habitacion secreta",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 11,
-            "text": "✓ Eapa hacia la biblioteca, lucha con Mecha otra vez, y escapa por la ventana",
+            "text": "✓ Sigue recto hacia la biblioteca, lucharás con Grovyc y Mecha",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 12,
+            "text": "✓ Eapa hacia la biblioteca, lucha con Mecha otra vez, y escapa por la ventana",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 13,
             "text": "✓ Grobyc (Personaje 33/45) se unirá a tu grupo",
             "important": false,
             "status": false,
@@ -1553,7 +1581,7 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Lucha con Orlha y conseguirás su Sapphire Brooch (Item /57), devuélvesela cuando seas Serge de nuevo, y se te unirá",
+            "text": "✓ Lucha con Orlha y conseguirás su Sapphire Brooch (Item /56), devuélvesela cuando seas Serge de nuevo, y se te unirá",
             "important": false,
             "status": false,
             "img": [
@@ -1569,7 +1597,7 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Busca el Good Backbone de Skelly (Item /57) en una cueva (por la zona este)",
+            "text": "✓ Busca el Good Backbone (Item /56) de Skelly en una cueva (por la zona este)",
             "important": false,
             "status": false,
             "img": []
@@ -1583,7 +1611,7 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Un tipo te dará el Sturdy Ribs de Skelly (Item /57)",
+            "text": "✓ Un tipo te dará el Sturdy Ribs de Skelly (Item /56)",
             "important": false,
             "status": false,
             "img": []
@@ -1611,7 +1639,7 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Usa el Ice Berta en la tierra árida",
+            "text": "✓ Usa el Ice Breath en la tierra árida",
             "important": false,
             "status": false,
             "img": []
@@ -1709,14 +1737,14 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Si quieres reclutar a Turnip (Personaje 39/45) debes usa el Ice Berta o la Ice Gun en el suelo en Hermit's Hideaway (AW), si ya lo hiciste ve a Hermit's Hideaway (HW) con Poshul en tu equipo",
+            "text": "✓ Si quieres reclutar a Turnip (Personaje 39/45) debes usa el Ice Breath o la Ice Gun en el suelo en Hermit's Hideaway (AW), si ya lo hiciste ve a Hermit's Hideaway (HW) con Poshul en tu equipo",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 2,
-            "text": "✓ Funguy (Personaje 40/45) Shadow Forest",
+            "text": "✓ Puedes obtener Funguy (Personaje 40/45) Shadow Forest",
             "important": false,
             "status": false,
             "img": []
@@ -1737,7 +1765,7 @@
           },
           {
             "id": 2,
-            "text": "✓ Roba la armadura cuando este debilitado, al vencerlo te dara la Blue Relic (Item /57)",
+            "text": "✓ Roba la armadura cuando este debilitado, al vencerlo te dara la Blue Relic (Item /56)",
             "important": false,
             "status": false,
             "img": [
@@ -1767,7 +1795,7 @@
           },
           {
             "id": 3,
-            "text": "✓ Roba la armadura cuando este debilitado, al vencerlo te dara la Red Relic (Item /57)",
+            "text": "✓ Roba la armadura cuando este debilitado, al vencerlo te dara la Red Relic (Item /56)",
             "important": false,
             "status": false,
             "img": [
@@ -1783,7 +1811,7 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Ve a Hydra Marshes (AW) y consigue la Ancient Fruit (Item /57) y Life Sparkle (Item /57)",
+            "text": "✓ Ve a Hydra Marshes (AW) y consigue la Ancient Fruit (Item /56) y Life Sparkle (Item /56)",
             "important": false,
             "status": false,
             "img": []
@@ -1818,7 +1846,7 @@
           },
           {
             "id": 6,
-            "text": "✓ Roba la armadura cuando este debilitado, al vencerlo te dara la Green Relic (Item /57)",
+            "text": "✓ Roba la armadura cuando este debilitado, al vencerlo te dara la Green Relic (Item /56)",
             "important": false,
             "status": false,
             "img": [
@@ -1864,7 +1892,7 @@
           },
           {
             "id": 5,
-            "text": "✓ Roba la armadura cuando este debilitado, al vencerlo te dara la Black Relic (Item /57)",
+            "text": "✓ Roba la armadura cuando este debilitado, al vencerlo te dara la Black Relic (Item /56)",
             "important": false,
             "status": false,
             "img": [
@@ -1887,7 +1915,7 @@
           },
           {
             "id": 2,
-            "text": "✓ Debes ir a la izquierda y abajo de la cueva, obten los Explosive (Item /57) del NPC",
+            "text": "✓ Debes ir a la izquierda y abajo de la cueva, obten los Explosive (Item /56) del NPC",
             "important": false,
             "status": false,
             "img": [
@@ -1910,7 +1938,7 @@
           },
           {
             "id": 5,
-            "text": "✓ Roba la armadura cuando este debilitado, al vencerlo te dara la Yellow Relic (Item /57)",
+            "text": "✓ Roba la armadura cuando este debilitado, al vencerlo te dara la Yellow Relic (Item /56)",
             "important": false,
             "status": false,
             "img": [
@@ -1933,12 +1961,26 @@
           },
           {
             "id": 2,
-            "text": "✓ Roba la armadura cuando este debilitado, al vencerlo te dara la White Relic (Item /57)",
+            "text": "✓ Roba la armadura cuando este debilitado, al vencerlo te dara la White Relic (Item /56)",
             "important": false,
             "status": false,
             "img": [
               "/ChronoCross/items/white_relic.jpg"
             ]
+          }
+        ]
+      },
+      {
+        "id": 888,
+        "name": "Criosphinx",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ (AW) Earth Dragon Isle (a llorar a la playa)",
+            "important": true,
+            "status": false,
+            "img": []
           }
         ]
       },
@@ -1949,7 +1991,7 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Muestra el cristal roto a Direa y Steena, y consigue el Dragon Emblem (Item /57)",
+            "text": "✓ Muestra el cristal roto a Direa y Steena, y consigue el Dragon Emblem (Item /56)",
             "important": false,
             "status": false,
             "img": [
@@ -1958,14 +2000,14 @@
           },
           {
             "id": 2,
-            "text": "✓ Enséñaselo al guardia de la tienda de Steena en Guldove (HW)",
+            "text": "✓ Enséñaselo al guardia de la tienda de Steena en Guldove (HW) y ella te dara el Dragon Tear (Item /56)",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 3,
-            "text": "✓ Ahora Steena (Personaje 43/45) será reclutada, Lleva a Steena a Fort Dragonia",
+            "text": "✓ Ahora Steena (Personaje 43/45) se te unira, Lleva a Steena a Fort Dragonia",
             "important": false,
             "status": false,
             "img": []
@@ -2007,7 +2049,7 @@
           },
           {
             "id": 5,
-            "text": "✓ Sube a la habitación principal y abre la puerta",
+            "text": "✓ Sube a la habitación principal y abre la puerta, aqui obtendras el Tear of Love (Item /56)",
             "important": false,
             "status": false,
             "img": []
@@ -2119,7 +2161,7 @@
           },
           {
             "id": 9,
-            "text": "✓ Ve a la habitación donde no pudiste entrar y coge la Card Key (Item /57)",
+            "text": "✓ Ve a la habitación donde no pudiste entrar y coge la Card Key (Item /56)",
             "important": false,
             "status": false,
             "img": [
@@ -2149,14 +2191,14 @@
           },
           {
             "id": 2,
-            "text": "✓ Usa los 2 fragmentos de cristal en los pilares",
+            "text": "✓ Usa los 2 fragmentos de cristal en los pilares, el Tear of Hate y el Tear of Love",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 3,
-            "text": "✓ Ahora conseguirás el Chrono Cross (Item /57), y el elemento. Ponla en la primera ranura de Serge",
+            "text": "✓ Ahora conseguirás el Chrono Cross (Item /56), y el elemento. Ponla en la primera ranura de Serge",
             "important": false,
             "status": false,
             "img": [
@@ -2186,7 +2228,7 @@
           },
           {
             "id": 2,
-            "text": "✓ Lucha con Solt y Peppor en Isle of the Damned (AW) y obtendras el Memento Pendant (Item /57)",
+            "text": "✓ Lucha con Solt y Peppor en Isle of the Damned (AW) y obtendras el Memento Pendant (Item /56)",
             "important": false,
             "status": false,
             "img": [
@@ -2286,7 +2328,7 @@
           },
           {
             "id": 6,
-            "text": "✓ Necesitarás la Ice gun de Lucca para apagar las llamas",
+            "text": "✓ Necesitarás la Ice gun (Item /56) de Lucca para apagar las llamas",
             "important": false,
             "status": false,
             "img": [
@@ -2386,7 +2428,7 @@
           },
           {
             "id": 6,
-            "text": "✓ Obtendrás el Time Egg (Item /57)",
+            "text": "✓ Obtendrás el Time Egg (Item /56)",
             "important": false,
             "status": false,
             "img": [
@@ -2480,6 +2522,62 @@
           {
             "id": 1,
             "text": "✓ Mata al Time Devourer junto a Schala! Sin usar la secuencia de colores",
+            "important": true,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
+        "id": 61,
+        "name": "Consideraciones",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Bend of Time, es un area oculta que solo se puede acceder en una partida NG+, aqui puedes luchar encontra Ozzie, Slash y Flea, personajes de Chrono Trigger, los puedes capturar para el Dopellgang de Sprigg",
+            "important": true,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Los 10 portales del Bend of Time son los siguientes. 1: Lizard Rock. 2: Viper Manor, Viper Manor Bluffs. 3: Water Dragon Isle, Hydra Marshes, S. S. Invincible. 4: Fort Dragonia, Temporal Vortex. 5: Shadow Forest, Fossil Valley, 6: Mt. Pyre, Isle of the Damned. 7: Dead Sea, 8: Marbule, Gaea's Navel, Earth Dragon Isle. 9: Chronopolis, Sea of Eden. 10: Terra Tower, Lucca's House.",
+            "important": true,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ Para obtener a los 46 personajes se debe recorrer el juego al amenos 3 veces seguida usando el NG+ y usar el Chrono Cross en la casa de Sprigg",
+            "important": true,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 4,
+            "text": "✓ Con el Chrono Cross puedes recuperar todos los personajes de las partidas anteriores PERO, para poder considerar a Harle, debes terminar el juego con Lynx y Harle e iniciar el NG+",
+            "important": true,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 5,
+            "text": "✓ Para obtener Guile, Nikki y Pierre se debe hacer en 3 pasadas, no se puede conseguir en una partida",
+            "important": true,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 6,
+            "text": "✓ Para obtener Korcha, Mel ,Razzly o Macha, Glen, Doc se debe hacer en 2 pasadas, no se puede conseguir en una partida",
+            "important": true,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 7,
+            "text": "✓ Leena solo se puede obtener rechazando a Kid 3 veces en Cape Howl",
             "important": true,
             "status": false,
             "img": []
