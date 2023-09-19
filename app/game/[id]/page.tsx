@@ -25,8 +25,8 @@ const Game = async ({ params }: Params) => {
           className='m-auto shadow-xl mb-4'
           src={img}
           alt='background'
-          height={700}
-          width={700}
+          height={1000}
+          width={1000}
         >
         </Image>
       ))}
