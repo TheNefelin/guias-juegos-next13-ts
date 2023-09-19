@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import NavBar from '@/components/index/NavBar'
 import Pokemon from '@/components/index/Pokemon'
 import SideBar from '@/components/index/SideBar'
+import BtnUp from '@/components/BtnUp'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,9 +26,9 @@ export default function RootLayout({
         </section>
         <section className='pokemon'>
           <Pokemon></Pokemon>
+          <BtnUp></BtnUp>
         </section>
         <section className='search'>
-
         </section>
         <section className='sidebar'>
           <SideBar></SideBar>

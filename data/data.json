@@ -2282,7 +2282,7 @@
       {
         "id": 53,
         "name": "Final oculto: Career Change (Final 8/11)",
-        "status": false,
+        "status": true,
         "adventure": [
           {
             "id": 1,
@@ -2382,7 +2382,7 @@
       {
         "id": 56,
         "name": "Final oculto: Return of the Downtrodden (Final 9/11)",
-        "status": false,
+        "status": true,
         "adventure": [
           {
             "id": 1,

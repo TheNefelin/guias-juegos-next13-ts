@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body::-webkit-scrollbar{
+  display: none;
+}
+
 body {
   height: 100%;
   display: grid;
@@ -11,10 +15,6 @@ body {
     "header header"
     "pokemon search"
     "side main";
-}
-
-body::-webkit-scrollbar{
-  display: none;
 }
 
 .header {
