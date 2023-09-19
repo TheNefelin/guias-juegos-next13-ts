@@ -595,7 +595,7 @@
             "important": false,
             "status": false,
             "img": [
-
+              "/ChronoCross/items/heavy_skull.jpg"
             ]
           },
           {
@@ -603,7 +603,9 @@
             "text": "✓ Obten las Bellflower (Item /56) y el Big Egg (Item /56) cerca del pájaro",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/items/big_egg.jpg"
+            ]
           },
           {
             "id": 3,
@@ -860,10 +862,12 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Consigue la parte del pelvis de Skelly (Item /56) de la niña comerciante cerca del barco",
+            "text": "✓ Consigue la Pelvic Bone (Item /56) de Skelly de la niña comerciante cerca del barco",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/items/pelvic_bone.jpg"
+            ]
           },
           {
             "id": 2,
@@ -1185,7 +1189,9 @@
             "text": "✓ Recoge la Angry Scapula (Item /56) de Skelly en la cueva de la cascada",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/items/angry_scapula.jpg"
+            ]
           },
           {
             "id": 3,
@@ -1383,7 +1389,7 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Cuando llegues a Isle of the Damned, recoge los Mixed Bones de Skelly (Item /56) en la cueva al noroeste de la primera pantalla",
+            "text": "✓ Cuando llegues a Isle of the Damned, recoge los Mixed Bones (Item /56) de Skelly en la cueva al noroeste de la primera pantalla",
             "important": false,
             "status": false,
             "img": []
@@ -1612,7 +1618,7 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Un tipo te dará el Sturdy Ribs de Skelly (Item /56)",
+            "text": "✓ Un tipo te dará el Sturdy Ribs (Item /56) de Skelly",
             "important": false,
             "status": false,
             "img": []
