@@ -4,7 +4,8 @@
     "name": "Chrono Cross",
     "imgCover": "/ChronoCross/00-game.jpg",
     "imgBackground": [
-      "/ChronoCross/00-background.jpg"
+      "/ChronoCross/00-background.jpg",
+      "/ChronoCross/idle.gif"
     ],
     "text": "Lejos el mejor RPG en mi opinion personal. Precisamente, este juego, me inspiro hacer esta pagina.",
     "source": [
