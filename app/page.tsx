@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import img from '@/img/StarWars.gif'
+import imgSW from '@/img/star_wars.gif'
 import imgTwitch from '@/img/twitch.png'
 import imgYoutube from '@/img/youtube.png'
 import imgWeb from '@/img/web.png'
@@ -10,14 +10,16 @@ export default function Home() {
     <main className='card-body bg-base-200'>
       <h1 className="card-title uppercase">Bienbenidos !!! &#129409;</h1>
       <p className="indent-4">Esta página nació porque cada vez que juego Chrono Cross y dejo el juego pendiente por mucho tiempo, ya no recuerdo en qué misión voy.</p>
+
       <Image
         className="m-auto"
-        src={img}
+        src={imgSW}
         alt="Star Wars"
         height={700}
         width={700}
       >
       </Image>
+
       <div className="pt-5 flex gap-4 m-auto">
         <Link
           target="_blacnk" 

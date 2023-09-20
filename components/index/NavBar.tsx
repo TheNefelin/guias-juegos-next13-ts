@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import Theme from '../nav/Theme'
+import Theme from '@/components/nav/Theme'
 import logo from '@/img/logo.svg'
-import Pokemon from './Pokemon'
+
 const NavBar = () => {
   return (
     <section className="navbar bg-base-300 shadow-lg">

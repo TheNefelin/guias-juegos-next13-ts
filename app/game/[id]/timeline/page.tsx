@@ -2,7 +2,6 @@ import React from 'react'
 import Image from 'next/image'
 import Check from '@/components/Check'
 import Controller from '@/services/Controller'
-import img from "@/img/blur.gif"
 
 interface Params {
   params: { id: String }
@@ -48,8 +47,8 @@ const TimeLine = async ({ params }: Params) => {
                     alt="Imagen de Guia"
                     height={100}
                     width={500}
-                    blurDataURL={img}
-                    placeholder="blur"
+                    // blurDataURL={img}
+                    // placeholder="blur"
                   ></Image>
                 ))}
               </>

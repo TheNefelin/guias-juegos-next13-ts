@@ -1,6 +1,6 @@
-import Controller from '@/services/Controller'
 import React from 'react'
 import Image from 'next/image'
+import Controller from '@/services/Controller'
 
 interface Params {
   params: { id: string }
