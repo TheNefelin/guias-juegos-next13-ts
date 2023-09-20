@@ -17,6 +17,13 @@ body {
     "side main";
 }
 
+.body_hide_menu {
+  grid-template-areas:
+  "header header"
+  "pokemon search"
+  "main main";
+}
+
 .header {
   grid-area: header;
 }
@@ -33,6 +40,10 @@ body {
 
 .sidebar {
   grid-area: side;
+}
+
+.sidebar_hide_menu {
+  display: none;
 }
 
 .main {

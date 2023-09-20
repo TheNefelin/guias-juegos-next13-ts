@@ -14,13 +14,27 @@ interface Pokemon {
 }
 
 const Pokemon = () => {
+  const [seeMenu, setSeeMenu] = useState(true)
   const [newPokemon, setNewPokemon] = useState<Pokemon | null>(null)
 
   const randomID = (min: number, max: number) => {
     return Math.floor(Math.random() * (max - min + 1) + min)
   }
 
-  const getPokemon = async () => {
+  const handleClick = async () => {
+    setSeeMenu(!seeMenu)
+
+    const body = document.querySelector("body")
+    const menu = document.querySelector(".sidebar")
+
+    if (seeMenu) {
+      body?.classList.remove("body_hide_menu")
+      menu?.classList.remove("sidebar_hide_menu")
+    } else {
+      body?.classList.add("body_hide_menu")
+      menu?.classList.add("sidebar_hide_menu")
+    }
+
     setNewPokemon(null)
     const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${randomID(1, 1010)}`, { cache: 'no-cache' })
     const data: Pokemon = await response.json()
@@ -28,11 +42,11 @@ const Pokemon = () => {
   }
 
   useEffect(() => {
-    getPokemon()
+    handleClick()
   }, [])
 
   return (
-    <button onClick={getPokemon} className='bg-base-100/10 rounded-full backdrop-blur-sm fixed z-10 p-0'>
+    <button onClick={handleClick} className='bg-base-100/10 rounded-full backdrop-blur-sm fixed z-10'>
       {newPokemon ?
         <Image
           className="m-0 p-0"

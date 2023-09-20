@@ -17,7 +17,7 @@ const LayoutGame = async ({ children, params }: Params) => {
   if (data.length === 0) return <></>
 
   return (
-    <article className='mr-2'>
+    <article className='mx-2'>
       <h1 className='card-body card-title bg-base-200 uppercase shadow-xl'>{data[0].name}</h1>
       <div className='my-2'>
         <Link className='btn btn-ghost' href={`/game/${id}`}>Juego</Link>

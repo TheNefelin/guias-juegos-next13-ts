@@ -10,9 +10,9 @@ const SideBar = async () => {
   if (data.length === 0 ) return <></>
 
   return (
-    <ul className="bg-base-100 h-full menu menu-xs">
+    <ul className="bg-base-100 h-full menu menu-xs pr-0">
       {data.map(e => (
-        <li key={e.id}>
+        <li key={e.id} className='mb-2'>
           <Link href={`/game/${e.id}`}>
 
             <div key={e.id} className="avatar grid place-items-center">
