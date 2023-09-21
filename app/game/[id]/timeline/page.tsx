@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Check from '@/components/Check'
-import Controller from '@/services/xcontroller'
+import Controller from '@/services/controller'
 
 interface Params {
   params: { id: String }
@@ -19,7 +19,7 @@ const TimeLine = async ({ params }: Params) => {
   return (
     <>
       {data.map(guide => (
-        <div className="collapse bg-base-200 mb-2 shadow-md">
+        <div key={guide.id} className="collapse bg-base-200 mb-2 shadow-md">
           <input type="radio" name="my-accordion-1" />
           <div className={`collapse-title text-xl font-medium ${guide.status ? "bg-success text-success-content" : ""}`}>
             {`${guide.id}.- ${guide.name}`}
@@ -29,7 +29,7 @@ const TimeLine = async ({ params }: Params) => {
             {guide.adventure.map((adventure) => (
               <>
                 {adventure.important ?
-                  <div className='bg-accent-content p-2' key={adventure.id}>
+                  <div key={adventure.id} className='bg-accent-content p-2'>
                     {adventure.text}
                     <Check text={"Completado"} status={adventure.status}></Check>
                   </div>
