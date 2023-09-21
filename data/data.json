@@ -368,7 +368,7 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Cuando despiertes crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+ (NO con el NG+). Vencer al 'Time Devourer' inmediatamente sin reclutar compañeros.",
+            "text": "✓ Cuando despiertes crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+. Vencer al 'Time Devourer' inmediatamente sin reclutar compañeros.",
             "important": true,
             "status": false,
             "img": [
@@ -711,7 +711,7 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+ (NO con el NG+). Vencer al 'Time Devourer' antes de infiltrarte en Viper Manor",
+            "text": "✓ Crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+. Vencer al 'Time Devourer' antes de infiltrarte en Viper Manor",
             "important": true,
             "status": false,
             "img": []
@@ -866,14 +866,14 @@
           },
           {
             "id": 2,
-            "text": "✓ Opcion 1: No salvar a Kid. Crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+ (NO con el NG+), Vencer al 'Time Devourer' inmediatamente despues de que Kid quede envenenada",
+            "text": "✓ Opcion 1: No salvar a Kid. Crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+, Vencer al 'Time Devourer' inmediatamente despues de que Kid quede envenenada",
             "important": true,
             "status": false,
             "img": []
           },
           {
             "id": 3,
-            "text": "✓ Opcion 2: Salvar a Kid. Crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+ (NO con el NG+), Vencer al 'Time Devourer' inmediatamente despues de encontrar la cura en Hydra Marsh y Kid se haya recuperado",
+            "text": "✓ Opcion 2: Salvar a Kid. Crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+, Vencer al 'Time Devourer' inmediatamente despues de encontrar la cura en Hydra Marsh y Kid se haya recuperado",
             "important": true,
             "status": false,
             "img": []
