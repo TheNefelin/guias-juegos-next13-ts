@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import Controller from '@/services/Controller'
+import Controller from '@/services/controller'
 
 const SideBar = async () => {
   const dt = new Controller()

@@ -1,0 +1,14 @@
+[
+  {
+    "id_game": 1,
+    "id_adventure": 1,
+    "id_guide": 1,
+    "status": false
+  },
+  {
+    "id_game": 1,
+    "id_adventure": 2,
+    "id_guide": 1,
+    "status": false
+  }
+]

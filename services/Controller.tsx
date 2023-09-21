@@ -1,8 +1,17 @@
 import data from '@/data/data.json'
-import { GameMenuType, GameSourceType, GameType } from '@/services/model'
+
+const get_local_data = () => {
+  const ls = localStorage.getItem("data");
+  const data = JSON.stringify(ls)
+  console.log(data)
+}
+
+const set_local_data = (data: any) => {
+  window.localStorage.setItem("data", data)
+}
 
 export default class Controller {
-  constructor() { }
+  constructor() {}
 
   async get_game_all() {
     return data.map(e => (

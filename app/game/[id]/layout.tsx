@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import Controller from '@/services/Controller'
+import Controller from '@/services/controller'
 
 interface Params {
   children: React.ReactNode
