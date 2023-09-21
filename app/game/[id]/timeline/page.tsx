@@ -1,5 +1,4 @@
-'use client'
-import React, { useState } from 'react'
+import React from 'react'
 import Image from 'next/image'
 import Controller from '@/services/controller'
 import Check from '@/components/Check'
