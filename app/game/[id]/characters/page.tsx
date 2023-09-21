@@ -1,17 +1,16 @@
 import React from 'react'
 import Image from 'next/image'
 import Controller from '@/services/controller'
+import { ParamsPage } from '@/services/model'
 
-interface Params {
-  params: { id: string }
-}
-
-const Characters = async ({ params }: Params) => {
+const Characters = async ({ params }: ParamsPage) => {
   if (isNaN(Number(params.id))) return <></>
 
   const id = Number(params.id)
   const dt = new Controller()
   const data = await dt.get_game_characters_byid(id)
+
+  if (data.length === 0) return <></>
 
   return (
     <div className='bg-base-200 mb-4 card card-side shadow-xl flex gap-4 flex-wrap justify-center p-4'>

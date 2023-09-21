@@ -1,17 +1,8 @@
 import data from '@/data/data.json'
-
-const get_local_data = () => {
-  const ls = localStorage.getItem("data");
-  const data = JSON.stringify(ls)
-  console.log(data)
-}
-
-const set_local_data = (data: any) => {
-  window.localStorage.setItem("data", data)
-}
+import { LSType } from './model';
 
 export default class Controller {
-  constructor() {}
+  constructor() { }
 
   async get_game_all() {
     return data.map(e => (
@@ -79,6 +70,8 @@ export default class Controller {
   async get_game_guides_byid(id: Number) {
     const obj = data.find(e => e.id === id);
 
+    console.log(obj?.guides)
+
     if (obj) {
       return obj.guides.map(e => ({
         id: e.id,
@@ -91,7 +84,30 @@ export default class Controller {
     return [];
   }
 
-  async test(id: number) {
+  async set_game_guides_byid(obj: LSType) {
+    const item = get_local_storage()
 
+    const index = item.findIndex(el =>
+      el.id_game === obj.id_game &&
+      el.id_guide === obj.id_guide &&
+      el.id_adventure === obj.id_adventure
+    )
+
+    if (index !== -1) {
+      item[index].status = obj.status;
+    } else {
+      item.push(obj);
+    }
+
+    set_local_storage(item)
   }
+}
+
+const get_local_storage = () => {
+  const getData: LSType[] = JSON.parse(localStorage.getItem("data") || "[]");
+  return getData
+}
+
+const set_local_storage = (data: LSType[]) => {
+  localStorage.setItem("data", JSON.stringify(data));
 }

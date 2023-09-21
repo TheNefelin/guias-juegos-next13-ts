@@ -39,3 +39,19 @@ export interface GameGuidesType {
     }
   ]
 }
+
+export interface LSType {
+  id_game: number,
+  id_guide: number,
+  id_adventure: number,
+  status: boolean
+}
+
+export interface ParamsPage {
+  params: { id: string }
+}
+
+export interface ParamsLayout {
+  children: React.ReactNode
+  params: { id: String }
+}

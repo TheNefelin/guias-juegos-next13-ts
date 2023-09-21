@@ -1,13 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
 import Controller from '@/services/controller'
+import { ParamsLayout } from '@/services/model'
 
-interface Params {
-  children: React.ReactNode
-  params: { id: String }
-}
-
-const LayoutGame = async ({ children, params }: Params) => {
+const LayoutGame = async ({ children, params }: ParamsLayout) => {
   if (isNaN(Number(params.id))) return <></>
 
   const id = Number(params.id)

@@ -1,12 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
 import Controller from '@/services/controller'
+import { ParamsPage } from '@/services/model'
 
-interface Params {
-  params: { id: string }
-}
-
-const Game = async ({ params }: Params) => {
+const Game = async ({ params }: ParamsPage) => {
   if (isNaN(Number(params.id))) return <></>
 
   const id = Number(params.id)
