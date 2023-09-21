@@ -1,5 +1,6 @@
 import data from '@/data/data.json'
 import { LSType } from './model';
+import { NumericLiteral } from 'typescript';
 
 export default class Controller {
   constructor() { }
@@ -68,9 +69,7 @@ export default class Controller {
   }
 
   async get_game_guides_byid(id: Number) {
-    const obj = data.find(e => e.id === id);
-
-    console.log(obj?.guides)
+    const obj = data.find(e => e.id === id)
 
     if (obj) {
       return obj.guides.map(e => ({
@@ -103,11 +102,11 @@ export default class Controller {
   }
 }
 
-const get_local_storage = () => {
-  const getData: LSType[] = JSON.parse(localStorage.getItem("data") || "[]");
-  return getData
+export const get_local_storage = () => {
+  const get_data: LSType[] = JSON.parse(localStorage.getItem("data") || "[]");
+  return get_data
 }
 
-const set_local_storage = (data: LSType[]) => {
-  localStorage.setItem("data", JSON.stringify(data));
+const set_local_storage = (set_data: LSType[]) => {
+  localStorage.setItem("data", JSON.stringify(set_data));
 }

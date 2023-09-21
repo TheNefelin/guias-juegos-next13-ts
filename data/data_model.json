@@ -1,6 +1,6 @@
 [
   {
-    "id": 2,
+    "id": 1,
     "name": "Title",
     "imgCover": "img",
     "imgBackground": [],
@@ -11,13 +11,13 @@
       {
         "id": 1,
         "name": "Title",
-        "status": false,
+        "statusA": false,
         "adventure": [
           {
             "id": 1,
             "text": "✓ Text",
             "important": false,
-            "status": false,
+            "statusB": false,
             "img": []
           }
         ]

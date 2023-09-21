@@ -1,30 +1,18 @@
 'use client'
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Controller from '@/services/controller'
+import useLocalStored from '@/hooks/useLocalStored'
+import { LSType, PropsCheck } from '@/services/model'
 
-interface Props {
-  text: string,
-  status: boolean
-  id_game: number,
-  id_guide: number,
-  id_adventure: number
-}
-
-const Check = (props: Props) => {
+const Check = (props: PropsCheck) => {
   const [estado, setEstado] = useState(props.status)
 
+  const obj: LSType = { status: props.status, id_game: props.id_game, id_guide: props.id_guide, id_adventure: props.id_adventure }
   const dt = new Controller()
-  
+
   const handleClick = () => {
     setEstado(!estado)
-
-    const obj = {
-      status: estado,
-      id_game: props.id_game,
-      id_guide: props.id_guide,
-      id_adventure: props.id_adventure
-    }
-
+    obj.status = estado
     dt.set_game_guides_byid(obj)
   }
 

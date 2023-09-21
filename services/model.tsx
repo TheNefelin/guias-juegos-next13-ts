@@ -55,3 +55,11 @@ export interface ParamsLayout {
   children: React.ReactNode
   params: { id: String }
 }
+
+export interface PropsCheck {
+  text: string,
+  status: boolean
+  id_game: number,
+  id_guide: number,
+  id_adventure: number
+}
