@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Image from 'next/image'
 import Check from '@/components/Check'
 import Controller from '@/services/controller'
@@ -18,8 +19,8 @@ const TimeLine = async ({ params }: Params) => {
 
   return (
     <>
-      {data.map(guide => (
-        <div key={guide.id} className="collapse bg-base-200 mb-2 shadow-md">
+      {/* {data.map(guide => (
+        <div key={guide.id} className="collapse collapse-arrow bg-base-200 mb-2 shadow-md">
           <input type="radio" name="my-accordion-1" />
           <div className={`collapse-title text-xl font-medium ${guide.status ? "bg-success text-success-content" : ""}`}>
             {`${guide.id}.- ${guide.name}`}
@@ -53,13 +54,11 @@ const TimeLine = async ({ params }: Params) => {
             ))}
           </div>
         </div>
-      ))}
-
-
+      ))} */}
 
 
       {data.map(guide => (
-        <div key={guide.id} className="collapse bg-base-200 mb-2 shadow-md">
+        <div key={guide.id} className="collapse collapse-arrow bg-base-200 mb-2 shadow-md">
           <input type="checkbox" />
           <div className={`collapse-title text-lg font-medium ${guide.status ? "bg-success text-success-content" : ""}`}>
             {`${guide.id}.- ${guide.name}`}
