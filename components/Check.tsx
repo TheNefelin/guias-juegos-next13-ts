@@ -1,7 +1,6 @@
 'use client'
 import React, { useState, useEffect } from 'react'
 import Controller from '@/services/controller'
-import useLocalStored from '@/hooks/useLocalStored'
 import { LSType, PropsCheck } from '@/services/model'
 
 const Check = (props: PropsCheck) => {

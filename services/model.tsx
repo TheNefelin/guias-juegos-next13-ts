@@ -26,18 +26,16 @@ export interface GameCharactersType {
 }
 
 export interface GameGuidesType {
-  id: number
-  name: string,
-  status: boolean,
-  adventure: [
-    {
-      id: number,
-      text: string,
-      important: boolean,
-      status: boolean,
-      img: []
-    }
-  ]
+  id: number;
+  name: string;
+  status: boolean;
+  adventure: [{
+      id: number;
+      text: string;
+      important: boolean;
+      status: boolean;
+      img: string[];
+  }];
 }
 
 export interface LSType {

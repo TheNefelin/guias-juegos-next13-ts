@@ -1,7 +1,8 @@
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
 import Image from 'next/image'
-import Check from '@/components/Check'
 import Controller from '@/services/controller'
+import Check from '@/components/Check'
 import { ParamsPage } from '@/services/model'
 
 const TimeLine = async ({ params }: ParamsPage) => {
@@ -22,20 +23,18 @@ const TimeLine = async ({ params }: ParamsPage) => {
             {`${guide.id}.- ${guide.name}`}
           </div>
 
-          <div className="collapse-content">
+          <div key={guide.id} className="collapse-content">
             <Check text={"Capítulo Completado"} status={guide.status} id_game={id} id_guide={guide.id} id_adventure={0}></Check>
-
             {guide.adventure.map((adventure) => (
-              <>
+              <span key={adventure.id}>
                 {adventure.important ?
-                  <div className='bg-accent-content p-2' key={adventure.id}>
+                  <div className='bg-accent-content p-2'>
                     {adventure.text}
                     <Check text={"Completado"} status={adventure.status} id_game={id} id_guide={guide.id} id_adventure={adventure.id}></Check>
                   </div>
                   :
-                  <p key={adventure.id}>{adventure.text}</p>
+                  <p>{adventure.text}</p>
                 }
-
                 {adventure.img.map((img, index) => (
                   <Image
                     key={index}
@@ -48,10 +47,10 @@ const TimeLine = async ({ params }: ParamsPage) => {
                   // placeholder="blur"
                   ></Image>
                 ))}
-              </>
+              </span>
             ))}
-
           </div>
+
         </div>
       ))}
     </>
