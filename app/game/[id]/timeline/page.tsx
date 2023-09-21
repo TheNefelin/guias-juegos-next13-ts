@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Check from '@/components/Check'
-import Controller from '@/services/controller'
+import Controller from '@/services/xcontroller'
 
 interface Params {
   params: { id: String }
