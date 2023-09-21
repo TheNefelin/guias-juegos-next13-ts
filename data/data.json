@@ -416,13 +416,14 @@
           },
           {
             "id": 5,
-            "text": "✓ Consogue la Komodo Scale (Item /56) dandole la razon al vendedor, regalasela al muchacho",
+            "text": "✓ Consogue la Komodo Scale (Item /56) dandole la razon al vendedor y regalasela al muchacho",
             "important": false,
             "status": false,
             "img": [
               "/ChronoCross/adventure/adv_03_02.jpg",
               "/ChronoCross/adventure/adv_03_03.jpg",
-              "/ChronoCross/items/komodo_scale.jpg"
+              "/ChronoCross/items/komodo_scale.jpg",
+              "/ChronoCross/adventure/adv_03_04.jpg"
             ]
           },
           {
@@ -450,7 +451,9 @@
             "text": "✓ Habla con la camarera del bar la de los poemas y finalmente 'NO' reclutes a Poshul aún",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_03_07.jpg"
+            ]
           }
         ]
       },
@@ -508,16 +511,6 @@
             "img": []
           },
           {
-            "id": 2,
-            "text": "✓ Ve donde conseguiste el Shark Tooth Amulet y obtendras a Mojo (Personaje 2/45)",
-            "important": false,
-            "status": false,
-            "img": [
-              "/ChronoCross/adventure/adv_05_01.jpg",
-              "/ChronoCross/adventure/adv_05_02.jpg"
-            ]
-          },
-          {
             "id": 3,
             "text": "✓ Habla con la camarera del bar la de los poemas",
             "important": false,
@@ -529,35 +522,49 @@
             "text": "✓ Ve a Cape Howl y examina la tumba",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_05_01.jpg"
+            ]
           },
           {
             "id": 5,
             "text": "✓ Lucharás con Karsh, Solt y Peppor",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_05_02.jpg"
+            ]
           },
           {
             "id": 6,
             "text": "✓ Nombra a Kid pero NO la reclutes aún (rechazala 3 veces)",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_05_03.jpg",
+              "/ChronoCross/adventure/adv_05_04.jpg",
+              "/ChronoCross/adventure/adv_05_05.jpg"
+            ]
           },
           {
             "id": 7,
-            "text": "✓ Leena (Personaje 3/45) y (Personaje 4/45) Poshul se te unirán ahora, (es la única manera de conseguir a Leena)",
+            "text": "✓ Leena (Personaje 3/45) y Poshul (Personaje 4/45) se te unirán ahora, (es la única manera de conseguir a Leena)",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_05_06.jpg",
+              "/ChronoCross/adventure/adv_05_07.jpg"
+            ]
           },
           {
-            "id": 8,
-            "text": "✓ Con cualquiera de los personajes, ve al Hydra Swamp (Pantano de la Hydra)",
+            "id": 2,
+            "text": "✓ Ve donde conseguiste el Shark Tooth Amulet y muestraselo al predicador, se te unira Mojo (Personaje 2/45) al salir de alli",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_05_08.jpg",
+              "/ChronoCross/adventure/adv_05_09.jpg"
+            ]
           }
         ]
       },
@@ -596,20 +603,34 @@
             "important": false,
             "status": false,
             "img": [
+              "/ChronoCross/adventure/adv_07_01.jpg",
+              "/ChronoCross/adventure/adv_07_02.jpg",
               "/ChronoCross/items/heavy_skull.jpg"
             ]
           },
           {
             "id": 2,
-            "text": "✓ Obten las Bellflower (Item /56) y el Big Egg (Item /56) cerca del pájaro",
+            "text": "✓ Obten las Bellflower (Item /56)",
             "important": false,
             "status": false,
             "img": [
-              "/ChronoCross/items/big_egg.jpg"
+              "/ChronoCross/adventure/adv_07_03.jpg",
+              "/ChronoCross/adventure/adv_07_04.jpg",
+              "/ChronoCross/items/bellflower.jpg"
             ]
           },
           {
             "id": 3,
+            "text": "✓ Obten el Big Egg (Item /56) cerca del pájaro",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_07_05.jpg",
+              "/ChronoCross/items/big_egg.jpg"
+            ]
+          },
+          {
+            "id": 4,
             "text": "✓ Continua el camino hacia el norte y lucha contra Solt y Peppor",
             "important": false,
             "status": false,
@@ -637,6 +658,7 @@
             "important": false,
             "status": false,
             "img": [
+              "/ChronoCross/adventure/adv_08_01.jpg",
               "/ChronoCross/frames/tea_for_three.jpg"
             ]
           },
@@ -645,7 +667,10 @@
             "text": "✓ Ve a la parte más al este del pueblo, dale las flores a Glenn",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_08_02.jpg",
+              "/ChronoCross/adventure/adv_08_03.jpg"
+            ]
           },
           {
             "id": 4,
@@ -2436,7 +2461,7 @@
           },
           {
             "id": 6,
-            "text": "✓ Obtendrás el Time Egg (Item /56)",
+            "text": "✓ Obtendrás el Time Egg (Item /56), este item lo obtendras en la partida NG+",
             "important": false,
             "status": false,
             "img": [
