@@ -1,6 +1,5 @@
 import data from '@/data/data.json'
 import { LSType } from './model';
-import { NumericLiteral } from 'typescript';
 
 export default class Controller {
   constructor() { }
