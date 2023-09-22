@@ -644,10 +644,13 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Ve a la estatua en lo más alto del pueblo, y consigue a Kid (Personaje 5/45) y obtendras el Tele Porter (Item /56)",
+            "text": "✓ Ve a la estatua en lo más alto del pueblo, habla con el tipo que la esta limpiando, y consigue a Kid (Personaje 5/45) y obtendras el Tele Porter (Item /56)",
             "important": false,
             "status": false,
             "img": [
+              "/ChronoCross/adventure/adv_08_01.jpg",
+              "/ChronoCross/adventure/adv_08_02.jpg",
+              "/ChronoCross/adventure/adv_08_03.jpg",
               "/ChronoCross/items/tele_porter.jpg"
             ]
           },
@@ -657,7 +660,7 @@
             "important": false,
             "status": false,
             "img": [
-              "/ChronoCross/adventure/adv_08_01.jpg",
+              "/ChronoCross/adventure/adv_08_04.jpg",
               "/ChronoCross/frames/tea_for_three.jpg"
             ]
           },
@@ -667,8 +670,8 @@
             "important": false,
             "status": false,
             "img": [
-              "/ChronoCross/adventure/adv_08_02.jpg",
-              "/ChronoCross/adventure/adv_08_03.jpg"
+              "/ChronoCross/adventure/adv_08_05.jpg",
+              "/ChronoCross/adventure/adv_08_06.jpg"
             ]
           },
           {
@@ -680,27 +683,45 @@
           },
           {
             "id": 5,
-            "text": "✓ Opción 1: Consigue a Guile (Personaje 6/45), Habla con él en el bar. Ve al puerto de Termina, encuentra el barco de Korcha y sube por el rompeolas",
-            "important": true,
-            "status": false,
-            "img": []
-          },
-          {
-            "id": 6,
-            "text": "✓ Opción 2: Consigue a Nikki (Personaje 7/45), habla con Miki en el barco de Magical Dreamers. Ve al Bosque Shadow, consigue la Aroma Pouch (Item /56) y úsalo para mover a los monstruitos hacia el monstruo-planta gigante, en la cueva de la cascada puedes encontrar el Skullduggery (Marco 6/15), avanza por el camino que bloqueaba el mounstruo, mueve la roca para detener a los insectos, al salvar a un hombre te dara el Mushroom (Item /56), avanza hasta salir por el pozo",
+            "text": "✓ Opción 1: Consigue a Guile (Personaje 6/45), Habla con él en el bar. Ve al cenemterio de Termina, encuentra el barco de Korcha y sube por el rompeolas",
             "important": true,
             "status": false,
             "img": [
-              "/ChronoCross/items/aroma_pouch.jpg",
-              "/ChronoCross/frames/skullduggery.jpg"
+              "/ChronoCross/adventure/adv_08_07.jpg",
+              "/ChronoCross/adventure/adv_08_08.jpg",
+              "/ChronoCross/adventure/adv_08_09.jpg"
             ]
           },
           {
             "id": 7,
-            "text": "✓ Opción 3: Consigue a Pierre (Personaje 8/45), en la Herrería, primero debes conseguir el Hero's Medal (Item /56) del del niño que juega afuera, Ve a la puerta principal de Viper Manor",
+            "text": "✓ Opción 2: Consigue a Pierre (Personaje 8/45), en la Herrería, primero debes conseguir el Hero's Medal (Item /56) del del niño que juega afuera y devolverselo a Pierre, Ve a la puerta principal de Viper Manor",
             "important": true,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_08_10.jpg",
+              "/ChronoCross/adventure/adv_08_11.jpg",
+              "/ChronoCross/items/heros_medal.jpg",
+              "/ChronoCross/adventure/adv_08_12.jpg",
+              "/ChronoCross/adventure/adv_08_13.jpg"
+            ]
+          },
+          {
+            "id": 6,
+            "text": "✓ Opción 3: Consigue a Nikki (Personaje 7/45), habla con todos en el barco de Magical Dreamers hasta que llegue Miki. Ve al Bosque Shadow, consigue la Aroma Pouch (Item /56) y úsalo para mover a los monstruitos hacia el monstruo-planta gigante, en la cueva de la cascada puedes encontrar el Skullduggery (Marco 6/15) y recoge la Angry Scapula (Item /56) de Skelly, avanza por el camino que bloqueaba el mounstruo, mueve la roca para detener a los insectos, al salvar a un hombre te dara el Mushroom (Item /56), avanza hasta salir por el pozo",
+            "important": true,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_08_14.jpg",
+              "/ChronoCross/adventure/adv_08_15.jpg",
+              "/ChronoCross/adventure/adv_08_16.jpg",
+              "/ChronoCross/adventure/adv_08_17.jpg",
+              "/ChronoCross/items/angry_scapula.jpg",
+              "/ChronoCross/adventure/adv_08_18.jpg",
+              "/ChronoCross/items/aroma_pouch.jpg",
+              "/ChronoCross/frames/skullduggery.jpg",
+              "/ChronoCross/adventure/adv_08_19.jpg",
+              "/ChronoCross/adventure/adv_08_20.jpg"
+            ]
           }
         ]
       },
@@ -736,6 +757,8 @@
             "important": false,
             "status": false,
             "img": [
+              "/ChronoCross/adventure/adv_10_01.jpg",
+              "/ChronoCross/adventure/adv_10_02.jpg",
               "/ChronoCross/items/manor_key.jpg"
             ]
           },
@@ -753,14 +776,16 @@
       {
         "id": 11,
         "name": "(AW) Viper Manor",
-        "status": false,
+        "status": true,
         "adventure": [
           {
             "id": 1,
             "text": "✓ Gira la estatua de la serpiente, y cae en la trampa",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_11_01.jpg"
+            ]
           },
           {
             "id": 2,
@@ -1211,22 +1236,13 @@
           },
           {
             "id": 2,
-            "text": "✓ Recoge la Angry Scapula (Item /56) de Skelly en la cueva de la cascada",
-            "important": false,
-            "status": false,
-            "img": [
-              "/ChronoCross/items/angry_scapula.jpg"
-            ]
-          },
-          {
-            "id": 3,
             "text": "✓ Ve por las mazmorras. Habla con Norris (Personaje 24/45), se te unirá si Radius está contigo",
             "important": false,
             "status": false,
             "img": []
           },
           {
-            "id": 4,
+            "id": 3,
             "text": "✓ Ve a Termina, ahora podras usar un bote inflable donde estaba el barco de Nikki",
             "important": false,
             "status": false,
@@ -2497,10 +2513,12 @@
           },
           {
             "id": 4,
-            "text": "✓ Usa el Time Egg encima del agujero de gusano lila para la batalla final",
+            "text": "✓ Usa el Time Egg encima del agujero de gusano lila para la batalla final y al terminar el juego recuperaras el Time Egg en el (NG+)",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_58_99.jpg"
+            ]
           }
         ]
       },
