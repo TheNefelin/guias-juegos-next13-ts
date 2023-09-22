@@ -835,20 +835,36 @@
           },
           {
             "id": 7,
-            "text": "✓ Vuelve a la entrada y usa la combinación apropiada en la estatua de la serpiente",
+            "text": "✓ La habitacion que esta al lado del laboratorio podras conseguir el Decor Shield (Item /56), si la colocas en la armadura sin escudo encontraras una habitacion secreta",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_11_08.jpg",
+              "/ChronoCross/items/decor_shield.jpg",
+              "/ChronoCross/adventure/adv_11_09.jpg",
+              "/ChronoCross/adventure/adv_11_10.jpg"
+            ]
           },
           {
             "id": 8,
-            "text": "✓ Ve al oeste, a la biblioteca, verás a Balthasar (Chrono Trigger), lucha con Marcy",
+            "text": "✓ Vuelve a la entrada y usa la combinación apropiada en la estatua de la serpiente",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_11_11.jpg"
+            ]
           },
           {
             "id": 9,
+            "text": "✓ Ve al oeste, a la biblioteca, verás a Balthasar (Chrono Trigger), lucha con Marcy",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_11_12.jpg"
+            ]
+          },
+          {
+            "id": 10,
             "text": "✓ Obten el marco Porre's Furnace (Marco 7/15)",
             "important": false,
             "status": false,
@@ -857,28 +873,32 @@
             ]
           },
           {
-            "id": 10,
+            "id": 11,
             "text": "✓ Habla con el viejo, vuelve a la habitación grande, busca en las columnas un botón que accione el ascensor",
             "important": false,
             "status": false,
-            "img": []
-          },
-          {
-            "id": 11,
-            "text": "✓ Lucha con los guardias, toma el ascensor y para la puerta derecha",
-            "important": false,
-            "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_11_13.jpg"
+            ]
           },
           {
             "id": 12,
-            "text": "✓ Lucha contra Lynx, habrá unas cuantas escenas",
+            "text": "✓ Lucha con los guardias, toma el ascensor y pasa la puerta",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 13,
+            "text": "✓ Lucha contra Lynx, habrá unas cuantas escenas",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_11_14.jpg"
+            ]
+          },
+          {
+            "id": 14,
             "text": "✓ Si vielves a entrar a Viper Manor y vas a la carcel, encontraras una la Parlor Key (Item /56) que abre las alcantarillas",
             "important": false,
             "status": false,
@@ -921,14 +941,27 @@
       {
         "id": 13,
         "name": "(AW) Guldove",
-        "status": false,
+        "status": true,
         "adventure": [
+          {
+            "id": 3,
+            "text": "✓ Tendras que eleguir entre salvar o NO salvar a kid recibiras el Astral Amulet (Item /56) , dependiendo de la decicion podras obtener nuevos personajes distintos en ambos casos",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_13_01.jpg",
+              "/ChronoCross/items/astral_amulet.jpg",
+              "/ChronoCross/adventure/adv_13_02.jpg",
+              "/ChronoCross/adventure/adv_13_03.jpg"
+            ]
+          },
           {
             "id": 1,
             "text": "✓ Consigue la Pelvic Bone (Item /56) de Skelly de la niña comerciante cerca del barco",
             "important": false,
             "status": false,
             "img": [
+              "/ChronoCross/adventure/adv_13_04.jpg",
               "/ChronoCross/items/pelvic_bone.jpg"
             ]
           },
@@ -937,14 +970,9 @@
             "text": "✓ Despues de hablar con el Shaman ve al bar y habla con el enano, el te dara el Green Tinkler (Item /56)",
             "important": false,
             "status": false,
-            "img": []
-          },
-          {
-            "id": 3,
-            "text": "✓ Tendras que eleguir entre salvar o NO salvar a kid, dependiendo de la decicion podras obtener nuevos personajes distintos en ambos casos",
-            "important": false,
-            "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_13_05.jpg"
+            ]
           },
           {
             "id": 4,
@@ -957,12 +985,29 @@
           },
           {
             "id": 5,
-            "text": "✓ Opcion 2: Salvar a Kid: Se te une Korcha (Personaje 12/45), Toma el barco hacia Termina, consigue a Greco (Personaje 13/45) en la casa del cementerio en Termina, Ve a la Playa Opassa, usa el Astral Amulet (Item /56) de Kid en el agujero para volver a Home World, Ve al Hydra Marsh, lucha con Beeba, obten la Beeba Flute (Item /56) y úsala al norte de todo, Lucha contra el Wingapede, luego con el pulpo y consigue a Razzly el hada (Personaje 14/45), sigue luego por la parte este, lucha contra la Hydra, obtendras la Hydra Humour (Item /56) ahora vuelve a Guldove, asegúrate de cazar a Mel (Personaje 15/45) si la quieres conseguir más tarde y ella te da el Guldovian Stitch (Marco 9/15), finalmente conseguiras a Kid. Capítulo Piratas Fantasmas",
+            "text": "✓ Opcion 2: Salvar a Kid: Se te une Korcha (Personaje 12/45), Toma el barco hacia Termina, consigue a Greco (Personaje 13/45) en la casa del cementerio en Termina, Ve a la Playa Opassa, usa el Astral Amulet de Kid en el agujero para volver a Home World, Ve al Hydra Marsh, lucha con Beeba, obten la Beeba Flute (Item /56) y úsala al norte de todo, Lucha contra el Wingapede, luego con el pulpo y consigue a Razzly el hada (Personaje 14/45), sigue luego por la parte este, lucha contra la Hydra, obtendras la Hydra Humour (Item /56) ahora vuelve a Guldove, asegúrate de darle el medicamento a Kid y luego trata de captura a Mel (Personaje 15/45) si es que las quieres conseguir, ella te da el Guldovian Stitch (Marco 9/15), para ello deberas hablar con Orla y el portero del Shaman luego ve al escondite de Mel. Viaja a Termina, escucha a Glenn Vuelve al bote aceptando a Korcha NUEVAMENTE y viaja a Guldove a la casa de Mel (Por fin se une la bastarda). Finalmente ve al capítulo Piratas Fantasmas",
             "important": true,
             "status": false,
             "img": [
-              "/ChronoCross/items/astral_amulet.jpg",
+              "/ChronoCross/adventure/adv_13_06.jpg",
+              "/ChronoCross/adventure/adv_13_07.jpg",
+              "/ChronoCross/adventure/adv_13_08.jpg",
+              "/ChronoCross/adventure/adv_13_09.jpg",
+              "/ChronoCross/adventure/adv_13_10.jpg",
               "/ChronoCross/items/beeba_flute.jpg",
+              "/ChronoCross/adventure/adv_13_11.jpg",
+              "/ChronoCross/adventure/adv_13_12.jpg",
+              "/ChronoCross/adventure/adv_13_13.jpg",
+              "/ChronoCross/adventure/adv_13_14.jpg",
+              "/ChronoCross/adventure/adv_13_15.jpg",
+              "/ChronoCross/items/hydra_humour.jpg",
+              "/ChronoCross/adventure/adv_13_16.jpg",
+              "/ChronoCross/adventure/adv_13_17.jpg",
+              "/ChronoCross/adventure/adv_13_18.jpg",
+              "/ChronoCross/adventure/adv_13_19.jpg",
+              "/ChronoCross/adventure/adv_13_20.jpg",
+              "/ChronoCross/adventure/adv_13_21.jpg",
+              "/ChronoCross/adventure/adv_13_22.jpg",
               "/ChronoCross/frames/guldovian_stitch.jpg"
             ]
           }
@@ -1591,13 +1636,7 @@
             "status": false,
             "img": []
           },
-          {
-            "id": 10,
-            "text": "✓ La habitacion que esta al lado del laboratorio podras conseguir el Decor Shield (Item /56), si la colocas en la armadura sin escudo encontraras una habitacion secreta",
-            "important": false,
-            "status": false,
-            "img": []
-          },
+
           {
             "id": 11,
             "text": "✓ Sigue recto hacia la biblioteca, lucharás con Grovyc y Mecha",
