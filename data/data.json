@@ -466,34 +466,32 @@
             "text": "✓ Empuja la roca enfrente de la cueva, y lucha con el primer Komodo",
             "important": false,
             "status": false,
-            "img": [
-              "/ChronoCross/adventure/adv_04_01.jpg"
-            ]
+            "img": []
           },
           {
             "id": 2,
             "text": "✓ Usa el saliente para llegar el segundo Komodo",
             "important": false,
             "status": false,
-            "img": [
-              "/ChronoCross/adventure/adv_04_02.jpg"
-            ]
+            "img": []
           },
           {
             "id": 3,
             "text": "✓ Debes perseguir, para cazar y luego luchar con el tercer Komodo, y luego a Mamá Komodo",
             "important": false,
             "status": false,
-            "img": [
-              "/ChronoCross/adventure/adv_04_03.jpg"
-            ]
+            "img": []
           },
           {
             "id": 4,
             "text": "✓ Sal por la izquierda de la playa, y sigue recto…",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_04_01.jpg",
+              "/ChronoCross/adventure/adv_04_02.jpg",
+              "/ChronoCross/adventure/adv_04_03.jpg"
+            ]
           }
         ]
       },
@@ -521,9 +519,7 @@
             "text": "✓ Ve a Cape Howl y examina la tumba",
             "important": false,
             "status": false,
-            "img": [
-              "/ChronoCross/adventure/adv_05_01.jpg"
-            ]
+            "img": []
           },
           {
             "id": 5,
@@ -531,6 +527,7 @@
             "important": false,
             "status": false,
             "img": [
+              "/ChronoCross/adventure/adv_05_01.jpg",
               "/ChronoCross/adventure/adv_05_02.jpg"
             ]
           },
@@ -811,11 +808,7 @@
             "text": "✓ En las habitaciones de la derecha, recoge todos los articulos y el pendiente para caer en otra trampa",
             "important": false,
             "status": false,
-            "img": [
-              "/ChronoCross/adventure/adv_11_04.jpg",
-              "/ChronoCross/adventure/adv_11_05.jpg",
-              "/ChronoCross/adventure/adv_11_06.jpg"
-            ]
+            "img": []
           },
           {
             "id": 5,
@@ -830,6 +823,9 @@
             "important": false,
             "status": false,
             "img": [
+              "/ChronoCross/adventure/adv_11_04.jpg",
+              "/ChronoCross/adventure/adv_11_05.jpg",
+              "/ChronoCross/adventure/adv_11_06.jpg",
               "/ChronoCross/adventure/adv_11_07.jpg"
             ]
           },
@@ -850,18 +846,14 @@
             "text": "✓ Vuelve a la entrada y usa la combinación apropiada en la estatua de la serpiente",
             "important": false,
             "status": false,
-            "img": [
-              "/ChronoCross/adventure/adv_11_11.jpg"
-            ]
+            "img": []
           },
           {
             "id": 9,
             "text": "✓ Ve al oeste, a la biblioteca, verás a Balthasar (Chrono Trigger), lucha con Marcy",
             "important": false,
             "status": false,
-            "img": [
-              "/ChronoCross/adventure/adv_11_12.jpg"
-            ]
+            "img": []
           },
           {
             "id": 10,
@@ -869,6 +861,8 @@
             "important": false,
             "status": false,
             "img": [
+              "/ChronoCross/adventure/adv_11_11.jpg",
+              "/ChronoCross/adventure/adv_11_12.jpg",
               "/ChronoCross/frames/porres_furnace.jpg"
             ]
           },
@@ -877,9 +871,7 @@
             "text": "✓ Habla con el viejo, vuelve a la habitación grande, busca en las columnas un botón que accione el ascensor",
             "important": false,
             "status": false,
-            "img": [
-              "/ChronoCross/adventure/adv_11_13.jpg"
-            ]
+            "img": []
           },
           {
             "id": 12,
@@ -894,6 +886,7 @@
             "important": false,
             "status": false,
             "img": [
+              "/ChronoCross/adventure/adv_11_13.jpg",
               "/ChronoCross/adventure/adv_11_14.jpg"
             ]
           },
