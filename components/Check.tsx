@@ -10,8 +10,7 @@ const Check = (props: PropsCheck) => {
 
     if (props.id_adventure === 0) {
       const el = document.querySelector(`#G-${props.id_game}-${props.id_guide}-0`)
-      console.log(estado)
-      console.log(el)
+
       if (estado) {
         el?.classList.remove("bg-success", "text-success-content")
       } else {

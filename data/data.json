@@ -735,7 +735,9 @@
             "text": "✓ Crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+. Vencer al 'Time Devourer' antes de infiltrarte en Viper Manor",
             "important": true,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/final_02.jpg"
+            ]
           }
         ]
       },
@@ -776,7 +778,7 @@
       {
         "id": 11,
         "name": "(AW) Viper Manor",
-        "status": true,
+        "status": false,
         "adventure": [
           {
             "id": 1,
@@ -799,14 +801,21 @@
             "text": "✓ En la cocina, habla con Glenn, ve a su habitación, y te escribirá la combinación de la estatua",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_11_02.jpg",
+              "/ChronoCross/adventure/adv_11_03.jpg"
+            ]
           },
           {
             "id": 4,
-            "text": "✓ En las habitaciones de la derecha, intenta coger el pendiente y cae en otra trampa",
+            "text": "✓ En las habitaciones de la derecha, recoge todos los articulos y el pendiente para caer en otra trampa",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_11_04.jpg",
+              "/ChronoCross/adventure/adv_11_05.jpg",
+              "/ChronoCross/adventure/adv_11_06.jpg"
+            ]
           },
           {
             "id": 5,
@@ -817,10 +826,12 @@
           },
           {
             "id": 6,
-            "text": "✓ Libera al criatura que esta enjaulado",
+            "text": "✓ Libera al criatura que esta enjaulada",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_11_07.jpg"
+            ]
           },
           {
             "id": 7,
@@ -887,7 +898,9 @@
             "text": "✓ Este final tiene 2 variantes, las variantes dependeran de que decisión tomas en Guldove.",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/final_03.jpg"
+            ]
           },
           {
             "id": 2,
