@@ -34,20 +34,22 @@ const TimeLine = async ({ params }: ParamsPage) => {
                   :
                   <p>{adventure.text}</p>
                 }
-                <div className='flex flex-wrap gap-4 my-4 justify-center'>
-                  {adventure.img.map((img, index) => (
-                    <Image
-                      key={index}
-                      className='shadow-md'
-                      src={img}
-                      alt="Imagen de Guia"
-                      height={100}
-                      width={500}
-                    // blurDataURL={img}
-                    // placeholder="blur"
-                    ></Image>
-                  ))}
-                </div>
+                {adventure.img.length > 0 &&
+                  <div className='my-4 flex flex-wrap gap-4 justify-center'>
+                    {adventure.img.map((img, index) => (
+                      <Image
+                        key={index}
+                        className='shadow-md'
+                        src={img}
+                        alt="Imagen de Guia"
+                        height={100}
+                        width={500}
+                      // blurDataURL={img}
+                      // placeholder="blur"
+                      ></Image>
+                    ))}
+                  </div>
+                }
               </span>
             ))}
           </div>
