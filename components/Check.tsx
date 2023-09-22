@@ -6,13 +6,13 @@ import { LSType, PropsCheck } from '@/services/model'
 const Check = (props: PropsCheck) => {
   const [estado, setEstado] = useState(props.status)
 
-  const obj: LSType = { status: props.status, id_game: props.id_game, id_guide: props.id_guide, id_adventure: props.id_adventure }
-  const dt = new Controller()
+  // const obj: LSType = { status: props.status, id_game: props.id_game, id_guide: props.id_guide, id_adventure: props.id_adventure }
+  // const dt = new Controller()
 
   const handleClick = () => {
     setEstado(!estado)
-    obj.status = estado
-    dt.set_game_guides_byid(obj)
+    // obj.status = estado
+    // dt.set_game_guides_byid(obj)
   }
 
   return (
