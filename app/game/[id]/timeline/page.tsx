@@ -18,7 +18,7 @@ const TimeLine = async ({ params }: ParamsPage) => {
       {data.map(guide => (
         <div key={guide.id} className="collapse collapse-arrow bg-base-200 mb-2 shadow-md">
           <input type="checkbox" />
-          <div className={`collapse-title text-lg font-medium ${guide.status ? "bg-success text-success-content" : ""}`}>
+          <div id={`G-${id}-${guide.id}-0`} className={`collapse-title text-lg font-medium ${guide.status ? "bg-success text-success-content" : ""}`}>
             {`${guide.id}.- ${guide.name}`}
           </div>
 

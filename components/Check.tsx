@@ -1,18 +1,23 @@
 'use client'
 import React, { useState, useEffect } from 'react'
-import Controller from '@/services/controller'
-import { LSType, PropsCheck } from '@/services/model'
+import { PropsCheck } from '@/services/model'
 
 const Check = (props: PropsCheck) => {
   const [estado, setEstado] = useState(props.status)
 
-  // const obj: LSType = { status: props.status, id_game: props.id_game, id_guide: props.id_guide, id_adventure: props.id_adventure }
-  // const dt = new Controller()
-
   const handleClick = () => {
     setEstado(!estado)
-    // obj.status = estado
-    // dt.set_game_guides_byid(obj)
+
+    if (props.id_adventure === 0) {
+      const el = document.querySelector(`#G-${props.id_game}-${props.id_guide}-0`)
+      console.log(estado)
+      console.log(el)
+      if (estado) {
+        el?.classList.remove("bg-success", "text-success-content")
+      } else {
+        el?.classList.add("bg-success", "text-success-content")
+      }
+    }
   }
 
   return (
