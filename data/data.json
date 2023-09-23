@@ -937,70 +937,59 @@
         "status": true,
         "adventure": [
           {
-            "id": 3,
+            "id": 1,
             "text": "✓ Tendras que eleguir entre salvar o NO salvar a kid recibiras el Astral Amulet (Item /56) , dependiendo de la decicion podras obtener nuevos personajes distintos en ambos casos",
             "important": false,
             "status": false,
             "img": [
               "/ChronoCross/adventure/adv_13_01.jpg",
-              "/ChronoCross/items/astral_amulet.jpg",
-              "/ChronoCross/adventure/adv_13_02.jpg",
-              "/ChronoCross/adventure/adv_13_03.jpg"
-            ]
-          },
-          {
-            "id": 1,
-            "text": "✓ Consigue la Pelvic Bone (Item /56) de Skelly de la niña comerciante cerca del barco",
-            "important": false,
-            "status": false,
-            "img": [
-              "/ChronoCross/adventure/adv_13_04.jpg",
-              "/ChronoCross/items/pelvic_bone.jpg"
+              "/ChronoCross/items/astral_amulet.jpg"
             ]
           },
           {
             "id": 2,
-            "text": "✓ Despues de hablar con el Shaman ve al bar y habla con el enano, el te dara el Green Tinkler (Item /56)",
+            "text": "✓ En ambos casos debes hablar con el Shaman y el enano del bar el cual te dara el Green Tinkler (Item /56)",
             "important": false,
             "status": false,
             "img": [
-              "/ChronoCross/adventure/adv_13_05.jpg"
+              "/ChronoCross/adventure/adv_13_02.jpg",
+              "/ChronoCross/adventure/adv_13_03.jpg",
+              "/ChronoCross/items/green_tinkler.jpg"
             ]
           },
           {
-            "id": 4,
-            "text": "✓ Opcion 1: No salvar a Kid: Habla con Macha y todo el mundo en Guldove, toma el barco de Kocha hacia Termina, en la entrada verás a Glenn. Vuelve al barco, conseguirás a Glenn (Personaje 9/45) y Macha (Personaje 10/45), Macha te dara el Tropical Paradise (Marco 8/15), ve al mar nublado al este de El Nido y haz el capítulo Piratas Fantasmas luego vuelve a Guldove para ver al Doc y Kid. Se te unira el Doc (Personaje 11/45)",
+            "id": 3,
+            "text": "✓ Opcion 1: No salvar a Kid: Habla con Korcha y luego con Macha, toma el barco de Kocha hacia Termina, en la entrada verás a Glenn. Vuelve al barco, conseguirás a Glenn (Personaje 9/45) y Macha (Personaje 10/45), Macha te dara el Tropical Paradise (Marco 8/15). Haz el capitulo: '15.- (AW) Piratas Fantasmas', luego vuelve a Guldove para ver al Doc y Kid. Se te unira el Doc (Personaje 11/45). Finalmente puedes hacer el capitulo: '14.- (HW) Bosque Hydra'.",
             "important": true,
             "status": false,
             "img": [
-              "/ChronoCross/frames/tropical_paradise.jpg"
-            ]
-          },
-          {
-            "id": 5,
-            "text": "✓ Opcion 2: Salvar a Kid: Se te une Korcha (Personaje 12/45), Toma el barco hacia Termina, consigue a Greco (Personaje 13/45) en la casa del cementerio en Termina, Ve a la Playa Opassa, usa el Astral Amulet de Kid en el agujero para volver a Home World, Ve al Hydra Marsh, lucha con Beeba, obten la Beeba Flute (Item /56) y úsala al norte de todo, Lucha contra el Wingapede, luego con el pulpo y consigue a Razzly el hada (Personaje 14/45), sigue luego por la parte este, lucha contra la Hydra, obtendras la Hydra Humour (Item /56) ahora vuelve a Guldove, asegúrate de darle el medicamento a Kid y luego trata de captura a Mel (Personaje 15/45) si es que las quieres conseguir, ella te da el Guldovian Stitch (Marco 9/15), para ello deberas hablar con Orla y el portero del Shaman luego ve al escondite de Mel. Viaja a Termina, escucha a Glenn Vuelve al bote aceptando a Korcha NUEVAMENTE y viaja a Guldove a la casa de Mel (Por fin se une la bastarda). Finalmente ve al capítulo Piratas Fantasmas",
-            "important": true,
-            "status": false,
-            "img": [
-              "/ChronoCross/adventure/adv_13_06.jpg",
+              "/ChronoCross/adventure/adv_13_04.jpg",
               "/ChronoCross/adventure/adv_13_07.jpg",
               "/ChronoCross/adventure/adv_13_08.jpg",
               "/ChronoCross/adventure/adv_13_09.jpg",
               "/ChronoCross/adventure/adv_13_10.jpg",
-              "/ChronoCross/items/beeba_flute.jpg",
               "/ChronoCross/adventure/adv_13_11.jpg",
+              "/ChronoCross/adventure/adv_15_01.jpg",
               "/ChronoCross/adventure/adv_13_12.jpg",
               "/ChronoCross/adventure/adv_13_13.jpg",
+              "/ChronoCross/frames/tropical_paradise.jpg"
+            ]
+          },
+          {
+            "id": 4,
+            "text": "✓ Opcion 2: Salvar a Kid: Se te une Korcha (Personaje 12/45), Toma el barco hacia Termina, en la entrada verás a Glenn, Ve a la Playa Opassa, Haz el capitulo: '14.- (HW) Bosque Hydra', vuelve a Guldove, asegúrate de darle el medicamento a Kid y luego trata de captura a Mel (Personaje 15/45) si es que las quieres conseguir, ella te da el Guldovian Stitch (Marco 9/15), para ello deberas hablar con Orla y el portero del Shaman luego ve al escondite de Mel. Viaja a Termina, escucha a Glenn Vuelve al bote aceptando a Korcha NUEVAMENTE y viaja a Guldove a la casa de Mel (Por fin se une la bastarda). Finalmente ve al capitulo: '15.- (AW) Piratas Fantasmas'",
+            "important": true,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_13_05.jpg",
+              "/ChronoCross/adventure/adv_13_06.jpg",
+              "/ChronoCross/adventure/adv_13_09.jpg",
+              "/ChronoCross/adventure/adv_14_01.jpg",
               "/ChronoCross/adventure/adv_13_14.jpg",
               "/ChronoCross/adventure/adv_13_15.jpg",
-              "/ChronoCross/items/hydra_humour.jpg",
               "/ChronoCross/adventure/adv_13_16.jpg",
               "/ChronoCross/adventure/adv_13_17.jpg",
               "/ChronoCross/adventure/adv_13_18.jpg",
-              "/ChronoCross/adventure/adv_13_19.jpg",
-              "/ChronoCross/adventure/adv_13_20.jpg",
-              "/ChronoCross/adventure/adv_13_21.jpg",
-              "/ChronoCross/adventure/adv_13_22.jpg",
               "/ChronoCross/frames/guldovian_stitch.jpg"
             ]
           }
@@ -1008,46 +997,95 @@
       },
       {
         "id": 14,
-        "name": "(AW) Piratas Fantasmas",
+        "name": "(HW) Bosque Hydra",
         "status": false,
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Antes de continuar consigue el Book of Poems (Item /56) hablando con la camarera y entregaselo a ella misma en el otro mundo",
+            "text": "✓ Lega a la playa y viaja al (HW) con el Astral Amulet de Kid",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 2,
+            "text": "✓  Ve al Hydra Marsh, lucha con Beeba, obten la Beeba Flute (Item /56) y úsala al norte de todo, Lucha contra el Wingapede y cae por el agujero en donde acabas de pelear",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_14_01.jpg",
+              "/ChronoCross/adventure/adv_14_02.jpg",
+              "/ChronoCross/items/beeba_flute.jpg",
+              "/ChronoCross/adventure/adv_14_03.jpg"
+            ]
+          },
+          {
+            "id": 3,
+            "text": "✓ No Salvar a Kid: Al caer por el agujero veras que el pulpo ya se comio a Razzly",
+            "important": true,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_14_04.jpg"
+            ]
+          },
+          {
+            "id": 4,
+            "text": "✓ Salvar a Kid: Lucha con el pulpo y consigue a Razzly el hada (Personaje 14/45), sigue por la parte norte luego este, lucha contra la Hydra, obtendras la Hydra Humour (Item /56)",
+            "important": true,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_14_05.jpg",
+              "/ChronoCross/adventure/adv_14_06.jpg",
+              "/ChronoCross/adventure/adv_14_07.jpg",
+              "/ChronoCross/adventure/adv_14_08.jpg",
+              "/ChronoCross/items/hydra_humour.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "(AW) Piratas Fantasmas",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
             "text": "✓ Ve a la zona nublosa entre El Nido y el The Dead Sea",
             "important": false,
             "status": false,
             "img": []
           },
           {
-            "id": 3,
+            "id": 2,
             "text": "✓ Cuando ataquen los fantasmas, observa que la puerta principal está cerrada",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_15_01.jpg",
+              "/ChronoCross/adventure/adv_15_02.jpg"
+            ]
           },
           {
-            "id": 4,
+            "id": 3,
             "text": "✓ Mata a todos los esqueletos y habla con los piratas para encontrar una llave",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_15_03.jpg",
+              "/ChronoCross/adventure/adv_15_04.jpg"
+            ]
           },
           {
-            "id": 5,
+            "id": 4,
             "text": "✓ Durante el recorrido encontraras a la criatura que liberaste, si la capturas reclutaras a Pip (Personaje 16/45)",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_15_05.jpg"
+            ]
           },
           {
-            "id": 6,
+            "id": 5,
             "text": "✓ Llega a la cubierta, lucha con el Diamond Jar",
             "important": false,
             "status": false,
@@ -1056,22 +1094,8 @@
         ]
       },
       {
-        "id": 15,
-        "name": "(AW) Ermita Quemada",
-        "status": false,
-        "adventure": [
-          {
-            "id": 1,
-            "text": "✓ Lucha con Harle, consigue sus Gafas Luna (un buen accesorio)",
-            "important": false,
-            "status": false,
-            "img": []
-          }
-        ]
-      },
-      {
         "id": 16,
-        "name": "(AW) Viper Manor / Termina",
+        "name": "(AW) Termina / Viper Manor",
         "status": false,
         "adventure": [
           {
@@ -1087,6 +1111,22 @@
             "important": false,
             "status": false,
             "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ Antes de continuar consigue el Book of Poems (Item /56) hablando con la camarera y entregaselo a ella misma en el otro mundo",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 4,
+            "text": "✓ Consigue la Pelvic Bone (Item /56) de Skelly de la niña comerciante cerca del barco",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/items/pelvic_bone.jpg"
+            ]
           }
         ]
       },
@@ -1114,9 +1154,23 @@
         ]
       },
       {
+        "id": 15,
+        "name": "(AW) Ermita Quemada",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Lucha con Harle, consigue sus Gafas Luna (un buen accesorio)",
+            "important": false,
+            "status": false,
+            "img": []
+          }
+        ]
+      },
+      {
         "id": 18,
         "name": "(HW) Costa Este de El Nido",
-        "status": false,
+        "status": true,
         "adventure": [
           {
             "id": 1,
