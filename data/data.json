@@ -934,7 +934,7 @@
       {
         "id": 13,
         "name": "(AW) Guldove",
-        "status": true,
+        "status": false,
         "adventure": [
           {
             "id": 1,
@@ -977,7 +977,7 @@
           },
           {
             "id": 4,
-            "text": "✓ Opcion 2: Salvar a Kid: Se te une Korcha (Personaje 12/45), Toma el barco hacia Termina, en la entrada verás a Glenn, Ve a la Playa Opassa, Haz el capitulo: '14.- (HW) Bosque Hydra', vuelve a Guldove, asegúrate de darle el medicamento a Kid y luego trata de captura a Mel (Personaje 15/45) si es que las quieres conseguir, ella te da el Guldovian Stitch (Marco 9/15), para ello deberas hablar con Orla y el portero del Shaman luego ve al escondite de Mel. Viaja a Termina, escucha a Glenn Vuelve al bote aceptando a Korcha NUEVAMENTE y viaja a Guldove a la casa de Mel (Por fin se une la bastarda). Finalmente ve al capitulo: '15.- (AW) Piratas Fantasmas'",
+            "text": "✓ Opcion 2: Salvar a Kid: Se te une Korcha (Personaje 12/45), Toma el barco hacia Termina, en la entrada verás a Glenn, Ve a la Playa Opassa, Haz el capitulo: '14.- (HW) Bosque Hydra', vuelve a Guldove, asegúrate de darle el medicamento a Kid y luego trata de captura a Mel (Personaje 13/45) si es que las quieres conseguir, ella te da el Guldovian Stitch (Marco 9/15), para ello deberas hablar con Orla y el portero del Shaman luego ve al escondite de Mel. Viaja a Termina, escucha a Glenn Vuelve al bote aceptando a Korcha NUEVAMENTE y viaja a Guldove a la casa de Mel (Por fin se une la bastarda). Finalmente ve al capitulo: '15.- (AW) Piratas Fantasmas'",
             "important": true,
             "status": false,
             "img": [
@@ -1077,7 +1077,7 @@
           },
           {
             "id": 4,
-            "text": "✓ Durante el recorrido encontraras a la criatura que liberaste, si la capturas reclutaras a Pip (Personaje 16/45)",
+            "text": "✓ Durante el recorrido encontraras a la criatura que liberaste, si la capturas reclutaras a Pip (Personaje 15/45)",
             "important": false,
             "status": false,
             "img": [
@@ -1095,37 +1095,39 @@
       },
       {
         "id": 16,
-        "name": "(AW) Termina / Viper Manor",
+        "name": "(AW) Guldove / Termina / Viper Manor",
         "status": false,
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Consigue a Luccia (Personaje 17/45) en Viper Manor",
-            "important": false,
-            "status": false,
-            "img": []
-          },
-          {
-            "id": 2,
-            "text": "✓ Consigue a Greco en la casa del cementerio de Termina, si es que no lo habias conseguido antes",
-            "important": false,
-            "status": false,
-            "img": []
-          },
-          {
-            "id": 3,
-            "text": "✓ Antes de continuar consigue el Book of Poems (Item /56) hablando con la camarera y entregaselo a ella misma en el otro mundo",
-            "important": false,
-            "status": false,
-            "img": []
-          },
-          {
-            "id": 4,
-            "text": "✓ Consigue la Pelvic Bone (Item /56) de Skelly de la niña comerciante cerca del barco",
+            "text": "✓ Ve a guldove y consigue la Pelvic Bone (Item /56) de Skelly de la niña comerciante cerca del barco ",
             "important": false,
             "status": false,
             "img": [
+              "/ChronoCross/adventure/adv_16_01.jpg",
               "/ChronoCross/items/pelvic_bone.jpg"
+            ]
+          },
+          {
+            "id": 2,
+            "text": "✓ Ve a Termina y consigue a Greco (Personaje 16/45) en la casa del cementerio",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_16_02.jpg",
+              "/ChronoCross/adventure/adv_16_03.jpg"
+            ]
+          },
+          {
+            "id": 4,
+            "text": "✓ Ve a Viper Manor y busca Luccia (Personaje 17/45) para reclutarla.",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_16_04.jpg",
+              "/ChronoCross/adventure/adv_16_05.jpg",
+              "/ChronoCross/adventure/adv_16_06.jpg",
+              "/ChronoCross/adventure/adv_16_07.jpg"
             ]
           }
         ]
@@ -1137,33 +1139,51 @@
         "adventure": [
           {
             "id": 1,
+            "text": "✓ Ve a Arni Village habla con la camarera del bar y te dara el Book of Poems (Item /56)",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_17_01.jpg",
+              "/ChronoCross/items/book_of_poems.jpg"
+            ]
+          },
+          {
+            "id": 2,
             "text": "✓ Habla con el viejo pescador cerca de Leena, te llevará a la Isla del Dragón de Agua",
             "important": false,
             "status": false,
             "img": []
           },
           {
-            "id": 2,
+            "id": 3,
             "text": "✓ Aquí, ve hasta el Dragón de Agua y te dará el Ice Breath (Item /56)",
             "important": false,
             "status": false,
             "img": [
-              "/ChronoCross/items/ice_breath.jpg"
+              "/ChronoCross/adventure/adv_17_02.jpg",
+              "/ChronoCross/adventure/adv_17_03.jpg",
+              "/ChronoCross/items/ice_breath.jpg",
+              "/ChronoCross/adventure/adv_17_04.jpg"
             ]
-          }
-        ]
-      },
-      {
-        "id": 15,
-        "name": "(AW) Ermita Quemada",
-        "status": false,
-        "adventure": [
+          },
           {
-            "id": 1,
-            "text": "✓ Lucha con Harle, consigue sus Gafas Luna (un buen accesorio)",
+            "id": 4,
+            "text": "✓ Cuando vuelvas a (AW) ve a Arni Village y entregale a la camarera el Book of Poems.",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_17_05.jpg"
+            ]
+          },
+          {
+            "id": 5,
+            "text": "✓ Ve en bote a la refugio del hermitaño en (AW) y usa el Ice Breath en el suelo arido.",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_17_06.jpg",
+              "/ChronoCross/adventure/adv_17_07.jpg"
+            ]
           }
         ]
       },
@@ -1177,7 +1197,10 @@
             "text": "✓ Cruza el Monte Piro, usa el Ice Breath para congelar la lava",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_18_01.jpg",
+              "/ChronoCross/adventure/adv_18_02.jpg"
+            ]
           },
           {
             "id": 2,
