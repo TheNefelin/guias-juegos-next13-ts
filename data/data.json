@@ -1190,17 +1190,14 @@
       {
         "id": 18,
         "name": "(AW) Costa Este de El Nido",
-        "status": true,
+        "status": false,
         "adventure": [
           {
             "id": 1,
             "text": "✓ Cruza el Monte Piro, usa el Ice Breath para congelar la lava",
             "important": false,
             "status": false,
-            "img": [
-              "/ChronoCross/adventure/adv_18_01.jpg",
-              "/ChronoCross/adventure/adv_18_02.jpg"
-            ]
+            "img": []
           },
           {
             "id": 2,
@@ -1214,7 +1211,12 @@
             "text": "✓ Cruza todo el Monte hasta llegar a Fort Dragonia",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_18_01.jpg",
+              "/ChronoCross/adventure/adv_18_02.jpg",
+              "/ChronoCross/adventure/adv_18_03.jpg",
+              "/ChronoCross/adventure/adv_18_04.jpg"
+            ]
           }
         ]
       },
@@ -1229,6 +1231,7 @@
             "important": true,
             "status": false,
             "img": [
+              "/ChronoCross/adventure/final_04.jpg",
               "/ChronoCross/items/relief_charm.jpg"
             ]
           }
@@ -1258,7 +1261,10 @@
             "text": "✓ Lynx y Viper estarán aquí, continua la historia...",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_20_01.jpg",
+              "/ChronoCross/adventure/adv_20_02.jpg"
+            ]
           }
         ]
       },
@@ -1276,7 +1282,7 @@
           },
           {
             "id": 2,
-            "text": "✓ Entra en su casa y lo podras reclutar a Sprigg (Personaje 19/45)",
+            "text": "✓ Entra en su casa y podras reclutar a Sprigg (Personaje 19/45)",
             "important": false,
             "status": false,
             "img": []
@@ -1290,10 +1296,13 @@
           },
           {
             "id": 4,
-            "text": "✓ Harle (Personaje 20/45) se te une, avanza y aparecerás en Hydra Marsh",
+            "text": "✓ Harle (Personaje 20/45) se te une, avanza, escapa por el agujero y aparecerás en Hydra Marsh",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_21_01.jpg",
+              "/ChronoCross/adventure/adv_21_02.jpg"
+            ]
           }
         ]
       },
@@ -1307,18 +1316,20 @@
             "text": "✓ Crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+. Vencer al 'Time Devourer' con Lynx",
             "important": true,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/final_05.jpg"
+            ]
           }
         ]
       },
       {
         "id": 23,
-        "name": "(AW) Intentar ir a Viper Manar",
+        "name": "(AW) Termina",
         "status": false,
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Intenta cruzar el Fossil Valley",
+            "text": "✓ Intenta cruzar el portal para ir a (HW) en la playa luego intenta cruzar el Fossil Valley",
             "important": false,
             "status": false,
             "img": []
@@ -1328,7 +1339,10 @@
             "text": "✓ Ve a Arni Village, habla con Marge y lucha contra Radius (Personaje 21/45) para reclutarlo",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_23_01.jpg",
+              "/ChronoCross/adventure/adv_23_02.jpg"
+            ]
           },
           {
             "id": 3,
@@ -1345,7 +1359,12 @@
             "important": false,
             "status": false,
             "img": [
-              "/ChronoCross/items/smith_spirit.jpg"
+              "/ChronoCross/adventure/adv_23_03.jpg",
+              "/ChronoCross/adventure/adv_23_04.jpg",
+              "/ChronoCross/adventure/adv_23_05.jpg",
+              "/ChronoCross/items/smith_spirit.jpg",
+              "/ChronoCross/adventure/adv_23_06.jpg",
+              "/ChronoCross/adventure/adv_23_07.jpg"
             ]
           }
         ]
@@ -1353,7 +1372,7 @@
       {
         "id": 24,
         "name": "(AW) Viper Manor",
-        "status": false,
+        "status": true,
         "adventure": [
           {
             "id": 1,
