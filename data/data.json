@@ -712,7 +712,7 @@
           },
           {
             "id": 6,
-            "text": "✓ Opción 3: Consigue a Nikki (Personaje 7/45), habla con todos en el barco de Magical Dreamers hasta que llegue Miki. Ve al Bosque Shadow, consigue la Aroma Pouch (Item /56) y úsalo para mover a los monstruitos hacia el monstruo-planta gigante, en la cueva de la cascada puedes encontrar el Skullduggery (Marco 6/15) y recoge la Angry Scapula (Item /56) de Skelly, avanza por el camino que bloqueaba el mounstruo, mueve la roca para detener a los insectos, al salvar a un hombre te dara el Mushroom (Item /56), avanza hasta salir por el pozo",
+            "text": "✓ Opción 3: Consigue a Nikki (Personaje 7/45), habla con todos en el barco de Magical Dreamers hasta que llegue Miki. Ve al Bosque Shadow, consigue la Aroma Pouch (Item /56) y úsalo para mover a los monstruitos hacia el monstruo-planta gigante, en la cueva de la cascada puedes encontrar el Skullduggery (Marco 6/15) y recoge la Angry Scapula (Item /56) de Skelly, avanza por el camino que bloqueaba el mounstruo, mueve la roca para detener a los insectos, avanza hasta salir por el pozo",
             "important": true,
             "status": false,
             "img": [
@@ -1332,7 +1332,7 @@
       },
       {
         "id": 23,
-        "name": "(AW) Termina",
+        "name": "(HW) Termina",
         "status": false,
         "adventure": [
           {
@@ -1379,104 +1379,88 @@
       },
       {
         "id": 24,
-        "name": "(AW) Viper Manor",
-        "status": true,
+        "name": "(HW) Viper Manor",
+        "status": false,
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Con Radius, entra por el Shadow Forest ",
+            "text": "✓ Con Radius ve a Termina a buscar a Norris, luego entra por el Shadow Forest, despues de hablar con el niño salvar a un hombre ,golpeando a un insecto ahogado, y te dara el Mushroom (Item /56). Puedes obtener Funguy (Personaje 40/45) si le das el champiñon al hombre de la cueva",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_24_01.jpg",
+              "/ChronoCross/adventure/adv_24_02.jpg",
+              "/ChronoCross/items/mushroom.jpg",
+              "/ChronoCross/adventure/adv_24_03.jpg",
+              "/ChronoCross/adventure/adv_24_04.jpg"
+            ]
           },
           {
             "id": 2,
-            "text": "✓ Ve por las mazmorras. Habla con Norris (Personaje 24/45), se te unirá si Radius está contigo",
+            "text": "✓ Ve por las mazmorras, si no puedes pasar tendras que ir por la entrada principal y bajar por el pozo. Habla con Norris (Personaje 24/45), se te unirá si Radius está contigo",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_24_05.jpg",
+              "/ChronoCross/adventure/adv_24_06.jpg",
+              "/ChronoCross/adventure/adv_24_07.jpg",
+              "/ChronoCross/adventure/adv_24_08.jpg"
+            ]
           },
           {
             "id": 3,
             "text": "✓ Ve a Termina, ahora podras usar un bote inflable donde estaba el barco de Nikki",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_24_09.jpg"
+            ]
           }
         ]
       },
       {
         "id": 25,
-        "name": "(AW) El Nido Triangle",
+        "name": "(HW) Nido Triangle / Sky Dragon Isle / Marbule",
         "status": false,
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Nada hasta el fondo y obten el Star Fragment (Item /56)",
+            "text": "✓ Ve al Nido Triangle, nada hasta el fondo y obten el Star Fragment (Item /56)",
             "important": false,
             "status": false,
             "img": [
+              "/ChronoCross/adventure/adv_25_01.jpg",
+              "/ChronoCross/adventure/adv_25_02.jpg",
               "/ChronoCross/items/star_fragment.jpg"
+            ]
+          },
+          {
+            "id": 2,
+            "text": "✓ Ve a Sky Dragon Isle e intenta abrir el cofre, lucha contra Starky (Personaje 25/45) y véncelo para reclutarlo, obten Our Favorite Martian (Marco 11/15)",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_25_03.jpg",
+              "/ChronoCross/adventure/adv_25_04.jpg",
+              "/ChronoCross/frames/our_favorite_martian.jpg"
+            ]
+          },
+          {
+            "id": 3,
+            "text": "✓ Ve Marbule sin ningun humano en tu equipo, habla con Toma, haz todas las preguntas y habla con el otro tipo, y obten el Valencian Cloth (Marco 12/15), duerme en la posada, habla con Irenes por la noche",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_25_05.jpg",
+              "/ChronoCross/frames/valencian_cloth.jpg",
+              "/ChronoCross/adventure/adv_25_06.jpg"
             ]
           }
         ]
       },
       {
         "id": 26,
-        "name": "(AW) Isla del Sky Dragon",
-        "status": false,
-        "adventure": [
-          {
-            "id": 1,
-            "text": "✓ Intenta abrir el cofre. Lucha contra Starky (Personaje 25/45) y véncelo para reclutarlo",
-            "important": false,
-            "status": false,
-            "img": []
-          },
-          {
-            "id": 2,
-            "text": "✓ Obten Our Favorite Martian (Marco 11/15) ",
-            "important": false,
-            "status": false,
-            "img": [
-              "/ChronoCross/frames/our_favorite_martian.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": 27,
-        "name": "(AW) Marbule",
-        "status": false,
-        "adventure": [
-          {
-            "id": 1,
-            "text": "✓ Ve Marbule sin ningun humano en tu equipo",
-            "important": false,
-            "status": false,
-            "img": []
-          },
-          {
-            "id": 2,
-            "text": "✓ Habla con Toma y el otro tipo, y obten el Valencian Cloth (Marco 12/15)",
-            "important": false,
-            "status": false,
-            "img": [
-              "/ChronoCross/frames/valencian_cloth.jpg"
-            ]
-          },
-          {
-            "id": 3,
-            "text": "✓ Duerme en la posada, habla con Irenes por la noche",
-            "important": false,
-            "status": false,
-            "img": []
-          }
-        ]
-      },
-      {
-        "id": 28,
-        "name": "(AW) El Zelbess de Fargo",
+        "name": "(HW) El Zelbess de Fargo",
         "status": false,
         "adventure": [
           {
@@ -1581,7 +1565,7 @@
       {
         "id": 30,
         "name": "(HW) Isla Maldita",
-        "status": false,
+        "status": true,
         "adventure": [
           {
             "id": 1,
@@ -1941,7 +1925,7 @@
           },
           {
             "id": 2,
-            "text": "✓ Puedes obtener Funguy (Personaje 40/45) Shadow Forest",
+            "text": "✓ ",
             "important": false,
             "status": false,
             "img": []
