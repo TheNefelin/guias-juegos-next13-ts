@@ -1465,28 +1465,33 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Intenta cruzar la puerta del fondo del barco",
+            "text": "✓ Intenta cruzar la puerta del fondo del barco, Fargo te debe dar permiso, abre la puerta siguiente y veras a un orejon que hace aseo, hablale",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 2,
-            "text": "✓ Mira el show de Sneff, habla con Fargo y juega a la Roulette",
+            "text": "✓ Ve a pedirle a fargo permiso para cruzar la puerta, te hara juega a la Roulette y perderas. ve a la primera puerta debajo del casino, veras algo sospechozo",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_26_01.jpg",
+              "/ChronoCross/adventure/adv_26_02.jpg",
+              "/ChronoCross/adventure/adv_26_03.jpg",
+              "/ChronoCross/adventure/adv_26_04.jpg"
+            ]
           },
           {
             "id": 3,
-            "text": "✓ Ve a la posada, verás a alguien preocupado por el gato, y que Sneff te convierta en gato",
+            "text": "✓ Mira el show de Sneff, convertira a alguien en gato, sale y vuelve a entrar para que Sneff te convierta en gato",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 4,
-            "text": "✓ Mientras seas gato puedes obtener el Monster's Mouth (Marco 13/15)",
+            "text": "✓ Mientras seas gato y le hablas al gato de la cocina podras obtener el Monster's Mouth (Marco 13/15)",
             "important": false,
             "status": false,
             "img": []
@@ -1496,16 +1501,21 @@
             "text": "✓ Entra en el en la habitacion que esta debajo de la ruleta, roba el Handle (Item /56)",
             "important": false,
             "status": false,
-            "img": [
-              "/ChronoCross/items/handle.jpg"
-            ]
+            "img": []
           },
           {
             "id": 6,
             "text": "✓ Ve donde Sneff y que te vuelva a convertir, juega a la Roulette con Fargo otra vez. Perderá, ahora cruza esa puerta",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_26_05.jpg",
+              "/ChronoCross/adventure/adv_26_06.jpg",
+              "/ChronoCross/frames/monsters_mouth.jpg",
+              "/ChronoCross/adventure/adv_26_07.jpg",
+              "/ChronoCross/items/handle.jpg",
+              "/ChronoCross/adventure/adv_26_08.jpg"
+            ]
           },
           {
             "id": 7,
@@ -1519,9 +1529,7 @@
             "text": "✓ Lucha contra el Sabio y obten la Fiddler Crab (Item /56)",
             "important": false,
             "status": false,
-            "img": [
-              "/ChronoCross/items/fiddler_crab.jpg"
-            ]
+            "img": []
           },
           {
             "id": 9,
@@ -1535,12 +1543,20 @@
             "text": "✓ Sube a la cubierta y luego por el mástil, aqui se unira Irenes (Personaje 28/45) y Miki (Personaje 29/45) en los barcos",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_26_09.jpg",
+              "/ChronoCross/adventure/adv_26_10.jpg",
+              "/ChronoCross/adventure/adv_26_11.jpg",
+              "/ChronoCross/items/fiddler_crab.jpg",
+              "/ChronoCross/adventure/adv_26_12.jpg",
+              "/ChronoCross/adventure/adv_26_13.jpg",
+              "/ChronoCross/adventure/adv_26_14.jpg"
+            ]
           }
         ]
       },
       {
-        "id": 29,
+        "id": 27,
         "name": "(HW) Mar del Edén",
         "status": false,
         "adventure": [
@@ -1557,13 +1573,18 @@
             "important": false,
             "status": false,
             "img": [
+              "/ChronoCross/adventure/adv_27_01.jpg",
+              "/ChronoCross/adventure/adv_27_02.jpg",
+              "/ChronoCross/adventure/adv_27_03.jpg",
+              "/ChronoCross/adventure/adv_27_04.jpg",
+              "/ChronoCross/adventure/adv_27_05.jpg",
               "/ChronoCross/items/garais_keepsake.jpg"
             ]
           }
         ]
       },
       {
-        "id": 30,
+        "id": 28,
         "name": "(HW) Isla Maldita",
         "status": true,
         "adventure": [
@@ -1594,6 +1615,7 @@
             "important": false,
             "status": false,
             "img": [
+              "/ChronoCross/adventure/adv_28_01.jpg",
               "/ChronoCross/items/einlanzer.jpg"
             ]
           }
