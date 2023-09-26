@@ -1586,7 +1586,7 @@
       {
         "id": 28,
         "name": "(HW) Isla Maldita",
-        "status": true,
+        "status": false,
         "adventure": [
           {
             "id": 1,
@@ -1611,18 +1611,20 @@
           },
           {
             "id": 4,
-            "text": "✓ Obten la Einlanzer (Item /56) y úsala para destruir la Masamune",
+            "text": "✓ Obten la Einlanzer (Item /56) y úsala para destruir la Masamune en Dead Sea",
             "important": false,
             "status": false,
             "img": [
               "/ChronoCross/adventure/adv_28_01.jpg",
-              "/ChronoCross/items/einlanzer.jpg"
+              "/ChronoCross/adventure/adv_28_02.jpg",
+              "/ChronoCross/items/einlanzer.jpg",
+              "/ChronoCross/adventure/adv_28_03.jpg"
             ]
           }
         ]
       },
       {
-        "id": 31,
+        "id": 29,
         "name": "(HW) Mar del Edén",
         "status": false,
         "adventure": [
@@ -1635,19 +1637,13 @@
           },
           {
             "id": 2,
-            "text": "✓ Obten el Station Pass (Item /56)",
+            "text": "✓ Habla con el fantasma y se le caera algo, recogelo y Obten el Station Pass (Item /56) con este item podra obtener Obten el Medical Book (Item /56)",
             "important": false,
             "status": false,
             "img": [
-              "/ChronoCross/items/station_pass.jpg"
-            ]
-          },
-          {
-            "id": 3,
-            "text": "✓ Obten el Medical Book (Item /56)",
-            "important": false,
-            "status": false,
-            "img": [
+              "/ChronoCross/adventure/adv_29_01.jpg",
+              "/ChronoCross/items/station_pass.jpg",
+              "/ChronoCross/adventure/adv_29_02.jpg",
               "/ChronoCross/items/medical_book.jpg"
             ]
           },
@@ -1657,6 +1653,7 @@
             "important": false,
             "status": false,
             "img": [
+              "/ChronoCross/adventure/adv_29_03.jpg",
               "/ChronoCross/items/prop_sword.jpg"
             ]
           },
@@ -1670,16 +1667,41 @@
         ]
       },
       {
-        "id": 32,
-        "name": "(AW) Viper Manor",
-        "status": false,
+        "id": 30,
+        "name": "(AW) Hydra Swamp / Termina / Viper Manor",
+        "status": true,
         "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Viaja por el portal de la playa a (AW)",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ ve a Hydra Marshes y explora todo lucha con jefes obtendras una habilidad especial, mas adelante en una lagunilla obten el Life Sparkle (Item /56) y Busca el Good Backbone (Item /56) de Skelly en una cueva (por la zona este)",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_30_01.jpg",
+              "/ChronoCross/adventure/adv_30_02.jpg",
+              "/ChronoCross/items/life_sparkle.jpg",
+              "/ChronoCross/adventure/adv_30_03.jpg",
+              "/ChronoCross/items/good_backbone.jpg"
+            ]
+          },
           {
             "id": 1,
             "text": "✓ Ve al bar de Termina, hay una habitacion secreta, aqui podras reclutar a Zoah (Personaje 30/45) o Karsh (Personaje 31/45), siquieres obtener a los 2 deberas terminar el juego e iniciar (NG+), aqui obtendras el Tear of Hate (Item /56)",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_30_04.jpg",
+              "/ChronoCross/adventure/adv_30_05.jpg",
+              "/ChronoCross/items/tear_of_hate.jpg",
+              "/ChronoCross/adventure/adv_30_06.jpg"
+            ]
           },
           {
             "id": 2,
@@ -1790,20 +1812,6 @@
             "img": [
               "/ChronoCross/items/sapphire_brooch.jpg"
             ]
-          }
-        ]
-      },
-      {
-        "id": 34,
-        "name": "(AW) Hydra Swamp",
-        "status": false,
-        "adventure": [
-          {
-            "id": 1,
-            "text": "✓ Busca el Good Backbone (Item /56) de Skelly en una cueva (por la zona este)",
-            "important": false,
-            "status": false,
-            "img": []
           }
         ]
       },
@@ -2014,7 +2022,7 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Ve a Hydra Marshes (AW) y consigue la Ancient Fruit (Item /56) y Life Sparkle (Item /56)",
+            "text": "✓ Ve a Hydra Marshes (AW) y consigue la Ancient Fruit (Item /56)",
             "important": false,
             "status": false,
             "img": []
