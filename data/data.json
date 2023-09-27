@@ -1531,7 +1531,7 @@
           },
           {
             "id": 10,
-            "text": "✓ Sube a la cubierta y luego por el mástil, aqui se unira Irenes (Personaje 28/45) y Miki (Personaje 29/45) en los barcos",
+            "text": "✓ Sube a la cubierta y luego por el mástil, aqui se unira Irenes (Personaje 28/45)",
             "important": false,
             "status": false,
             "img": [
@@ -1851,7 +1851,8 @@
             "important": false,
             "status": false,
             "img": [
-              "/ChronoCross/adventure/adv_33_05.jpg"
+              "/ChronoCross/adventure/adv_33_05.jpg",
+              "/ChronoCross/items/mixed_bones.jpg"
             ]
           },
           {
@@ -1961,32 +1962,112 @@
             "important": false,
             "status": false,
             "img": []
+          },
+          {
+            "id": 8,
+            "text": "✓ Para activar la mision de los dragones hay q ir a hablar con el dragon del cielo",
+            "important": false,
+            "status": false,
+            "img": []
           }
         ]
       },
       {
-        "id": 39,
-        "name": "Preparación",
+        "id": 37,
+        "name": "(HW) Preparación",
         "status": false,
         "adventure": [
           {
-            "id": 1,
+            "id": 99,
             "text": "✓ Si quieres reclutar a Turnip (Personaje 39/45) debes usa el Ice Breath o la Ice Gun en el suelo en Hermit's Hideaway (AW), si ya lo hiciste ve a Hermit's Hideaway (HW) con Poshul en tu equipo",
             "important": false,
             "status": false,
             "img": []
           },
           {
-            "id": 2,
-            "text": "✓ ",
+            "id": 1,
+            "text": "✓ Primero ve al S.S Zelbess (HW) lleva a Fargo a verse asimismo",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_37_01.jpg",
+              "/ChronoCross/adventure/adv_37_02.jpg"
+            ]
+          },
+          {
+            "id": 2,
+            "text": "✓ Después del concierto ve a Marbule y vence a todos los monstruos, cuando vuelvas podras reclutar a Miki (Personaje 29/45)",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_37_03.jpg",
+              "/ChronoCross/adventure/adv_37_04.jpg",
+              "/ChronoCross/adventure/adv_37_05.jpg"
+            ]
+          },
+          {
+            "id": 3,
+            "text": "✓ Ve a Hydra Marshes (HW) y consigue la Ancient Fruit (Item /56), si no te la da el bicho ve a (AW) al mismo lugar para que te la de, luego vuelve",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_37_06.jpg",
+              "/ChronoCross/items/ancient_fruit.jpg"
+            ]
           }
         ]
       },
       {
-        "id": 40,
+        "id": 38,
+        "name": "(HW) Dragón Verde",
+        "status": false,
+        "adventure": [
+          {
+            "id": 99,
+            "text": "✓ Ve a la pileta de Viper Manor con el Life Sparkle y obtendras a Neofio (Personaje 41/45)",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 1,
+            "text": "✓ En Hydra Marshes, usa la Beeba Flute cerca del segundo Beeba",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ El bicho Hydra te llevará a Gaea's Navel, aqui reclutas a Leah (Personaje 42/45)",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_38_01.jpg",
+              "/ChronoCross/adventure/adv_38_02.jpg"
+            ]
+          },
+          {
+            "id": 3,
+            "text": "✓ vence a todos todos los bichos y pájaros gigantes, aqui consigues el Snakes & Orbs (Marco 14/15)",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 6,
+            "text": "✓ Roba la armadura cuando este debilitado, al vencerlo te dara la Green Relic (Item /56)",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_38_03.jpg",
+              "/ChronoCross/items/green_relic.jpg",
+              "/ChronoCross/adventure/adv_38_04.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 39,
         "name": "(HW) Dragón de Agua",
         "status": false,
         "adventure": [
@@ -2003,156 +2084,34 @@
             "important": false,
             "status": false,
             "img": [
+              "/ChronoCross/adventure/adv_39_01.jpg",
+              "/ChronoCross/adventure/adv_39_02.jpg",
               "/ChronoCross/items/blue_relic.jpg"
             ]
           }
         ]
       },
       {
-        "id": 41,
-        "name": "(AW) Dragón de Fuego",
-        "status": false,
-        "adventure": [
-          {
-            "id": 1,
-            "text": "✓ Ve al monte del Dragón de Fuego (Mount Pyre)",
-            "important": false,
-            "status": false,
-            "img": []
-          },
-          {
-            "id": 2,
-            "text": "✓ Ve a la cascada de lava, baja a la primera cascada y entra por la puerta",
-            "important": false,
-            "status": false,
-            "img": []
-          },
-          {
-            "id": 3,
-            "text": "✓ Roba la armadura cuando este debilitado, al vencerlo te dara la Red Relic (Item /56)",
-            "important": false,
-            "status": false,
-            "img": [
-              "/ChronoCross/items/red_relic.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": 42,
-        "name": "(HW) Dragón Verde",
-        "status": false,
-        "adventure": [
-          {
-            "id": 1,
-            "text": "✓ Ve a Hydra Marshes (AW) y consigue la Ancient Fruit (Item /56)",
-            "important": false,
-            "status": false,
-            "img": []
-          },
-          {
-            "id": 2,
-            "text": "✓ Ve a la pileta de Viper Manor con el Life Sparkle y obtendras a Neofio (Personaje 41/45)",
-            "important": false,
-            "status": false,
-            "img": []
-          },
-          {
-            "id": 3,
-            "text": "✓ Ve al Hydra Marshes (HW) de Home World, usa la Beeba Flute cerca del segundo Beeba",
-            "important": false,
-            "status": false,
-            "img": []
-          },
-          {
-            "id": 4,
-            "text": "✓ El bicho Hydra te llevará a Gaea's Navel, aqui reclutas a Leah (Personaje 42/45)",
-            "important": false,
-            "status": false,
-            "img": []
-          },
-          {
-            "id": 5,
-            "text": "✓ vence a todos todos los bichos y pájaros gigantes, aqui consigues el Snakes & Orbs (Marco 14/15)",
-            "important": false,
-            "status": false,
-            "img": []
-          },
-          {
-            "id": 6,
-            "text": "✓ Roba la armadura cuando este debilitado, al vencerlo te dara la Green Relic (Item /56)",
-            "important": false,
-            "status": false,
-            "img": [
-              "/ChronoCross/items/green_relic.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": 43,
-        "name": "(AW) Dragón Negro",
-        "status": false,
-        "adventure": [
-          {
-            "id": 1,
-            "text": "✓ Lleva a Fargo a verse asimismo en (HW) en el barco",
-            "important": false,
-            "status": false,
-            "img": []
-          },
-          {
-            "id": 2,
-            "text": "✓ Después del concierto, ve a Marbule y vence a todos los monstruos",
-            "important": false,
-            "status": false,
-            "img": []
-          },
-          {
-            "id": 3,
-            "text": "✓ Ve a Marbule (AW), el dragón estará en la cueva, habla con el NPC y te dara el Quill and Papyrus (Marco 15/15)",
-            "important": false,
-            "status": false,
-            "img": [
-              "/ChronoCross/frames/quill_and_papyrus.jpg"
-            ]
-          },
-          {
-            "id": 4,
-            "text": "✓ Si tienes a Pierre, no tendrás que luchar con él para la Black Crest",
-            "important": false,
-            "status": false,
-            "img": []
-          },
-          {
-            "id": 5,
-            "text": "✓ Roba la armadura cuando este debilitado, al vencerlo te dara la Black Relic (Item /56)",
-            "important": false,
-            "status": false,
-            "img": [
-              "/ChronoCross/items/black_relic.jpg"
-            ]
-          }
-        ]
-      },
-      {
-        "id": 44,
+        "id": 40,
         "name": "(HW) Dragón de Tierra",
         "status": false,
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Ve a Cleared Earth Dragon Isle, entra en el gran agujero de arena",
+            "text": "✓ Ve a Cleared Earth Dragon Isle, entra por las arenas movedizas",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 2,
-            "text": "✓ Debes ir a la izquierda y abajo de la cueva, obten los Explosive (Item /56) del NPC",
+            "text": "✓ Debes ir a la izquierda y abajo de la cueva, obten los Explosive (Item /56) del NPC, si el NPC no esta trata de mover a la tortuga, luego sale de la isla y vuelve a entrar",
             "important": false,
             "status": false,
             "img": [
+              "/ChronoCross/adventure/adv_40_01.jpg",
+              "/ChronoCross/adventure/adv_40_02.jpg",
+              "/ChronoCross/adventure/adv_40_03.jpg",
               "/ChronoCross/items/explosive.jpg"
             ]
           },
@@ -2176,13 +2135,80 @@
             "important": false,
             "status": false,
             "img": [
+              "/ChronoCross/adventure/adv_40_04.jpg",
               "/ChronoCross/items/yellow_relic.jpg"
             ]
           }
         ]
       },
       {
-        "id": 45,
+        "id": 41,
+        "name": "(AW) Dragón de Fuego",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Ve al monte del Dragón de Fuego en Mount Pyre (AW)",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Ve a la cascada de lava, baja a la primera cascada y entra por la puerta",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ Roba la armadura cuando este debilitado, al vencerlo te dara la Red Relic (Item /56)",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_41_01.jpg",
+              "/ChronoCross/adventure/adv_41_02.jpg",
+              "/ChronoCross/items/red_relic.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "name": "(AW) Dragón Negro",
+        "status": false,
+        "adventure": [
+          {
+            "id": 3,
+            "text": "✓ Ve a Marbule (AW), el dragón estará en la cueva, habla con el NPC y te dara el Quill and Papyrus (Marco 15/15)",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_42_01.jpg",
+              "/ChronoCross/frames/quill_and_papyrus.jpg"
+            ]
+          },
+          {
+            "id": 4,
+            "text": "✓ Si tienes a Pierre, no tendrás que luchar con él para la Black Crest",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 5,
+            "text": "✓ Roba la armadura cuando este debilitado, al vencerlo te dara la Black Relic (Item /56)",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_42_02.jpg",
+              "/ChronoCross/items/black_relic.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 43,
         "name": "(AW) Dragón del Cielo",
         "status": false,
         "adventure": [
@@ -2199,22 +2225,61 @@
             "important": false,
             "status": false,
             "img": [
+              "/ChronoCross/adventure/adv_43_01.jpg",
+              "/ChronoCross/adventure/adv_43_02.jpg",
               "/ChronoCross/items/white_relic.jpg"
             ]
           }
         ]
       },
       {
-        "id": 888,
-        "name": "Criosphinx",
-        "status": false,
+        "id": 44,
+        "name": "(AW) Criosphinx",
+        "status": true,
         "adventure": [
           {
             "id": 1,
-            "text": "✓ (AW) Earth Dragon Isle (a llorar a la playa)",
+            "text": "✓ Esta Mision es opcional (No es Importante) debes ir a Earth Dragon Isle y... (a llorar a la playa) sino esperar a la partida (NG+)",
             "important": true,
             "status": false,
             "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Este dragon es el jefe mas dificil del juego, aun mas que el jefe final",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 3,
+            "text": "✓ El truco para vencerlo es responder correctamente sus acertijo o luchando a fuerza bruta",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 4,
+            "text": "✓ Si lograste robar la armadura con Fargo al dragon de tierra (Coraza Dorada) lo venceras en cuestion de tiempo",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 5,
+            "text": "✓ De lo contrario sera un jefe dificil, debes llevar muchas curas y trampas de elemento como Terremoto y Tormenta Electrica",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 6,
+            "text": "✓ Si lo vences te dara las Gafas de Sol, uno de los mejores articulos de euipamiento del juego",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_44_01.jpg"
+            ]
           }
         ]
       },
