@@ -1706,7 +1706,7 @@
       {
         "id": 31,
         "name": "(AW) Viper Manor",
-        "statusA": false,
+        "status": false,
         "adventure": [
           {
             "id": 1,
@@ -1911,7 +1911,7 @@
       {
         "id": 36,
         "name": "(AW) Isla del Dragón del Cielo",
-        "status": true,
+        "status": false,
         "adventure": [
           {
             "id": 1,
