@@ -897,15 +897,6 @@
               "/ChronoCross/adventure/adv_11_13.jpg",
               "/ChronoCross/adventure/adv_11_14.jpg"
             ]
-          },
-          {
-            "id": 14,
-            "text": "✓ Si vielves a entrar a Viper Manor y vas a la carcel, encontraras una la Parlor Key (Item /56) que abre las alcantarillas",
-            "important": false,
-            "status": false,
-            "img": [
-              "/ChronoCross/items/parlor_key.jpg"
-            ]
           }
         ]
       },
@@ -1590,27 +1581,20 @@
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Cuando llegues a Isle of the Damned, recoge los Mixed Bones (Item /56) de Skelly en la cueva al noroeste de la primera pantalla",
-            "important": false,
-            "status": false,
-            "img": []
-          },
-          {
-            "id": 2,
             "text": "✓ Llega al espejo de la izquierda del todo (bajando por el esqueleto serpiente)",
             "important": false,
             "status": false,
             "img": []
           },
           {
-            "id": 3,
+            "id": 2,
             "text": "✓ Lucha con Garai (a llorar a la playa)",
             "important": false,
             "status": false,
             "img": []
           },
           {
-            "id": 4,
+            "id": 3,
             "text": "✓ Obten la Einlanzer (Item /56) y úsala para destruir la Masamune en Dead Sea",
             "important": false,
             "status": false,
@@ -1668,8 +1652,8 @@
       },
       {
         "id": 30,
-        "name": "(AW) Hydra Swamp / Termina / Viper Manor",
-        "status": true,
+        "name": "(AW) Hydra Swamp / Termina",
+        "status": false,
         "adventure": [
           {
             "id": 1,
@@ -1692,8 +1676,8 @@
             ]
           },
           {
-            "id": 1,
-            "text": "✓ Ve al bar de Termina, hay una habitacion secreta, aqui podras reclutar a Zoah (Personaje 30/45) o Karsh (Personaje 31/45), siquieres obtener a los 2 deberas terminar el juego e iniciar (NG+), aqui obtendras el Tear of Hate (Item /56)",
+            "id": 3,
+            "text": "✓ Ve al bar de Termina, hay una habitacion secreta, aqui podras reclutar a Zoah (Personaje 30/45) o Karsh (Personaje 31/45), siquieres obtener a los 2 deberas terminar el juego e iniciar (NG+) Pero si eliges a Karsh, Zoha se te unira en el S.S Zelbess tambien obtendras el Tear of Hate (Item /56)",
             "important": false,
             "status": false,
             "img": [
@@ -1704,58 +1688,81 @@
             ]
           },
           {
-            "id": 2,
+            "id": 4,
             "text": "✓ Opcion 1: Consigue a Zoah",
             "important": true,
             "status": false,
             "img": []
           },
           {
-            "id": 3,
+            "id": 5,
             "text": "✓ Opcion 2: Consigue a Karsh",
             "important": true,
             "status": false,
             "img": []
-          },
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "name": "(AW) Viper Manor",
+        "statusA": false,
+        "adventure": [
           {
-            "id": 4,
+            "id": 1,
             "text": "✓ Ve a Viper Manor, habla con Norris en la habitación del oeste de la entrada y te dara la Prison Key (Item /56)",
             "important": false,
             "status": false,
             "img": [
+              "/ChronoCross/adventure/adv_31_01.jpg",
               "/ChronoCross/items/prison_key.jpg"
             ]
           },
           {
-            "id": 5,
+            "id": 2,
+            "text": "✓ Si vas a la carcel, encontraras una la Parlor Key (Item /56)",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_31_02.jpg",
+              "/ChronoCross/items/parlor_key.jpg"
+            ]
+          },
+          {
+            "id": 3,
             "text": "✓ Ve a las alcantarillas desde la cocina, encuentra y apaga la válvula",
             "important": false,
             "status": false,
             "img": []
           },
           {
-            "id": 6,
+            "id": 4,
             "text": "✓ Vuelve a la primera sección, ahora ya puedes cruzar, y apaga la segunda válvula",
             "important": false,
             "status": false,
             "img": []
           },
           {
-            "id": 7,
+            "id": 5,
             "text": "✓ En la siguiente pantalla, sube la válvula y vuelve al otro lado",
             "important": false,
             "status": false,
             "img": []
           },
           {
-            "id": 8,
+            "id": 6,
             "text": "✓ Bájala, procede, y lucharás contra un bicho gordo, procede subir las escaleras",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_31_03.jpg",
+              "/ChronoCross/adventure/adv_31_04.jpg",
+              "/ChronoCross/adventure/adv_31_05.jpg",
+              "/ChronoCross/adventure/adv_31_06.jpg"
+            ]
           },
           {
-            "id": 9,
+            "id": 7,
             "text": "✓ Lucharás contra Dark Orcha para rescatar a Riddel, luego se te unira Orcha (Personaje 32/45)",
             "important": false,
             "status": false,
@@ -1763,30 +1770,33 @@
           },
 
           {
-            "id": 11,
+            "id": 8,
             "text": "✓ Sigue recto hacia la biblioteca, lucharás con Grovyc y Mecha",
             "important": false,
             "status": false,
             "img": []
           },
           {
-            "id": 12,
+            "id": 9,
             "text": "✓ Eapa hacia la biblioteca, lucha con Mecha otra vez, y escapa por la ventana",
             "important": false,
             "status": false,
             "img": []
           },
           {
-            "id": 13,
+            "id": 10,
             "text": "✓ Grobyc (Personaje 33/45) se unirá a tu grupo",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_31_07.jpg",
+              "/ChronoCross/adventure/adv_31_08.jpg"
+            ]
           }
         ]
       },
       {
-        "id": 99,
+        "id": 32,
         "name": "Final oculto: Onward Dragoons (Final 6/11)",
         "status": false,
         "adventure": [
@@ -1795,84 +1805,95 @@
             "text": "✓ Crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+. Vencer al 'Time Devourer inmediatamente despues de rescatar a Riddel'",
             "important": true,
             "status": false,
-            "img": []
-          }
-        ]
-      },
-      {
-        "id": 33,
-        "name": "(AW) Guldove",
-        "status": false,
-        "adventure": [
-          {
-            "id": 1,
-            "text": "✓ Lucha con Orlha y conseguirás su Sapphire Brooch (Item /56), devuélvesela cuando seas Serge de nuevo, y se te unirá",
-            "important": false,
-            "status": false,
             "img": [
-              "/ChronoCross/items/sapphire_brooch.jpg"
+              "/ChronoCross/adventure/final_06.jpg"
             ]
           }
         ]
       },
       {
-        "id": 35,
-        "name": "(AW) Isla del Dragón de Agua",
+        "id": 33,
+        "name": "(AW) Guldove / Water Dragon Isle / Isle of the Damned / Termina",
         "status": false,
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Un tipo te dará el Sturdy Ribs (Item /56) de Skelly",
+            "text": "✓ Ve a Guldove y Lucha con Orlha y conseguirás su Sapphire Brooch (Item /56), devuélvesela cuando seas Serge de nuevo, y se te unirá",
             "important": false,
             "status": false,
             "img": []
           },
           {
             "id": 2,
-            "text": "✓ Si ya tienes todas las 6 partes de Skelly (Heavy Skull, Pelvic Bone, Mixed Bones, Angry Scapula, Good Backbone, Sturdy Ribs) ve a Termina",
+            "text": "✓ Dale al Doc el libro para desbloquear su habilidad",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_33_01.jpg",
+              "/ChronoCross/items/sapphire_brooch.jpg",
+              "/ChronoCross/adventure/adv_33_02.jpg",
+              "/ChronoCross/adventure/adv_33_03.jpg"
+            ]
           },
           {
             "id": 3,
-            "text": "✓ Ve a la casa de la derecha de la estatua de Viper, y se te unirá Skelly (Personaje 34/45)",
+            "text": "✓ Ve Water Dragon Isle y a Un tipo te dará el Sturdy Ribs (Item /56) de Skelly",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_33_04.jpg",
+              "/ChronoCross/items/sturdy_ribs.jpg"
+            ]
+          },
+          {
+            "id": 4,
+            "text": "✓ Ve a Isle of the Damned, recoge los Mixed Bones (Item /56) de Skelly en la cueva al noroeste de la primera pantalla",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_33_05.jpg"
+            ]
+          },
+          {
+            "id": 5,
+            "text": "✓ Si ya tienes todas las 6 partes de Skelly (Heavy Skull, Pelvic Bone, Mixed Bones, Angry Scapula, Good Backbone, Sturdy Ribs) ve a Termina a la casa de la derecha de la estatua de Viper, y se te unirá Skelly (Personaje 34/45) si hablas con la abuela",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_33_06.jpg",
+              "/ChronoCross/adventure/adv_33_07.jpg"
+            ]
           }
         ]
       },
       {
-        "id": 36,
+        "id": 34,
         "name": "(AW) Hermit's Hideaway",
         "status": false,
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Usa el Ice Breath en la tierra árida",
-            "important": false,
-            "status": false,
-            "img": []
-          },
-          {
-            "id": 2,
             "text": "✓ Habla con Riddel (Personaje 35/45) y se te unira",
             "important": false,
             "status": false,
             "img": []
           },
           {
-            "id": 3,
-            "text": "✓ Se te uniran Viper (Personaje 36/45), Fargo (Personaje 37/45) y Mercy (Personaje 38/45)",
+            "id": 2,
+            "text": "✓ Se te uniran Viper (Personaje 36/45), Fargo (Personaje 37/45) y Mercy (Personaje 38/45)... (Zoah o Karsh)",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_34_01.jpg",
+              "/ChronoCross/adventure/adv_34_02.jpg",
+              "/ChronoCross/adventure/adv_34_03.jpg",
+              "/ChronoCross/adventure/adv_34_04.jpg"
+            ]
           }
         ]
       },
       {
-        "id": 37,
+        "id": 35,
         "name": "Final oculto: Darkened Fate (Final 7/11)",
         "status": false,
         "adventure": [
@@ -1881,14 +1902,16 @@
             "text": "✓ Crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+. Vencer al 'Time Devourer' despues de que Harle abandona tu grupo",
             "important": true,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/final_07.jpg"
+            ]
           }
         ]
       },
       {
-        "id": 38,
+        "id": 36,
         "name": "(AW) Isla del Dragón del Cielo",
-        "status": false,
+        "status": true,
         "adventure": [
           {
             "id": 1,
