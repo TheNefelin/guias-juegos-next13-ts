@@ -2235,7 +2235,7 @@
       {
         "id": 44,
         "name": "(AW) Criosphinx",
-        "status": true,
+        "status": false,
         "adventure": [
           {
             "id": 1,
@@ -2284,7 +2284,7 @@
         ]
       },
       {
-        "id": 46,
+        "id": 45,
         "name": "(AW) Guldove",
         "status": false,
         "adventure": [
@@ -2294,6 +2294,7 @@
             "important": false,
             "status": false,
             "img": [
+              "/ChronoCross/adventure/adv_45_01.jpg",
               "/ChronoCross/items/dragon_emblem.jpg"
             ]
           },
@@ -2309,18 +2310,23 @@
             "text": "✓ Ahora Steena (Personaje 43/45) se te unira, Lleva a Steena a Fort Dragonia",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_45_02.jpg",
+              "/ChronoCross/adventure/adv_45_03.jpg",
+              "/ChronoCross/items/dragon_tear.jpg",
+              "/ChronoCross/adventure/adv_45_04.jpg"
+            ]
           }
         ]
       },
       {
-        "id": 47,
+        "id": 46,
         "name": "(HW) Fuerte Dragonian",
         "status": false,
         "adventure": [
           {
             "id": 1,
-            "text": "✓ Ve a Fort Dragonia y resuelve los puzzles",
+            "text": "✓ Ve a Fort Dragonia",
             "important": false,
             "status": false,
             "img": []
@@ -2351,12 +2357,97 @@
             "text": "✓ Sube a la habitación principal y abre la puerta, aqui obtendras el Tear of Love (Item /56)",
             "important": false,
             "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_46_01.jpg",
+              "/ChronoCross/adventure/adv_46_02.jpg",
+              "/ChronoCross/adventure/adv_46_03.jpg",
+              "/ChronoCross/items/tear_of_love.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "name": "(AW) La Búsqueda de la Masamune",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Esta mision es opcional y dificil, Necesitarás a Riddel y Karsh",
+            "important": false,
+            "status": false,
             "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Lucha con Solt y Peppor en Isle of the Damned (AW) y obtendras el Memento Pendant (Item /56)",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_47_01.jpg",
+              "/ChronoCross/adventure/adv_47_02.jpg",
+              "/ChronoCross/items/memento_pendant.jpg"
+            ]
+          },
+          {
+            "id": 3,
+            "text": "✓ Ve a la isla escondida al noreste de El Nido (HW)",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 4,
+            "text": "✓ Usa el pendiente y esto hará que luches con Dario (a llorar a la playa)",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 5,
+            "text": "✓ La Masamune se transformará en la la Mastermune, la mejor arma de Serge",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 6,
+            "text": "✓ Pon a Glenn en posición principal y llévalo a la tumba de Dario",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 7,
+            "text": "✓ Ve a Termina y procura de que Glen NO tenga equipada la Einlanzer, ve a la tumba familiar de Glen y obten la Einlanzer doble",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_47_03.jpg",
+              "/ChronoCross/adventure/adv_47_04.jpg",
+              "/ChronoCross/adventure/adv_47_05.jpg"
+            ]
           }
         ]
       },
       {
         "id": 48,
+        "name": "Final oculto: Career Change (Final 8/11)",
+        "status": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+. Vencer al 'Time Devourer' despues de vencer a Dario y antes de que aparezca Terra Tower",
+            "important": true,
+            "status": true,
+            "img": [
+              "/ChronoCross/adventure/final_08.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 49,
         "name": "(HW) Mar de Edén",
         "status": false,
         "adventure": [
@@ -2393,12 +2484,17 @@
             "text": "✓ En la tercera tendrías que luchar contra los Destinos",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_49_01.jpg",
+              "/ChronoCross/adventure/adv_49_02.jpg",
+              "/ChronoCross/adventure/adv_49_03.jpg",
+              "/ChronoCross/adventure/adv_49_04.jpg"
+            ]
           }
         ]
       },
       {
-        "id": 49,
+        "id": 50,
         "name": "(HW) Chronopolis",
         "status": false,
         "adventure": [
@@ -2432,10 +2528,13 @@
           },
           {
             "id": 5,
-            "text": "✓ Hay un objeto importante para Sprigg en el cofre del fondo de todo",
+            "text": "✓ Hay un objeto importante para Grobyc en el cofre del fondo de todo",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_50_01.jpg",
+              "/ChronoCross/adventure/adv_50_02.jpg"
+            ]
           },
           {
             "id": 6,
@@ -2464,7 +2563,10 @@
             "important": false,
             "status": false,
             "img": [
-              "/ChronoCross/items/card_key.jpg"
+              "/ChronoCross/adventure/adv_50_03.jpg",
+              "/ChronoCross/adventure/adv_50_04.jpg",
+              "/ChronoCross/items/card_key.jpg",
+              "/ChronoCross/adventure/adv_50_05.jpg"
             ]
           },
           {
@@ -2477,9 +2579,9 @@
         ]
       },
       {
-        "id": 50,
+        "id": 51,
         "name": "(AW) Cascadas Divinas de los Dragones",
-        "status": false,
+        "status": true,
         "adventure": [
           {
             "id": 1,
@@ -2509,78 +2611,6 @@
             "text": "✓ Presta atención en las bolas de colores que aparecen ahora en batalla, son importantes",
             "important": false,
             "status": false,
-            "img": []
-          }
-        ]
-      },
-      {
-        "id": 51,
-        "name": "(HW) La Búsqueda de la Masamune",
-        "status": false,
-        "adventure": [
-          {
-            "id": 1,
-            "text": "✓ Necesitarás a Riddel y Karsh",
-            "important": false,
-            "status": false,
-            "img": []
-          },
-          {
-            "id": 2,
-            "text": "✓ Lucha con Solt y Peppor en Isle of the Damned (AW) y obtendras el Memento Pendant (Item /56)",
-            "important": false,
-            "status": false,
-            "img": [
-              "/ChronoCross/items/memento_pendant.jpg"
-            ]
-          },
-          {
-            "id": 3,
-            "text": "✓ Ve a la isla escondida al noreste de El Nido (HW)",
-            "important": false,
-            "status": false,
-            "img": []
-          },
-          {
-            "id": 4,
-            "text": "✓ Usa el pendiente y esto hará que luches con Dario (a llorar a la playa)",
-            "important": false,
-            "status": false,
-            "img": []
-          },
-          {
-            "id": 5,
-            "text": "✓ La Masamune se transformará en la la Mastermune, la mejor arma de Serge",
-            "important": false,
-            "status": false,
-            "img": []
-          },
-          {
-            "id": 6,
-            "text": "✓ Pon a Glenn en posición principal y llévalo a la tumba de Dario",
-            "important": false,
-            "status": false,
-            "img": []
-          },
-          {
-            "id": 7,
-            "text": "✓ Con la Einlanzer equipada, puedes equiparle la otra que esta en la tumba, Glen con 2 Einlanzers",
-            "important": false,
-            "status": false,
-            "img": []
-          }
-        ]
-      },
-      {
-        "id": 53,
-        "name": "Final oculto: Career Change (Final 8/11)",
-        "status": true,
-        "adventure": [
-          {
-            "id": 1,
-            "text": "✓ Crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+. Vencer al 'Time Devourer' despues de vencer a Dario y antes de que aparezca Terra Tower",
-            "important": true,
-            "status": true,
             "img": []
           }
         ]
