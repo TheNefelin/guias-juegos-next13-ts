@@ -330,7 +330,7 @@
         "adventure": [
           {
             "id": 0,
-            "text": "✓ Obs: (HW) = Home World, (AW) = Another World",
+            "text": "✓ Obs: (HW) = Home World, (AW) = Another World debo validar (Turnip y Neofio)",
             "important": false,
             "status": false,
             "img": []
@@ -2817,7 +2817,7 @@
         ]
       },
       {
-        "id": 58,
+        "id": 57,
         "name": "(HW) Playa Opassa",
         "status": false,
         "adventure": [
@@ -2848,13 +2848,13 @@
             "important": false,
             "status": false,
             "img": [
-              "/ChronoCross/adventure/adv_58_99.jpg"
+              "/ChronoCross/adventure/adv_57_01.jpg"
             ]
           }
         ]
       },
       {
-        "id": 59,
+        "id": 58,
         "name": "Final: True Ending (Final 10/11)",
         "status": false,
         "adventure": [
@@ -2896,7 +2896,7 @@
         ]
       },
       {
-        "id": 60,
+        "id": 59,
         "name": "Final: Bad Ending (Final 11/11)",
         "status": false,
         "adventure": [
@@ -2910,7 +2910,7 @@
         ]
       },
       {
-        "id": 61,
+        "id": 60,
         "name": "Consideraciones",
         "status": false,
         "adventure": [
