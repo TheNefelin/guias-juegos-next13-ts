@@ -36,7 +36,8 @@ const Pokemon = () => {
     }
 
     setNewPokemon(null)
-    const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${randomID(1, 1010)}`, { cache: 'no-cache' })
+    // const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${randomID(1, 1010)}`, { cache: 'no-cache' })
+    const response = await fetch(`https://pokeapi.co/api/v2/pokemon/150`)
     const data: Pokemon = await response.json()
     setNewPokemon(data)
   }
