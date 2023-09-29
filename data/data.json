@@ -1978,13 +1978,6 @@
         "status": false,
         "adventure": [
           {
-            "id": 99,
-            "text": "✓ Si quieres reclutar a Turnip (Personaje 39/45) debes usa el Ice Breath o la Ice Gun en el suelo en Hermit's Hideaway (AW), si ya lo hiciste ve a Hermit's Hideaway (HW) con Poshul en tu equipo",
-            "important": false,
-            "status": false,
-            "img": []
-          },
-          {
             "id": 1,
             "text": "✓ Primero ve al S.S Zelbess (HW) lleva a Fargo a verse asimismo",
             "important": false,
@@ -2023,13 +2016,6 @@
         "status": false,
         "adventure": [
           {
-            "id": 99,
-            "text": "✓ Ve a la pileta de Viper Manor con el Life Sparkle y obtendras a Neofio (Personaje 41/45)",
-            "important": false,
-            "status": false,
-            "img": []
-          },
-          {
             "id": 1,
             "text": "✓ En Hydra Marshes, usa la Beeba Flute cerca del segundo Beeba",
             "important": false,
@@ -2048,13 +2034,6 @@
           },
           {
             "id": 3,
-            "text": "✓ vence a todos todos los bichos y pájaros gigantes, aqui consigues el Snakes & Orbs (Marco 14/15)",
-            "important": false,
-            "status": false,
-            "img": []
-          },
-          {
-            "id": 6,
             "text": "✓ Roba la armadura cuando este debilitado, al vencerlo te dara la Green Relic (Item /56)",
             "important": false,
             "status": false,
@@ -2581,7 +2560,7 @@
       {
         "id": 51,
         "name": "(AW) Cascadas Divinas de los Dragones",
-        "status": true,
+        "status": false,
         "adventure": [
           {
             "id": 1,
@@ -2603,6 +2582,9 @@
             "important": false,
             "status": false,
             "img": [
+              "/ChronoCross/adventure/adv_51_01.jpg",
+              "/ChronoCross/adventure/adv_51_02.jpg",
+              "/ChronoCross/adventure/adv_51_03.jpg",
               "/ChronoCross/items/chrono_cross.jpg"
             ]
           },
@@ -2616,8 +2598,69 @@
         ]
       },
       {
-        "id": 54,
-        "name": "(HW) El Escondite del Ermitaño ",
+        "id": 52,
+        "name": "Cosas por Hacer",
+        "statusA": false,
+        "adventure": [
+          {
+            "id": 1,
+            "text": "✓ Ve a la casa de casa de Radius en Hermit's Hideaway (HW) con Poshul en tu equipo",
+            "important": false,
+            "statusB": false,
+            "img": []
+          },
+          {
+            "id": 2,
+            "text": "✓ Podras reclutar a Turnip (Personaje 39/45) para esto debes haber usa el Ice Breath o la Ice Gun en el suelo en Hermit's Hideaway (AW)",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_52_01.jpg"
+            ]
+          },
+          {
+            "id": 3,
+            "text": "✓ Ve a la pileta de Viper Manor (AW) con el Life Sparkle y obtendras a Neofio (Personaje 41/45)",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_52_02.jpg",
+              "/ChronoCross/adventure/adv_52_03.jpg" 
+            ]
+          },
+          {
+            "id": 4,
+            "text": "✓ Ve con Viber en tu equipo podras conseguir los cofres de la sala secreta, despues de leer la carta en la oficina secreta",
+            "important": false,
+            "status": false,
+            "img": []
+          },
+          {
+            "id": 5,
+            "text": "✓ Para entrar a la oficina secreta, debes mover la cabeza de la estatua de la izquierda",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_52_04.jpg",
+              "/ChronoCross/adventure/adv_52_05.jpg" 
+            ]
+          },
+          {
+            "id": 6,
+            "text": "✓ Ve a Gaea's Navel (AW) vence al cavernícola del arbol y consigues el Snakes & Orbs (Marco 14/15)",
+            "important": false,
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/adv_52_06.jpg",
+              "/ChronoCross/adventure/adv_52_07.jpg",
+              "/ChronoCross/adventure/adv_52_08.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 53,
+        "name": "(AW) Hermit's Hideaway",
         "status": false,
         "adventure": [
           {
@@ -2660,21 +2703,24 @@
             "text": "✓ Necesitarás la Ice gun (Item /56) de Lucca para apagar las llamas",
             "important": false,
             "status": false,
-            "img": [
-              "/ChronoCross/items/ice_gun.jpg"
-            ]
+            "img": []
           },
           {
             "id": 7,
             "text": "✓ Rescata a todos los niños hasta que alcances a Kid y el sueño se acabará",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_53_01.jpg",
+              "/ChronoCross/adventure/adv_53_02.jpg",
+              "/ChronoCross/adventure/adv_53_03.jpg",
+              "/ChronoCross/items/ice_gun.jpg"
+            ]
           }
         ]
       },
       {
-        "id": 55,
+        "id": 54,
         "name": "(AW) El Nido Triangle",
         "status": false,
         "adventure": [
@@ -2697,28 +2743,32 @@
             "text": "✓ Ahora vuela con el bote hacia Dinopolis",
             "important": false,
             "status": false,
-            "img": []
+            "img": [
+              "/ChronoCross/adventure/adv_54_01.jpg"
+            ]
           }
         ]
       },
       {
-        "id": 56,
+        "id": 55,
         "name": "Final oculto: Return of the Downtrodden (Final 9/11)",
-        "status": true,
+        "status": false,
         "adventure": [
           {
             "id": 1,
             "text": "✓ Crea un guardado independiente de la partida principal, cuando termines el juego carga esta partida con el Continue+. Vencer al 'Time Devourer' antes de terminar Terra Tower",
             "important": true,
-            "status": true,
-            "img": []
+            "status": false,
+            "img": [
+              "/ChronoCross/adventure/final_09.jpg"
+            ]
           }
         ]
       },
       {
-        "id": 57,
+        "id": 56,
         "name": "(AW) Dinopolis y Terra Tower",
-        "status": false,
+        "status": true,
         "adventure": [
           {
             "id": 1,
