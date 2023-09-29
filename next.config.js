@@ -12,7 +12,7 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'bsite.net',
         port: '',
-        pathname: '/**',
+        pathname: '/metalflap/**',
       },
     ],
   },

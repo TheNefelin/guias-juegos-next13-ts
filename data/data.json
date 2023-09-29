@@ -417,7 +417,7 @@
             "important": false,
             "status": false,
             "img": [
-              "https://bsite.net/metalflap/file?fileName=adv_03_01",
+              "/ChronoCross/adventure/adv_03_01.jpg",
               "/ChronoCross/frames/shellfish.jpg"
             ]
           },
@@ -427,10 +427,10 @@
             "important": false,
             "status": false,
             "img": [
-              "https://bsite.net/metalflap/file?fileName=adv_03_02",
-              "https://bsite.net/metalflap/file?fileName=adv_03_03",
+              "/ChronoCross/adventure/adv_03_02.jpg",
+              "/ChronoCross/adventure/adv_03_03.jpg",
               "/ChronoCross/items/komodo_scale.jpg",
-              "https://bsite.net/metalflap/file?fileName=adv_03_04"
+              "/ChronoCross/adventure/adv_03_04.jpg"
             ]
           },
           {
@@ -439,7 +439,7 @@
             "important": false,
             "status": false,
             "img": [
-              "https://bsite.net/metalflap/file?fileName=adv_03_05",
+              "/ChronoCross/adventure/adv_03_05.jpg",
               "/ChronoCross/items/shark_tooth.jpg"
             ]
           },
@@ -449,7 +449,7 @@
             "important": false,
             "status": false,
             "img": [
-              "https://bsite.net/metalflap/file?fileName=adv_03_05",
+              "/ChronoCross/adventure/adv_03_06.jpg",
               "/ChronoCross/items/heckran.jpg"
             ]
           },
@@ -459,7 +459,7 @@
             "important": false,
             "status": false,
             "img": [
-              "https://bsite.net/metalflap/file?fileName=adv_03_07"
+              "/ChronoCross/adventure/adv_03_07.jpg"
             ]
           }
         ]
