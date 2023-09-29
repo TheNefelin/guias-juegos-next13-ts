@@ -44,8 +44,8 @@ const TimeLine = async ({ params }: ParamsPage) => {
                         alt="Imagen de Guia"
                         height={100}
                         width={500}
-                      // blurDataURL={img}
-                      // placeholder="blur"
+                        blurDataURL={img}
+                        placeholder="blur"
                       ></Image>
                     ))}
                   </div>
