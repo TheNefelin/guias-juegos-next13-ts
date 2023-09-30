@@ -2600,13 +2600,13 @@
       {
         "id": 52,
         "name": "Cosas por Hacer",
-        "statusA": false,
+        "status": false,
         "adventure": [
           {
             "id": 1,
             "text": "✓ Ve a la casa de casa de Radius en Hermit's Hideaway (HW) con Poshul en tu equipo",
             "important": false,
-            "statusB": false,
+            "status": false,
             "img": []
           },
           {
