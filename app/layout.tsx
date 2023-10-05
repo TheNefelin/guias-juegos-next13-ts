@@ -5,6 +5,7 @@ import NavBar from '@/components/index/NavBar'
 import Pokemon from '@/components/index/Pokemon'
 import SideBar from '@/components/index/SideBar'
 import BtnUp from '@/components/BtnUp'
+import { SessionProv } from '@/context/Providers'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,7 +22,9 @@ export default function RootLayout({
   return (
     <html lang="es" >
       <body className={`${inter.className}`}>
-        <section className='header'>
+      <SessionProv>
+
+      <section className='header'>
           <NavBar></NavBar>
         </section>
         <section className='pokemon'>
@@ -36,6 +39,8 @@ export default function RootLayout({
         <section className='main'>
           {children}
         </section>
+
+      </SessionProv>
       </body>
     </html>
   )
