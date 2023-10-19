@@ -1,111 +1,97 @@
-import data from '@/data/data.json'
-import { LSType } from './model';
-
 export default class Controller {
-  constructor() { }
+  url: string
 
-  async get_game_all() {
-    return data.map(e => (
-      {
-        id: e.id,
-        name: e.name,
-        imgCover: e.imgCover,
-        imgBackground: e.imgBackground,
-        text: e.text
-      }
-    ))
+  constructor() {
+    this.url = "https://bsite.net/metalflap"
   }
 
-  async get_game_byid(id: Number) {
-    return data.filter(e => e.id === id).map(e => (
-      {
-        id: e.id,
-        name: e.name,
-        imgCover: e.imgCover,
-        imgBackground: e.imgBackground,
-        text: e.text
-      }
-    ))
+  data_get_all = async (id_game: number, user: string) => {
+      return await Promise.all([
+        this.get_guides_byidgame(id_game, user),
+        this.get_adventures_byidgame(id_game, user),
+        this.get_adventures_img_byidgame(id_game),
+    ])
+    .then(data => {
+      return data
+    })
+    .catch(err => {
+      console.log("Promesa No Resuelta: controller2.tsx", err)
+      return []
+    })
   }
 
-  async get_game_menu_byid(id: Number) {
-    return data.filter(e => e.id === id).map(e => (
-      {
-        name: e.name,
-        cantSource: e.source.length,
-        cantCharacters: e.characters.length,
-        cantGuides: e.guides.length
-      }
-    ))
-  }
+  post_user = async (body:any) => { return await fnFetching(`${this.url}/gj_usuarios/`, { ...option_post(body), cache: 'no-store' }) }
+  put_state_guide = async (body:any) => { return await fnFetching(`${this.url}/gj_usuarios/estado_guia/`, { ...option_put(body), cache: 'no-store' }) }
+  put_state_adventure = async (body:any) => { return await fnFetching(`${this.url}/gj_usuarios/estado_aventura/`, { ...option_put(body), cache: 'no-store' }) }
 
-  async get_game_source_byid(id: Number) {
-    const obj = data.find(e => e.id === id);
+  get_game_all = async () => { return await fnFetching(`${this.url}/gj_juegos/`, { ...option_get, cache: 'no-store' }) }
+  get_game_byid = async (id_game: number) => { return await fnFetching(`${this.url}/gj_juegos/${id_game}`, { ...option_get, cache: 'no-store' }) }
 
-    if (obj) {
-      return obj.source.map(e => ({
-        name: e.name,
-        url: e.url
-      }));
+  get_background_all = async () => { return await fnFetching(`${this.url}/gj_background_img/`, { ...option_get, cache: 'no-store' }) }
+  get_background_byidgame = async (id_game: Number) => { return await fnFetching(`${this.url}/gj_background_img/${id_game}`, { ...option_get, cache: 'no-store' }) }
+
+  get_characters_all = async () => { return await fnFetching(`${this.url}/gj_personajes/`, { ...option_get, cache: 'no-store' }) }
+  get_characters_byidgame = async (id_game: number) => { return await fnFetching(`${this.url}/gj_personajes/${id_game}`, { ...option_get, cache: 'no-store' }) }
+
+  get_source_all = async () => { return await fnFetching(`${this.url}/gj_fuentes/`, { ...option_get, cache: 'no-store' }) }
+  get_source_byidgame = async (id_game: number) => { return await fnFetching(`${this.url}/gj_fuentes/${id_game}`, { ...option_get, cache: 'no-store' }) }
+
+  get_guides_all = async () => { return await fnFetching(`${this.url}/gj_guias/`, { ...option_get, cache: 'no-store' }) }
+  get_guides_byidgame = async (id_game: number, user: string) => { return await fnFetching(`${this.url}/gj_guias/${id_game}?User=${user? user : "na"}`, { ...option_get, cache: 'no-store' }) }
+
+  get_adventures_all = async () => { return await fnFetching(`${this.url}/gj_aventuras/`, { ...option_get, cache: 'no-store' }) }
+  get_adventures_byidgame = async (id_game: number, user: string) => { return await fnFetching(`${this.url}/gj_aventuras/${id_game}?User=${user? user : "na"}`, { ...option_get, cache: 'no-store' }) }
+
+  get_adventures_img_all = async () => { return await fnFetching(`${this.url}/gj_aventuras_img/`, { ...option_get, cache: 'no-store' }) }
+  get_adventures_img_byidgame = async (id_game: number) => { return await fnFetching(`${this.url}/gj_aventuras_img/${id_game}`, { ...option_get, cache: 'no-store' }) }
+
+ }
+
+//execute all fetching
+async function fnFetching(api: string, obj: any) {
+  try {
+    const res = await fetch(api, obj)
+
+    if (!res.ok) {
+      console.log("Error Fetch en el OK")
+      return []
     }
 
-    return [];
-  }
-
-  async get_game_characters_byid(id: Number) {
-    const obj = data.find(e => e.id === id);
-
-    if (obj) {
-      return obj.characters.map(e => ({
-        id: e.id,
-        name: e.name,
-        text: e.text,
-        img: e.img
-      }));
-    }
-
-    return [];
-  }
-
-  async get_game_guides_byid(id: Number) {
-    const obj = data.find(e => e.id === id)
-
-    if (obj) {
-      return obj.guides.map(e => ({
-        id: e.id,
-        name: e.name,
-        status: e.status,
-        adventure: e.adventure
-      }));
-    }
-
-    return [];
-  }
-
-  async set_game_guides_byid(obj: LSType) {
-    const item = get_local_storage()
-
-    const index = item.findIndex(el =>
-      el.id_game === obj.id_game &&
-      el.id_guide === obj.id_guide &&
-      el.id_adventure === obj.id_adventure
-    )
-
-    if (index !== -1) {
-      item[index].status = obj.status;
-    } else {
-      item.push(obj);
-    }
-
-    set_local_storage(item)
+    const data = await res.json()
+    return data
+  } catch (err: any) {
+    console.log("Error Fetch en el Try")
+    return []
   }
 }
 
-export const get_local_storage = () => {
-  const get_data: LSType[] = JSON.parse(localStorage.getItem("data") || "[]");
-  return get_data
+const option_get = {
+  method: "GET",
+  headers: {
+    "Accept": "application/json"
+  },
 }
 
-const set_local_storage = (set_data: LSType[]) => {
-  localStorage.setItem("data", JSON.stringify(set_data));
+const option_post = (body:any) => {
+  return {
+    method: "POST",
+    headers: {
+      "Accept": "application/json",
+      "Content-Type": "application/json",
+      "ApiKey": process.env.API_KEY
+    },
+    body: JSON.stringify(body)
+  }
+}
+
+const option_put = (body:any) => {
+  return {
+    method: "PUT",
+    headers: {
+      "Accept": "application/json",
+      "Content-Type": "application/json",
+      "ApiKey": "Esmerilemelo-666"
+    },
+    body: JSON.stringify(body)
+  }
 }

@@ -5,7 +5,7 @@ import imgTwitch from '@/img/twitch.png'
 import imgYoutube from '@/img/youtube.png'
 import imgWeb from '@/img/web.png'
 
-export default function Home() {
+export default async function Home() {
   return (
     <main className='card-body bg-base-200'>
       <h1 className="card-title uppercase">Bienbenidos !!! &#129409;</h1>

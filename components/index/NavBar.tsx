@@ -5,11 +5,13 @@ import Link from 'next/link'
 import Theme from '@/components/nav/Theme'
 import logo from '@/img/logo.svg'
 import { signIn, signOut, useSession } from 'next-auth/react'
-import { useRouter } from 'next/navigation'
 
 const NavBar = () => {
   const { data: session } = useSession()
-  const router = useRouter();
+
+  const login = async () => {
+    await signIn("google", { callbackUrl: "/" })
+  }
 
   return (
     <section className="navbar bg-base-300 shadow-lg">
@@ -40,7 +42,8 @@ const NavBar = () => {
         <div className='flex-none'>
           <button 
             className="btn btn-secondary"
-            onClick={ async () => await signIn().then(() => router.push("/")) }
+            //onClick={ async () => await signIn().then(() => router.push("/")) }
+            onClick={ login }
           >Inicia Sesión</button>
         </div>
       }

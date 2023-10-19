@@ -1,63 +1,57 @@
 
-export interface GameType {
+export interface Game {
   id: number,
-  name: string,
-  imgCover: string,
-  imgBackground: String,
-  text: String
+  nombre: string,
+  img_cover: string,
+  descripcion: String,
 }
 
-export interface GameMenuType {
-  name: string,
-  cantSource: number,
-  cantGuides: number
-}
-
-export interface GameSourceType {
-  name: string,
-  url: string
-}
-
-export interface GameCharactersType {
+export interface GameImgBackground {
   id: number,
-  name: string,
-  text: string,
-  img: string
+  img_url: string,
+  id_juego: number,
 }
 
-export interface GameGuidesType {
-  id: number;
-  name: string;
-  status: boolean;
-  adventure: [{
-      id: number;
-      text: string;
-      important: boolean;
-      status: boolean;
-      img: string[];
-  }];
+export interface GameLink {
+  id: number,
+  nombre: string,
+  img_url: string,
+  id_juego: number,
 }
 
-export interface LSType {
-  id_game: number,
-  id_guide: number,
-  id_adventure: number,
-  status: boolean
+export interface GameCharacter {
+  id: number,
+  nombre: string,
+  descripcion: string,
+  img_url: string,
+  id_juego: number,
 }
 
-export interface ParamsPage {
-  params: { id: string }
+export interface GameGuide {
+  id: number,
+  nombre: string,
+  orden: number,
+  estado: boolean,
+  id_juego: number,
 }
 
-export interface ParamsLayout {
-  children: React.ReactNode
-  params: { id: String }
+export interface GameAdventure {
+  id: number,
+  descripcion: string,
+  importante: boolean,
+  orden: number,
+  estado: boolean,
+  id_guia: number,
 }
 
-export interface PropsCheck {
-  text: string,
-  status: boolean
-  id_game: number,
-  id_guide: number,
-  id_adventure: number
+export interface GameAdventureImg {
+  id: number,
+  img_url: string,
+  orden: number,
+  id_aventura: number,
 }
+
+// export interface ParamsLayout {
+//   children: React.ReactNode
+//   params: { id: String }
+// }

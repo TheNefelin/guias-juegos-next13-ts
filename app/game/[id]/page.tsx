@@ -1,29 +1,33 @@
 import React from 'react'
 import Image from 'next/image'
+import Controller_Ant from '@/services/controller_ant'
 import Controller from '@/services/controller'
-import { ParamsPage } from '@/services/model'
+import { GameImgBackground, ParamsPage } from '@/services/model'
 
 const Game = async ({ params }: ParamsPage) => {
   if (isNaN(Number(params.id))) return <></>
-
   const id = Number(params.id)
+
+  // const dt_ant = new Controller_Ant()
+  // const data_ant = await dt_ant.get_game_byid(id)
+
   const dt = new Controller()
-  const data = await dt.get_game_byid(id)
-  //la funcion trae un arreglo filtrado por id por eso siempre sera data[0]
+  const data = await dt.get_background_byidgame(id)
 
   if (data.length === 0) return <></>
 
   return (
     <>
-      <p className='indent-8 p-4 bg-base-200 shadow-md mb-4'>{data[0].text}</p>
-      {data[0].imgBackground.map((img, index) => (
+      {data.map((e:GameImgBackground) => (
         <Image
-          key={index}
+          key={e.id}
           className='m-auto shadow-xl mb-4'
-          src={img}
+          src={e.img_url}
           alt='background'
           height={1000}
           width={1000}
+          blurDataURL={e.img_url}
+          placeholder="blur"
         >
         </Image>
       ))}
