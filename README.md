@@ -16,6 +16,14 @@ yarn dev
 pnpm dev
 ```
 
+### Related Projects
+- [App Deploy](#) 
+- [Api Deploy](https://bsite.net/metalflap/index.html) 
+
+- [App Repo](https://github.com/TheNefelin/guias-juegos-next13-ts) 
+- [Api Repo](https://github.com/TheNefelin/portafolio_api.NETCore6) 
+- [SQL Server Repo](https://github.com/TheNefelin/SQLServer) 
+
 <hr>
 
 # Next Doc.
