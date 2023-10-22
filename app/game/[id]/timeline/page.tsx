@@ -1,9 +1,12 @@
 import React from 'react'
-import { ParamsPage } from '@/services/model'
 import Guide_Ant from '@/components/game/Guide_Ant'
 import Guide from '@/components/game/Guide'
 
-const TimeLine = async ({ params }: ParamsPage) => {
+interface PageParams {
+  params : { id: string }
+}
+
+const TimeLine = async ({ params }: PageParams) => {
   if (isNaN(Number(params.id))) return <></>
 
   return (

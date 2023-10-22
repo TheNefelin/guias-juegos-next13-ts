@@ -36,7 +36,7 @@ const CheckGuide = (props: Props) => {
     } else {
       el?.classList.remove("bg-success", "text-success-content")
     }
-  }, [estado])
+  }, [estado, props.id_guide])
 
   return (
     <div className="form-control">

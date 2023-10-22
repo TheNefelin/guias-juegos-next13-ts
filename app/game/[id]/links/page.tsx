@@ -4,11 +4,11 @@ import Controller_Ant from '@/services/controller_ant'
 import Controller from '@/services/controller'
 import { GameLink } from '@/services/model'
 
-interface Params {
-  params: { id: string }
+interface PageParams {
+  params : { id: string }
 }
 
-const Links = async ({ params }: Params) => {
+const Links = async ({ params }: PageParams) => {
   if (isNaN(Number(params.id))) return <></>
   const id = Number(params.id)
 

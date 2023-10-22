@@ -18,7 +18,12 @@ const NavBar = () => {
 
       <div className='flex-1'>
         <Link href={"/"} className="btn btn-ghost normal-case text-xl">
-          <Image src={logo} alt='Logo' width={60} priority></Image>
+          <Image 
+            src={logo} 
+            alt='Logo' 
+            width={60} 
+            priority
+          ></Image>
           Guias
         </Link>
         <Theme></Theme>
@@ -27,11 +32,14 @@ const NavBar = () => {
       {session?.user?
         <div className='flex-none gap-2'>
           { session.user.image && session.user.name &&
-            <img
+            <Image
               className='w-10 h-10 rounded-full'
               src={ session.user.image }
               alt={ session.user.name }
-            />      
+              width={ 100 }
+              height={ 100 }
+            >
+            </Image>     
           }
           <button 
             className="btn btn-secondary"

@@ -36,14 +36,14 @@ const Pokemon = () => {
     }
 
     setNewPokemon(null)
-    // const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${randomID(1, 1010)}`, { cache: 'no-store' })
-    const response = await fetch(`https://pokeapi.co/api/v2/pokemon/150`)
+    const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${randomID(1, 1010)}`, { cache: 'no-store' })
     const data: Pokemon = await response.json()
     setNewPokemon(data)
   }
 
   useEffect(() => {
-    handleClick()
+    // handleClick()
+    const response = fetch(`https://pokeapi.co/api/v2/pokemon/150`)
   }, [])
 
   return (

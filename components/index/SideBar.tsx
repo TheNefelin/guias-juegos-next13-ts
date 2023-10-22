@@ -27,8 +27,8 @@ const SideBar = async () => {
                 <Image
                   className='shadow-md'
                   src={e.img_cover}
-                  width={100}
-                  height={100}
+                  width={250}
+                  height={250}
                   alt={e.nombre}
                 ></Image>
               </div>

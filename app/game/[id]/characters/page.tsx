@@ -1,10 +1,16 @@
 import React from 'react'
 import Image from 'next/image'
-import { GameCharacter, ParamsPage } from '@/services/model'
+import { GameCharacter } from '@/services/model'
 import Controller_Ant from '@/services/controller_ant'
 import Controller from '@/services/controller'
 
-const Characters = async ({ params }: ParamsPage) => {
+interface PageParams {
+  params : { id: string }
+}
+
+const Characters = async ( { params } : PageParams ) => {
+  console.log(params.id)
+
   if (isNaN(Number(params.id))) return <></>
   const id = Number(params.id)
 

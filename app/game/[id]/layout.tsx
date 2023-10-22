@@ -2,9 +2,13 @@ import React from 'react'
 import Link from 'next/link'
 import Controller_Ant from '@/services/controller_ant'
 import Controller from '@/services/controller'
-import { ParamsLayout } from '@/services/model'
 
-const LayoutGame = async ({ children, params }: ParamsLayout) => {
+interface LayoutProps {
+  children: React.ReactNode
+  params: { id: String }
+}
+
+const LayoutGame = async ({ children, params }: LayoutProps) => {
   if (isNaN(Number(params.id))) return <></>
   const id = Number(params.id)
 
@@ -35,7 +39,7 @@ const LayoutGame = async ({ children, params }: ParamsLayout) => {
         }
       </div>
       <p className='indent-8 p-4 bg-base-200 shadow-md mb-4'>{data[0].descripcion}</p>
-      {children}
+      { children }
     </article>
   )
 }
