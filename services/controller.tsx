@@ -1,11 +1,8 @@
-const test = []
-
 export default class Controller {
   url: string
 
   constructor() {
     this.url = "https://bsite.net/metalflap"
-    test.push(process.env.API_KEY)
   }
 
   data_get_all = async (id_game: number, user: string) => {
@@ -81,7 +78,7 @@ const option_post = (body:any) => {
     headers: {
       "Accept": "application/json",
       "Content-Type": "application/json",
-      "ApiKey": process.env.API_KEY
+      "ApiKey": "Esmerilemelo-666"
     },
     body: JSON.stringify(body)
   }
@@ -93,7 +90,7 @@ const option_put = (body:any) => {
     headers: {
       "Accept": "application/json",
       "Content-Type": "application/json",
-      "ApiKey": process.env.API_KEY
+      "ApiKey": "Esmerilemelo-666"
     },
     body: JSON.stringify(body)
   }
