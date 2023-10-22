@@ -60,7 +60,7 @@ async function fnFetching(api: string, obj: any) {
     const data = await res.json()
     return data
   } catch (err: any) {
-    console.log("Error Fetch en el Try")
+    console.log("Error Fetch en el Try", err)
     return []
   }
 }

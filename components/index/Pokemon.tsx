@@ -45,7 +45,8 @@ const Pokemon = () => {
     fetch(`https://pokeapi.co/api/v2/pokemon/150}`)
     .then(res => res.json())
     .then(data => {
-      setNewPokemon(data)
+      const pokemon: Pokemon = data
+      setNewPokemon(pokemon)
     })
 
     handleClick()
