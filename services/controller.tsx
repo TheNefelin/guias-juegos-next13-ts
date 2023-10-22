@@ -43,7 +43,7 @@ export default class Controller {
   get_adventures_byidgame = async (id_game: number, user: string) => { return await fnFetching(`${this.url}/gj_aventuras/${id_game}?User=${user? user : "na"}`, { ...option_get, cache: 'no-store' }) }
 
   get_adventures_img_all = async () => { return await fnFetching(`${this.url}/gj_aventuras_img/`, { ...option_get, cache: 'no-store' }) }
-  get_adventures_img_byidgame = async (id_game: number) => { return await fnFetching(`${this.url}/gj_aventuras_img/${id_game}`, { ...option_get, cache: 'no-store' }) }
+  get_adventures_img_byidgame = async (id_game: number) => { return await fnFetching(`${this.url}/gj_aventuras_img/${id_game}`, { ...option_get }) }
 
  }
 
