@@ -17,7 +17,7 @@ const NavBar = () => {
     <section className="navbar bg-base-300 shadow-lg">
 
       <div className='flex-1'>
-        <Link href={"/"} className="btn btn-ghost normal-case text-xl">
+        <Link href={"/"} className="btn btn-ghost px-2 normal-case text-xl">
           <Image 
             src={logo} 
             alt='Logo' 
