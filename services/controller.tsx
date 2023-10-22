@@ -53,7 +53,7 @@ async function fnFetching(api: string, obj: any) {
     const res = await fetch(api, obj)
 
     if (!res.ok) {
-      console.log("Error Fetch en el OK")
+      console.log("Error Fetch en el OK", res)
       return []
     }
 
@@ -78,7 +78,7 @@ const option_post = (body:any) => {
     headers: {
       "Accept": "application/json",
       "Content-Type": "application/json",
-      "ApiKey": process.env.API_KEY
+      "ApiKey": "Esmerilemelo-666"
     },
     body: JSON.stringify(body)
   }
@@ -90,7 +90,7 @@ const option_put = (body:any) => {
     headers: {
       "Accept": "application/json",
       "Content-Type": "application/json",
-      "ApiKey": process.env.API_KEY
+      "ApiKey": "Esmerilemelo-666"
     },
     body: JSON.stringify(body)
   }

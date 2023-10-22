@@ -42,7 +42,7 @@ const Pokemon = () => {
   }
 
   useEffect(() => {
-    fetch(`https://pokeapi.co/api/v2/pokemon/150}`)
+    fetch(`https://pokeapi.co/api/v2/pokemon/150`)
     .then(res => res.json())
     .then(data => {
       const pokemon: Pokemon = data
