@@ -36,23 +36,18 @@ const Pokemon = () => {
     }
 
     setNewPokemon(null)
-    const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${randomID(1, 1010)}`, { cache: 'no-store' })
+    const response = await fetch(`https://pokeapi.co/api/v2/pokemon/150}`)
+    // const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${randomID(1, 1010)}`, { cache: 'no-store' })
     const data: Pokemon = await response.json()
     setNewPokemon(data)
   }
 
   useEffect(() => {
-    // handleClick()
-    fetch(`https://pokeapi.co/api/v2/pokemon/150`)
-    .then(res => res.json())
-    .then(data => {
-      setNewPokemon(data)
-    })
+    handleClick()
   }, [])
 
   return (
-    <button className='bg-base-100/10 rounded-full backdrop-blur-sm fixed z-10'>
-    {/* <button onClick={handleClick} className='bg-base-100/10 rounded-full backdrop-blur-sm fixed z-10'> */}
+    <button onClick={handleClick} className='bg-base-100/10 rounded-full backdrop-blur-sm fixed z-10'>
       {newPokemon ?
         <Image
           className="m-0 p-0"
