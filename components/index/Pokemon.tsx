@@ -43,11 +43,16 @@ const Pokemon = () => {
 
   useEffect(() => {
     // handleClick()
-    const response = fetch(`https://pokeapi.co/api/v2/pokemon/150`)
+    fetch(`https://pokeapi.co/api/v2/pokemon/150`)
+    .then(res => res.json())
+    .then(data => {
+      setNewPokemon(data)
+    })
   }, [])
 
   return (
-    <button onClick={handleClick} className='bg-base-100/10 rounded-full backdrop-blur-sm fixed z-10'>
+    <button className='bg-base-100/10 rounded-full backdrop-blur-sm fixed z-10'>
+    {/* <button onClick={handleClick} className='bg-base-100/10 rounded-full backdrop-blur-sm fixed z-10'> */}
       {newPokemon ?
         <Image
           className="m-0 p-0"
