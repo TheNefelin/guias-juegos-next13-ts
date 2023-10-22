@@ -78,7 +78,7 @@ const option_post = (body:any) => {
     headers: {
       "Accept": "application/json",
       "Content-Type": "application/json",
-      "ApiKey": "Esmerilemelo-666"
+      "ApiKey": process.env.API_KEY
     },
     body: JSON.stringify(body)
   }
@@ -90,7 +90,7 @@ const option_put = (body:any) => {
     headers: {
       "Accept": "application/json",
       "Content-Type": "application/json",
-      "ApiKey": "Esmerilemelo-666"
+      "ApiKey": process.env.API_KEY
     },
     body: JSON.stringify(body)
   }
