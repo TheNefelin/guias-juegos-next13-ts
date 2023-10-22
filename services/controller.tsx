@@ -1,8 +1,11 @@
+const test = []
+
 export default class Controller {
   url: string
 
   constructor() {
     this.url = "https://bsite.net/metalflap"
+    test.push(process.env.API_KEY)
   }
 
   data_get_all = async (id_game: number, user: string) => {
