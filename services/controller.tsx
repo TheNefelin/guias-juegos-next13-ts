@@ -49,6 +49,8 @@ export default class Controller {
 
 //execute all fetching
 async function fnFetching(api: string, obj: any) {
+  console.log("Execute Fetch")
+
   try {
     const res = await fetch(api, obj)
 
