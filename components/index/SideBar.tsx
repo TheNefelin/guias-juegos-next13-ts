@@ -21,7 +21,6 @@ const SideBar = async () => {
       {data2.map((e:Game) => (
         <li key={e.id} className='mb-2'>
           <Link href={`/game/${e.id}`}>
-
             <div key={e.id} className="avatar grid place-items-center">
               <div className="rounded-xl">
                 <Image

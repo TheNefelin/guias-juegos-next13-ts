@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import imgSW from '@/img/star_wars.gif'
+import imgSG from '@/img/sin_guia.gif'
 import imgTwitch from '@/img/twitch.png'
 import imgYoutube from '@/img/youtube.png'
 import imgWeb from '@/img/web.png'
@@ -14,6 +15,15 @@ export default async function Home() {
       <Image
         className="m-auto"
         src={imgSW}
+        alt="Star Wars"
+        height={700}
+        width={700}
+      >
+      </Image>
+
+      <Image
+        className="m-auto"
+        src={imgSG}
         alt="Star Wars"
         height={700}
         width={700}

@@ -9,8 +9,6 @@ interface PageParams {
 }
 
 const Characters = async ( { params } : PageParams ) => {
-  console.log(params.id)
-
   if (isNaN(Number(params.id))) return <></>
   const id = Number(params.id)
 

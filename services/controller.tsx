@@ -15,7 +15,7 @@ export default class Controller {
       return data
     })
     .catch(err => {
-      console.log("Promesa No Resuelta: controller2.tsx", err)
+      console.log("Promesa No Resuelta: controller.tsx", err)
       return []
     })
   }
@@ -49,7 +49,7 @@ export default class Controller {
 
 //execute all fetching
 async function fnFetching(api: string, obj: any) {
-  console.log("Execute Fetch")
+  console.log("--- Execute Fetch ---")
 
   try {
     const res = await fetch(api, obj)
@@ -67,8 +67,12 @@ async function fnFetching(api: string, obj: any) {
   }
 }
 
+import https from 'https';
+const myAgent = new https.Agent({ rejectUnauthorized: false });
+
 const option_get = {
   method: "GET",
+  httpsAgent: myAgent,
   headers: {
     "Accept": "application/json"
   },
