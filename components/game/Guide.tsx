@@ -44,12 +44,13 @@ const Guide = async (props: Props) => {
                   <span key={adventure.id}>
                     {adventure.importante ?
                       <div className='bg-accent-content p-2'>
-                        ✓ {adventure.descripcion}
+                        {/* ✓ {adventure.descripcion} */}
                         <CheckAdventure
                           status={adventure.estado}
                           id_adventure={adventure.id}
                           email={email}
                           token={token}
+                          txt={`✓ ${adventure.descripcion}`}
                         ></CheckAdventure>
                       </div>
                       :

@@ -7,6 +7,7 @@ interface Props {
   id_adventure: number,
   email: string,
   token: string,
+  txt: string,
 }
 
 const CheckAdventure = (props: Props) => {
@@ -32,7 +33,7 @@ const CheckAdventure = (props: Props) => {
     <div className="form-control">
       <label className="cursor-pointer flex items-center">
         <input type="checkbox" onChange={handleClick} checked={estado} className="checkbox checkbox-accent" />
-        <label className='label'>Completado</label>
+        <label className='label'>{ props.txt }</label>
       </label>
     </div>
   )

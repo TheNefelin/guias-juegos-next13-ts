@@ -30,7 +30,6 @@ body {
   grid-area: header;
 }
 
-
 .sidebar {
   grid-area: side;
   display: grid;
@@ -61,7 +60,7 @@ body {
   width: auto;
 }
 
-.img-flip {
+.flip_pokemon {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
