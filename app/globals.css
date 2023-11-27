@@ -14,17 +14,15 @@ body {
   height: 100%;
   display: grid;
   grid-template-columns: 120px 1fr;
-  grid-template-rows: 60px 80px 1fr;
+  grid-template-rows: 90px 1fr;
   grid-template-areas:
     "header header"
-    "pokemon search"
     "side main";
 }
 
 .body_hide_menu {
   grid-template-areas:
   "header header"
-  "pokemon search"
   "main main";
 }
 
@@ -32,18 +30,11 @@ body {
   grid-area: header;
 }
 
-.pokemon {
-  grid-area: pokemon;
-  display: grid;
-  place-items: center;
-}
-
-.search {
-  grid-area: search;
-}
 
 .sidebar {
   grid-area: side;
+  display: grid;
+  place-items: center;
 }
 
 .sidebar_hide_menu {
@@ -68,4 +59,9 @@ body {
 .img {
   height: auto;
   width: auto;
+}
+
+.img-flip {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }

@@ -14,29 +14,26 @@ export const metadata: Metadata = {
   description: 'Next 13 ts',
 }
 
-export default function RootLayout({ children, } : { children: React.ReactNode }) {
+export default function RootLayout({ children, }: { children: React.ReactNode }) {
   return (
     <html lang="es" >
       <body id="id_body" className={`${inter.className}`}>
-      <SessionProv>
+        <SessionProv>
 
-      <section className='header'>
-          <NavBar></NavBar>
-        </section>
-        <section className='pokemon'>
-          <Pokemon></Pokemon>
-          <BtnUp></BtnUp>
-        </section>
-        <section className='search'>
-        </section>
-        <section className='sidebar'>
-          <SideBar></SideBar>
-        </section>
-        <section className='main'>
-          {children}
-        </section>
+          <section className='header'>
+            <NavBar></NavBar>            
+          </section>
 
-      </SessionProv>
+          <section className='sidebar'>
+            <SideBar></SideBar>
+            <BtnUp></BtnUp>
+          </section>
+
+          <section className='main'>
+            {children}
+          </section>
+
+        </SessionProv>
       </body>
     </html>
   )

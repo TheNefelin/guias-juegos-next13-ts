@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Theme from '@/components/nav/Theme'
 import logo from '@/img/logo.png'
 import { signIn, signOut, useSession } from 'next-auth/react'
+import Pokemon from './Pokemon'
 
 const NavBar = () => {
   const { data: session } = useSession()
@@ -14,10 +15,11 @@ const NavBar = () => {
   }
 
   return (
-    <section className="navbar bg-base-300 shadow-lg">
+    <section className="navbar bg-base-300 shadow-lg py-4">
 
       <div className='flex-1'>
-        <Link href={"/"} className="btn btn-ghost px-2 normal-case text-xl">
+        <Pokemon></Pokemon>
+        <Link href={"/"} className="btn btn-ghost px-2 normal-case text-xl pl-20">
           <Image 
             className='img'
             src={logo} 
