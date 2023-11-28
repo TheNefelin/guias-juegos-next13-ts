@@ -20,11 +20,11 @@ const NavBar = () => {
       <div className='flex-1'>
         <Pokemon></Pokemon>
         <Link href={"/"} className="btn btn-ghost px-2 normal-case text-xl pl-20">
-          <Image 
+          <Image
             className='img'
-            src={logo} 
-            alt='Logo' 
-            width={60} 
+            src={logo}
+            alt='Logo'
+            width={60}
             priority
           ></Image>
           Guias
@@ -32,29 +32,44 @@ const NavBar = () => {
         <Theme></Theme>
       </div>
 
-      {session?.user?
-        <div className='flex-none gap-2'>
-          { session.user.image && session.user.name &&
+      {session?.user ?
+        <button
+          className='btn pr-4'
+          onClick={async () => await signOut({ callbackUrl: "/" })}
+        >
+          {session.user.image && session.user.name &&
             <Image
-              className='w-10 h-10 rounded-full'
-              src={ session.user.image }
-              alt={ session.user.name }
-              width={ 100 }
-              height={ 100 }
+              className='w-14 h-14 rounded-full'
+              src={session.user.image}
+              alt={session.user.name}
+              width={100}
+              height={100}
             >
-            </Image>     
+            </Image>
           }
-          <button 
-            className="btn btn-secondary"
-            onClick={ async () => await signOut({ callbackUrl: "/" }) }
-          >Cerrar Sesión</button>
-        </div>
-      :
+        </button>
+        // <div className='flex-none gap-2'>
+        //   { session.user.image && session.user.name &&
+        //     <Image
+        //       className='w-10 h-10 rounded-full'
+        //       src={ session.user.image }
+        //       alt={ session.user.name }
+        //       width={ 100 }
+        //       height={ 100 }
+        //     >
+        //     </Image>     
+        //   }
+        //   <button 
+        //     className="btn btn-secondary"
+        //     onClick={ async () => await signOut({ callbackUrl: "/" }) }
+        //   >Cerrar Sesión</button>
+        // </div>
+        :
         <div className='flex-none'>
-          <button 
+          <button
             className="btn btn-secondary"
             //onClick={ async () => await signIn().then(() => router.push("/")) }
-            onClick={ login }
+            onClick={login}
           >Inicia Sesión</button>
         </div>
       }
