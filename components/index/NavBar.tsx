@@ -51,7 +51,7 @@ const NavBar = () => {
         :
         <div className='flex-none'>
           <button
-            className="btn btn-secondary p-3"
+            className="btn btn-secondary p-2"
             //onClick={ async () => await signIn().then(() => router.push("/")) }
             onClick={login}
           >Inicia Sesión</button>
