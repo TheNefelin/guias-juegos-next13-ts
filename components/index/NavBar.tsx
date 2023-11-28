@@ -19,7 +19,7 @@ const NavBar = () => {
 
       <div className='flex-1'>
         <Pokemon></Pokemon>
-        <Link href={"/"} className="btn btn-ghost px-2 normal-case text-xl pl-20">
+        <Link href={"/"} className="btn bg-transparent border-none px-2 normal-case text-xl ml-20">
           <Image
             className='img'
             src={logo}
@@ -34,12 +34,12 @@ const NavBar = () => {
 
       {session?.user ?
         <button
-          className='btn pr-4'
+          className='btn bg-transparent border-none'
           onClick={async () => await signOut({ callbackUrl: "/" })}
         >
           {session.user.image && session.user.name &&
             <Image
-              className='w-14 h-14 rounded-full'
+              className='w-12 h-12 rounded-full'
               src={session.user.image}
               alt={session.user.name}
               width={100}
@@ -48,22 +48,6 @@ const NavBar = () => {
             </Image>
           }
         </button>
-        // <div className='flex-none gap-2'>
-        //   { session.user.image && session.user.name &&
-        //     <Image
-        //       className='w-10 h-10 rounded-full'
-        //       src={ session.user.image }
-        //       alt={ session.user.name }
-        //       width={ 100 }
-        //       height={ 100 }
-        //     >
-        //     </Image>     
-        //   }
-        //   <button 
-        //     className="btn btn-secondary"
-        //     onClick={ async () => await signOut({ callbackUrl: "/" }) }
-        //   >Cerrar Sesión</button>
-        // </div>
         :
         <div className='flex-none'>
           <button
