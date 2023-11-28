@@ -1,7 +1,7 @@
 import NextAuth from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
 import { AuthOptions } from "next-auth"
-import Controller2 from "@/services/controller";
+import Controller from "@/services/controller";
 
 declare module 'next-auth' {
   interface Session {
@@ -26,7 +26,7 @@ export const authOptions: AuthOptions = ({
         token: token.jti,
       }
 
-      const obj = new Controller2()
+      const obj = new Controller()
       const data = await obj.post_user(body)
       // console.log(data)
 

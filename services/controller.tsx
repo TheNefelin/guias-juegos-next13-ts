@@ -55,7 +55,7 @@ async function fnFetching(api: string, obj: any) {
     const res = await fetch(api, obj)
 
     if (!res.ok) {
-      console.log("Error Fetch en el OK", res)
+      console.log("Error Fetch en el res.OK", res)
       return []
     }
 

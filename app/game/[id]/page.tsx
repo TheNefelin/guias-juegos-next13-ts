@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import Controller_Ant from '@/services/controller_ant'
 import Controller from '@/services/controller'
 import { GameImgBackground } from '@/services/model'
 

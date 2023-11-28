@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import { GameCharacter } from '@/services/model'
-import Controller_Ant from '@/services/controller_ant'
 import Controller from '@/services/controller'
 
 interface PageParams {
@@ -11,9 +10,6 @@ interface PageParams {
 const Characters = async ( { params } : PageParams ) => {
   if (isNaN(Number(params.id))) return <></>
   const id = Number(params.id)
-
-  // const dt_ant = new Controller_Ant()
-  // const data_ant = await dt_ant.get_characters_byidgame(id)
 
   const dt = new Controller()
   const data = await dt.get_characters_byidgame(id)
