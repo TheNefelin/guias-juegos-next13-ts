@@ -25,6 +25,9 @@ export default function RootLayout({ children, }: { children: React.ReactNode })
 
           <section className='sidebar'>
             <SideBar></SideBar>
+          </section>
+
+          <section className='btn_up'>
             <BtnUp></BtnUp>
           </section>
 

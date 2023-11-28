@@ -32,8 +32,6 @@ body {
 
 .sidebar {
   grid-area: side;
-  display: grid;
-  place-items: center;
 }
 
 .sidebar_hide_menu {
@@ -63,4 +61,9 @@ body {
 .flip_pokemon {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
+}
+
+.btn_up {
+  display: grid;
+  place-items: center;
 }

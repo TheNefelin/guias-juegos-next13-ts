@@ -6,6 +6,7 @@ import CheckAdventure from '@/components/game/CheckAdventure'
 import { getServerSession } from "next-auth/next"
 import { authOptions } from "@/app/api/auth/[...nextauth]/route"
 import { GameAdventure, GameAdventureImg, GameGuide } from '@/services/model'
+import BtnUpGuia from '@/components/BtnUpGuia'
 
 interface Props {
   id_game: string
@@ -77,6 +78,8 @@ const Guide = async (props: Props) => {
                   </span>
                 ))
               }
+
+              <BtnUpGuia id_guia_acordion={`G-${guide.id}`}></BtnUpGuia>
             </div>
 
           </div>
